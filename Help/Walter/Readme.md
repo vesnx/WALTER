@@ -7,7 +7,11 @@ Whether you're tackling networking, encryption, or secure communication, WALTER 
 
 ## About this Nuget Package
 This NuGet package contains helpful extension methods for any .NET project targeting anything from the Web to MAUI, Native Windows, Linux, or Mac. Even though this NuGet package is not intended for direct use, it does come with some handy features.
-You can download the cmpiled help file at: []
+You can download the cmpiled help file [Here](https://github.com/vesnx/WALTER/blob/main/Help/Walter/24.1.8/Walter.chm) or look at the verion you need by browsing the release numbers.
+
+**When Using compiled Help files you need to right click them and select `Unblock` else the contant will be blank.**
+
+We have generated HTML help in the HTML folder for you to download. 
 
 ## Ahead-Of-Time (AOT) Compilation Compliant
 The NuGet package can be used with projects that are trimming and use AoT. However, Newtonsoft Json is not AoT compliant as it uses reflection; therefore, Newtonsoft extension methods are excluded from AoT support.
