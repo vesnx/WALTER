@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title=".EnsureNotNull(Of T) method" Url="html/M-Walter.Guard.EnsureNotNull--1.htm" />
+  <HelpKINode Title=".EnsureNotNull&lt;T&gt; method" Url="html/M-Walter.Guard.EnsureNotNull--1.htm" />
+  <HelpKINode Title=".IsValidJsonAsync(Of T) method" Url="html/M-Walter.JsonStreamReaderExt.IsValidJsonAsync--1.htm" />
+  <HelpKINode Title=".IsValidJsonAsync&lt;T&gt; method" Url="html/M-Walter.JsonStreamReaderExt.IsValidJsonAsync--1.htm" />
+  <HelpKINode Title="ActiveDirectoryDomain enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="ActiveDirectoryDomain field" Url="html/F-Walter.Model.ApplicableLicense.ActiveDirectoryDomain.htm" />
+  <HelpKINode Title="Add method" Url="html/M-Walter.RingBuffer-1.Add.htm" />
+  <HelpKINode Title="ApplicableLicense enumeration" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="ApplicableLicense.ActiveDirectoryDomain field" Url="html/F-Walter.Model.ApplicableLicense.ActiveDirectoryDomain.htm" />
+  <HelpKINode Title="ApplicableLicense.Application field" Url="html/F-Walter.Model.ApplicableLicense.Application.htm" />
+  <HelpKINode Title="ApplicableLicense.Customer field" Url="html/F-Walter.Model.ApplicableLicense.Customer.htm" />
+  <HelpKINode Title="ApplicableLicense.Machine field" Url="html/F-Walter.Model.ApplicableLicense.Machine.htm" />
+  <HelpKINode Title="ApplicableLicense.None field" Url="html/F-Walter.Model.ApplicableLicense.None.htm" />
+  <HelpKINode Title="ApplicableLicense.User field" Url="html/F-Walter.Model.ApplicableLicense.User.htm" />
+  <HelpKINode Title="ApplicableLicense.Website field" Url="html/F-Walter.Model.ApplicableLicense.Website.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt enumeration" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.CustomSoftware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.CustomSoftware.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.Education field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.Education.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.InhouseDeveloper field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseDeveloper.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.InhouseHardware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseHardware.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.InhouseSoftware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseSoftware.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.None field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.None.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.Pending field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.Pending.htm" />
+  <HelpKINode Title="ApplicableLicenseExcempt.StrategicPartner field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.StrategicPartner.htm" />
+  <HelpKINode Title="Application enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="Application field" Url="html/F-Walter.Model.ApplicableLicense.Application.htm" />
+  <HelpKINode Title="ApplicationName property" Url="html/P-Walter.Model.LicenseData.ApplicationName.htm" />
+  <HelpKINode Title="AsDeserializeObjects(Of T) method" Url="html/M-Walter.JsonConvertExt.AsDeserializeObjects--1.htm" />
+  <HelpKINode Title="AsDeserializeObjects&lt;T&gt; method" Url="html/M-Walter.JsonConvertExt.AsDeserializeObjects--1.htm" />
+  <HelpKINode Title="AsHashSubsetLocation enumeration" Url="html/T-Walter.AsHashSubsetLocation.htm" />
+  <HelpKINode Title="AsHashSubsetLocation.FromBeginning field" Url="html/F-Walter.AsHashSubsetLocation.FromBeginning.htm" />
+  <HelpKINode Title="AsHashSubsetLocation.FromEnd field" Url="html/F-Walter.AsHashSubsetLocation.FromEnd.htm" />
+  <HelpKINode Title="AsJsonEnumerable(Of T) method" Url="html/M-System.StringExtensions.AsJsonEnumerable--1.htm" />
+  <HelpKINode Title="AsJsonEnumerable&lt;T&gt; method" Url="html/M-System.StringExtensions.AsJsonEnumerable--1.htm" />
+  <HelpKINode Title="AsMD5Hash method" Url="html/Overload-System.StringExtensions.AsMD5Hash.htm" />
+  <HelpKINode Title="AsShaHash method" Url="html/Overload-System.StringExtensions.AsShaHash.htm" />
+  <HelpKINode Title="AsShaHashBytes method" Url="html/Overload-System.StringExtensions.AsShaHashBytes.htm" />
+  <HelpKINode Title="AsString method" Url="html/M-System.StringExtensions.AsString.htm" />
+  <HelpKINode Title="Base64Encode method" Url="html/M-System.StringExtensions.Base64Encode.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter class" Url="html/AllMembers.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter class" Url="html/T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter class">
+    <HelpKINode Title="about BigIntegerJsonConverter class" Url="html/T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BigIntegerJsonConverter.CanConvert method" Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.CanConvert.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter.CanConvert method" Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.CanConvert.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter.ReadJson method" Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.ReadJson.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter.ReadJson method" Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.ReadJson.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter.WriteJson method" Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.WriteJson.htm" />
+  <HelpKINode Title="BigIntegerJsonConverter.WriteJson method" Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.WriteJson.htm" />
+  <HelpKINode Title="CanConvert method" Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.CanConvert.htm" />
+  <HelpKINode Title="CanConvert method" Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.CanConvert.htm" />
+  <HelpKINode Title="Channel property" Url="html/P-Walter.WifiAccessPoint.Channel.htm" />
+  <HelpKINode Title="CidrToIp method" Url="html/Overload-System.StringExtensions.CidrToIp.htm" />
+  <HelpKINode Title="ClassName method" Url="html/M-Walter.ExceptionsExtension.ClassName.htm" />
+  <HelpKINode Title="Code property" Url="html/P-Walter.Model.LicenseData.Code.htm" />
+  <HelpKINode Title="CodeLineNumber method" Url="html/M-Walter.ExceptionsExtension.CodeLineNumber.htm" />
+  <HelpKINode Title="Contains enumeration member" Url="html/T-System.StringPart.htm" />
+  <HelpKINode Title="Contains field" Url="html/F-System.StringPart.Contains.htm" />
+  <HelpKINode Title="Count property" Url="html/P-Walter.IReadOnlyBuffer-1.Count.htm" />
+  <HelpKINode Title="Count property" Url="html/P-Walter.RingBuffer-1.Count.htm" />
+  <HelpKINode Title="Create method" Url="html/Overload-Walter.ProtectedMemory.Create.htm" />
+  <HelpKINode Title="Customer enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="Customer field" Url="html/F-Walter.Model.ApplicableLicense.Customer.htm" />
+  <HelpKINode Title="CustomSoftware enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="CustomSoftware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.CustomSoftware.htm" />
+  <HelpKINode Title="Decrypt method" Url="html/M-Walter.SymmetricEncryption.Decrypt.htm" />
+  <HelpKINode Title="DecryptString method" Url="html/M-Walter.SymmetricEncryption.DecryptString.htm" />
+  <HelpKINode Title="Default property" Url="html/P-Walter.ICrossPlatformLogger.Default.htm" />
+  <HelpKINode Title="Domain property" Url="html/P-Walter.Model.LicenseData.Domain.htm" />
+  <HelpKINode Title="DomainName property" Url="html/P-Walter.Model.LicenseData.DomainName.htm" />
+  <HelpKINode Title="Education enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="Education field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.Education.htm" />
+  <HelpKINode Title="Encrypt method" Url="html/M-Walter.SymmetricEncryption.Encrypt.htm" />
+  <HelpKINode Title="EncryptString method" Url="html/M-Walter.SymmetricEncryption.EncryptString.htm" />
+  <HelpKINode Title="EndsOn enumeration member" Url="html/T-System.StringPart.htm" />
+  <HelpKINode Title="EndsOn field" Url="html/F-System.StringPart.EndsOn.htm" />
+  <HelpKINode Title="EnsureNotNull(Of T) method" Url="html/M-Walter.Guard.EnsureNotNull--1.htm" />
+  <HelpKINode Title="EnsureNotNull&lt;T&gt; method" Url="html/M-Walter.Guard.EnsureNotNull--1.htm" />
+  <HelpKINode Title="Errors property" Url="html/P-Walter.JsonStreamReader-1.Errors.htm" />
+  <HelpKINode Title="ExceptionsExtension class" Url="html/AllMembers.T-Walter.ExceptionsExtension.htm" />
+  <HelpKINode Title="ExceptionsExtension class" Url="html/T-Walter.ExceptionsExtension.htm" />
+  <HelpKINode Title="ExceptionsExtension class">
+    <HelpKINode Title="about ExceptionsExtension class" Url="html/T-Walter.ExceptionsExtension.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.ExceptionsExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.ExceptionsExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExceptionsExtension.ClassName method" Url="html/M-Walter.ExceptionsExtension.ClassName.htm" />
+  <HelpKINode Title="ExceptionsExtension.CodeLineNumber method" Url="html/M-Walter.ExceptionsExtension.CodeLineNumber.htm" />
+  <HelpKINode Title="ExceptionsExtension.FileName method" Url="html/M-Walter.ExceptionsExtension.FileName.htm" />
+  <HelpKINode Title="ExceptionsExtension.MethodName method" Url="html/M-Walter.ExceptionsExtension.MethodName.htm" />
+  <HelpKINode Title="Execute method" Url="html/M-Walter.Infrastructure.GetExecutingAssembly.Execute.htm" />
+  <HelpKINode Title="Execute method" Url="html/M-Walter.WiFiDetector.Execute.htm" />
+  <HelpKINode Title="Expires property" Url="html/P-Walter.ProductLicense-1.Expires.htm" />
+  <HelpKINode Title="ExpireUtc property" Url="html/P-Walter.Model.LicenseData.ExpireUtc.htm" />
+  <HelpKINode Title="Features property" Url="html/P-Walter.ProductLicense-1.Features.htm" />
+  <HelpKINode Title="FileInfoExtensions class" Url="html/AllMembers.T-System.IO.FileInfoExtensions.htm" />
+  <HelpKINode Title="FileInfoExtensions class" Url="html/T-System.IO.FileInfoExtensions.htm" />
+  <HelpKINode Title="FileInfoExtensions class">
+    <HelpKINode Title="about FileInfoExtensions class" Url="html/T-System.IO.FileInfoExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-System.IO.FileInfoExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-System.IO.FileInfoExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileInfoExtensions.GetSizeInMemory method" Url="html/M-System.IO.FileInfoExtensions.GetSizeInMemory.htm" />
+  <HelpKINode Title="FileInfoExtensions.IsBlockedBy method" Url="html/M-System.IO.FileInfoExtensions.IsBlockedBy.htm" />
+  <HelpKINode Title="FileInfoExtensions.SizeOnDisk method" Url="html/M-System.IO.FileInfoExtensions.SizeOnDisk.htm" />
+  <HelpKINode Title="FileInfoExtensions.TryDiscoverWhoisBlocking method" Url="html/M-System.IO.FileInfoExtensions.TryDiscoverWhoisBlocking.htm" />
+  <HelpKINode Title="FileName method" Url="html/M-Walter.ExceptionsExtension.FileName.htm" />
+  <HelpKINode Title="FluentLogger class" Url="html/AllMembers.T-Walter.FluentLogger.htm" />
+  <HelpKINode Title="FluentLogger class" Url="html/T-Walter.FluentLogger.htm" />
+  <HelpKINode Title="FluentLogger class">
+    <HelpKINode Title="about FluentLogger class" Url="html/T-Walter.FluentLogger.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.FluentLogger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.FluentLogger.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.FluentLogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Forget method" Url="html/M-Walter.TaskExtensions.Forget.htm" />
+  <HelpKINode Title="Freeware enumeration member" Url="html/T-Walter.Model.LicenseType.htm" />
+  <HelpKINode Title="Freeware field" Url="html/F-Walter.Model.LicenseType.Freeware.htm" />
+  <HelpKINode Title="FromBeginning enumeration member" Url="html/T-Walter.AsHashSubsetLocation.htm" />
+  <HelpKINode Title="FromBeginning field" Url="html/F-Walter.AsHashSubsetLocation.FromBeginning.htm" />
+  <HelpKINode Title="FromEnd enumeration member" Url="html/T-Walter.AsHashSubsetLocation.htm" />
+  <HelpKINode Title="FromEnd field" Url="html/F-Walter.AsHashSubsetLocation.FromEnd.htm" />
+  <HelpKINode Title="FromHexString method" Url="html/M-System.StringExtensions.FromHexString.htm" />
+  <HelpKINode Title="GenericLicenseValidater class" Url="html/AllMembers.T-Walter.GenericLicenseValidater.htm" />
+  <HelpKINode Title="GenericLicenseValidater class" Url="html/T-Walter.GenericLicenseValidater.htm" />
+  <HelpKINode Title="GenericLicenseValidater class">
+    <HelpKINode Title="about GenericLicenseValidater class" Url="html/T-Walter.GenericLicenseValidater.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.GenericLicenseValidater.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.GenericLicenseValidater.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericLicenseValidater.IsLicensed method" Url="html/Overload-Walter.GenericLicenseValidater.IsLicensed.htm" />
+  <HelpKINode Title="GetDeterministicHashCode method" Url="html/Overload-System.StringExtensions.GetDeterministicHashCode.htm" />
+  <HelpKINode Title="GetExecutingAssembly class" Url="html/AllMembers.T-Walter.Infrastructure.GetExecutingAssembly.htm" />
+  <HelpKINode Title="GetExecutingAssembly class" Url="html/T-Walter.Infrastructure.GetExecutingAssembly.htm" />
+  <HelpKINode Title="GetExecutingAssembly class">
+    <HelpKINode Title="about GetExecutingAssembly class" Url="html/T-Walter.Infrastructure.GetExecutingAssembly.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.Infrastructure.GetExecutingAssembly.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.Infrastructure.GetExecutingAssembly.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetExecutingAssembly.Execute method" Url="html/M-Walter.Infrastructure.GetExecutingAssembly.Execute.htm" />
+  <HelpKINode Title="GetSizeInMemory method" Url="html/M-System.IO.FileInfoExtensions.GetSizeInMemory.htm" />
+  <HelpKINode Title="HashMethod enumeration" Url="html/T-System.HashMethod.htm" />
+  <HelpKINode Title="HashMethod.SHA1 field" Url="html/F-System.HashMethod.SHA1.htm" />
+  <HelpKINode Title="HashMethod.SHA256 field" Url="html/F-System.HashMethod.SHA256.htm" />
+  <HelpKINode Title="HashMethod.SHA384 field" Url="html/F-System.HashMethod.SHA384.htm" />
+  <HelpKINode Title="HashMethod.SHA512 field" Url="html/F-System.HashMethod.SHA512.htm" />
+  <HelpKINode Title="HttpResponseExtension class" Url="html/AllMembers.T-System.Net.HttpResponseExtension.htm" />
+  <HelpKINode Title="HttpResponseExtension class" Url="html/T-System.Net.HttpResponseExtension.htm" />
+  <HelpKINode Title="HttpResponseExtension class">
+    <HelpKINode Title="about HttpResponseExtension class" Url="html/T-System.Net.HttpResponseExtension.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-System.Net.HttpResponseExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-System.Net.HttpResponseExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpResponseExtension.IssuccessStatusCode method" Url="html/M-System.Net.HttpResponseExtension.IssuccessStatusCode.htm" />
+  <HelpKINode Title="HttpResponseExtension.ReadAllText method" Url="html/M-System.Net.HttpResponseExtension.ReadAllText.htm" />
+  <HelpKINode Title="HttpResponseExtension.TryGet method" Url="html/M-System.Net.HttpResponseExtension.TryGet.htm" />
+  <HelpKINode Title="HttpStatusCode property" Url="html/P-Walter.UrlBasedException.HttpStatusCode.htm" />
+  <HelpKINode Title="ICrossPlatformLogger interface" Url="html/AllMembers.T-Walter.ICrossPlatformLogger.htm" />
+  <HelpKINode Title="ICrossPlatformLogger interface" Url="html/T-Walter.ICrossPlatformLogger.htm" />
+  <HelpKINode Title="ICrossPlatformLogger interface">
+    <HelpKINode Title="about ICrossPlatformLogger interface" Url="html/T-Walter.ICrossPlatformLogger.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.ICrossPlatformLogger.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.ICrossPlatformLogger.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.ICrossPlatformLogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICrossPlatformLogger.Default property" Url="html/P-Walter.ICrossPlatformLogger.Default.htm" />
+  <HelpKINode Title="ICrossPlatformLogger.LogError method" Url="html/M-Walter.ICrossPlatformLogger.LogError.htm" />
+  <HelpKINode Title="ICrossPlatformLogger.LogInformation method" Url="html/M-Walter.ICrossPlatformLogger.LogInformation.htm" />
+  <HelpKINode Title="ICrossPlatformLogger.LogWarning method" Url="html/M-Walter.ICrossPlatformLogger.LogWarning.htm" />
+  <HelpKINode Title="ILicenseValidater interface" Url="html/AllMembers.T-Walter.ILicenseValidater.htm" />
+  <HelpKINode Title="ILicenseValidater interface" Url="html/T-Walter.ILicenseValidater.htm" />
+  <HelpKINode Title="ILicenseValidater interface">
+    <HelpKINode Title="about ILicenseValidater interface" Url="html/T-Walter.ILicenseValidater.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.ILicenseValidater.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.ILicenseValidater.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILicenseValidater.IsLicensed method" Url="html/Overload-Walter.ILicenseValidater.IsLicensed.htm" />
+  <HelpKINode Title="IndexOf method" Url="html/M-Walter.IReadOnlyBuffer-1.IndexOf.htm" />
+  <HelpKINode Title="IndexOf method" Url="html/M-Walter.RingBuffer-1.IndexOf.htm" />
+  <HelpKINode Title="InhouseDeveloper enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="InhouseDeveloper field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseDeveloper.htm" />
+  <HelpKINode Title="InhouseHardware enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="InhouseHardware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseHardware.htm" />
+  <HelpKINode Title="InhouseSoftware enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="InhouseSoftware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseSoftware.htm" />
+  <HelpKINode Title="Instance property" Url="html/P-Walter.SymmetricEncryption.Instance.htm" />
+  <HelpKINode Title="IPlatformServices interface" Url="html/AllMembers.T-Walter.IPlatformServices.htm" />
+  <HelpKINode Title="IPlatformServices interface" Url="html/T-Walter.IPlatformServices.htm" />
+  <HelpKINode Title="IPlatformServices interface">
+    <HelpKINode Title="about IPlatformServices interface" Url="html/T-Walter.IPlatformServices.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.IPlatformServices.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.IPlatformServices.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.IPlatformServices.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPlatformServices.ServiceProvider property" Url="html/P-Walter.IPlatformServices.ServiceProvider.htm" />
+  <HelpKINode Title="IPlatformServices.ShowMessage method" Url="html/Overload-Walter.IPlatformServices.ShowMessage.htm" />
+  <HelpKINode Title="IPlatformServices.TrailExpired method" Url="html/M-Walter.IPlatformServices.TrailExpired.htm" />
+  <HelpKINode Title="IProtectedMemory interface" Url="html/AllMembers.T-Walter.IProtectedMemory.htm" />
+  <HelpKINode Title="IProtectedMemory interface" Url="html/T-Walter.IProtectedMemory.htm" />
+  <HelpKINode Title="IProtectedMemory interface">
+    <HelpKINode Title="about IProtectedMemory interface" Url="html/T-Walter.IProtectedMemory.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.IProtectedMemory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.IProtectedMemory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IProtectedMemory.ReadBytes method" Url="html/M-Walter.IProtectedMemory.ReadBytes.htm" />
+  <HelpKINode Title="IProtectedMemory.ReadString method" Url="html/M-Walter.IProtectedMemory.ReadString.htm" />
+  <HelpKINode Title="IReadOnlyBuffer interface" Url="html/AllMembers.T-Walter.IReadOnlyBuffer-1.htm" />
+  <HelpKINode Title="IReadOnlyBuffer interface">
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.IReadOnlyBuffer-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.IReadOnlyBuffer-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.IReadOnlyBuffer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IReadOnlyBuffer(Of T) interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm" />
+  <HelpKINode Title="IReadOnlyBuffer(Of T) interface">
+    <HelpKINode Title="about IReadOnlyBuffer(Of T) interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IReadOnlyBuffer(Of T).Count property" Url="html/P-Walter.IReadOnlyBuffer-1.Count.htm" />
+  <HelpKINode Title="IReadOnlyBuffer(Of T).IndexOf method" Url="html/M-Walter.IReadOnlyBuffer-1.IndexOf.htm" />
+  <HelpKINode Title="IReadOnlyBuffer(Of T).Item property" Url="html/P-Walter.IReadOnlyBuffer-1.Item-System.Int32-.htm" />
+  <HelpKINode Title="IReadOnlyBuffer(Of T).Last property" Url="html/P-Walter.IReadOnlyBuffer-1.Last.htm" />
+  <HelpKINode Title="IReadOnlyBuffer(Of T).Length property" Url="html/P-Walter.IReadOnlyBuffer-1.Length.htm" />
+  <HelpKINode Title="IReadOnlyBuffer(Of T).Snapshot method" Url="html/M-Walter.IReadOnlyBuffer-1.Snapshot.htm" />
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt; interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm" />
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt; interface">
+    <HelpKINode Title="about IReadOnlyBuffer&lt;T&gt; interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt;.Count property" Url="html/P-Walter.IReadOnlyBuffer-1.Count.htm" />
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt;.IndexOf method" Url="html/M-Walter.IReadOnlyBuffer-1.IndexOf.htm" />
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt;.Item property" Url="html/P-Walter.IReadOnlyBuffer-1.Item-System.Int32-.htm" />
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt;.Last property" Url="html/P-Walter.IReadOnlyBuffer-1.Last.htm" />
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt;.Length property" Url="html/P-Walter.IReadOnlyBuffer-1.Length.htm" />
+  <HelpKINode Title="IReadOnlyBuffer&lt;T&gt;.Snapshot method" Url="html/M-Walter.IReadOnlyBuffer-1.Snapshot.htm" />
+  <HelpKINode Title="IsBase64 method" Url="html/M-System.StringExtensions.IsBase64.htm" />
+  <HelpKINode Title="IsBlockedBy method" Url="html/M-System.IO.FileInfoExtensions.IsBlockedBy.htm" />
+  <HelpKINode Title="IsLicensed method" Url="html/Overload-Walter.GenericLicenseValidater.IsLicensed.htm" />
+  <HelpKINode Title="IsLicensed method" Url="html/Overload-Walter.ILicenseValidater.IsLicensed.htm" />
+  <HelpKINode Title="IssuccessStatusCode method" Url="html/M-System.Net.HttpResponseExtension.IssuccessStatusCode.htm" />
+  <HelpKINode Title="IsValidJson method" Url="html/Overload-System.StringExtensions.IsValidJson.htm" />
+  <HelpKINode Title="IsValidJsonAsync(Of T) method" Url="html/M-Walter.JsonStreamReaderExt.IsValidJsonAsync--1.htm" />
+  <HelpKINode Title="IsValidJsonAsync&lt;T&gt; method" Url="html/M-Walter.JsonStreamReaderExt.IsValidJsonAsync--1.htm" />
+  <HelpKINode Title="IsValidMD5HashFor method" Url="html/Overload-System.StringExtensions.IsValidMD5HashFor.htm" />
+  <HelpKINode Title="IsValidRfcHashFor method" Url="html/M-System.StringExtensions.IsValidRfcHashFor.htm" />
+  <HelpKINode Title="IsValidShaHashFor method" Url="html/Overload-System.StringExtensions.IsValidShaHashFor.htm" />
+  <HelpKINode Title="Item property" Url="html/P-Walter.IReadOnlyBuffer-1.Item-System.Int32-.htm" />
+  <HelpKINode Title="Item property" Url="html/P-Walter.RingBuffer-1.Item-System.Int32-.htm" />
+  <HelpKINode Title="Items method" Url="html/M-Walter.RingBuffer-1.Items.htm" />
+  <HelpKINode Title="JsonConvertExt class" Url="html/AllMembers.T-Walter.JsonConvertExt.htm" />
+  <HelpKINode Title="JsonConvertExt class" Url="html/T-Walter.JsonConvertExt.htm" />
+  <HelpKINode Title="JsonConvertExt class">
+    <HelpKINode Title="about JsonConvertExt class" Url="html/T-Walter.JsonConvertExt.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.JsonConvertExt.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.JsonConvertExt.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonConvertExt.AsDeserializeObjects(Of T) method" Url="html/M-Walter.JsonConvertExt.AsDeserializeObjects--1.htm" />
+  <HelpKINode Title="JsonConvertExt.AsDeserializeObjects&lt;T&gt; method" Url="html/M-Walter.JsonConvertExt.AsDeserializeObjects--1.htm" />
+  <HelpKINode Title="JsonStreamReader(Of T) class" Url="html/AllMembers.T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="JsonStreamReader(Of T) class" Url="html/T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="JsonStreamReader(Of T) class">
+    <HelpKINode Title="about JsonStreamReader(Of T) class" Url="html/T-Walter.JsonStreamReader-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.JsonStreamReader-1.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Walter.JsonStreamReader-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.JsonStreamReader-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.JsonStreamReader-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonStreamReader(Of T).Errors property" Url="html/P-Walter.JsonStreamReader-1.Errors.htm" />
+  <HelpKINode Title="JsonStreamReader(Of T).JsonStreamReader constructor" Url="html/M-Walter.JsonStreamReader-1.-ctor.htm" />
+  <HelpKINode Title="JsonStreamReader(Of T).Read method" Url="html/M-Walter.JsonStreamReader-1.Read.htm" />
+  <HelpKINode Title="JsonStreamReader&lt;T&gt; class" Url="html/AllMembers.T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="JsonStreamReader&lt;T&gt; class" Url="html/T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="JsonStreamReader&lt;T&gt; class">
+    <HelpKINode Title="about JsonStreamReader&lt;T&gt; class" Url="html/T-Walter.JsonStreamReader-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.JsonStreamReader-1.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Walter.JsonStreamReader-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.JsonStreamReader-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.JsonStreamReader-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonStreamReader&lt;T&gt;.Errors property" Url="html/P-Walter.JsonStreamReader-1.Errors.htm" />
+  <HelpKINode Title="JsonStreamReader&lt;T&gt;.JsonStreamReader constructor" Url="html/M-Walter.JsonStreamReader-1.-ctor.htm" />
+  <HelpKINode Title="JsonStreamReader&lt;T&gt;.Read method" Url="html/M-Walter.JsonStreamReader-1.Read.htm" />
+  <HelpKINode Title="Key property" Url="html/P-Walter.ProductLicense-1.Key.htm" />
+  <HelpKINode Title="Last property" Url="html/P-Walter.IReadOnlyBuffer-1.Last.htm" />
+  <HelpKINode Title="Last property" Url="html/P-Walter.RingBuffer-1.Last.htm" />
+  <HelpKINode Title="Lazy method" Url="html/M-Walter.LoggerExtensionMethods.Lazy.htm" />
+  <HelpKINode Title="Length property" Url="html/P-Walter.IReadOnlyBuffer-1.Length.htm" />
+  <HelpKINode Title="Length property" Url="html/P-Walter.RingBuffer-1.Length.htm" />
+  <HelpKINode Title="License property" Url="html/P-Walter.Model.LicenseData.License.htm" />
+  <HelpKINode Title="LicenseBase class" Url="html/AllMembers.T-Walter.Model.LicenseBase.htm" />
+  <HelpKINode Title="LicenseBase class" Url="html/T-Walter.Model.LicenseBase.htm" />
+  <HelpKINode Title="LicenseBase class">
+    <HelpKINode Title="about LicenseBase class" Url="html/T-Walter.Model.LicenseBase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.Model.LicenseBase.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Walter.Model.LicenseBase.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.Model.LicenseBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LicenseBase.LicenseBase constructor" Url="html/M-Walter.Model.LicenseBase.-ctor.htm" />
+  <HelpKINode Title="LicenseBase.Query method" Url="html/M-Walter.Model.LicenseBase.Query.htm" />
+  <HelpKINode Title="LicenseData class" Url="html/AllMembers.T-Walter.Model.LicenseData.htm" />
+  <HelpKINode Title="LicenseData class" Url="html/T-Walter.Model.LicenseData.htm" />
+  <HelpKINode Title="LicenseData class">
+    <HelpKINode Title="about LicenseData class" Url="html/T-Walter.Model.LicenseData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.Model.LicenseData.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.Model.LicenseData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.Model.LicenseData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LicenseData.ApplicationName property" Url="html/P-Walter.Model.LicenseData.ApplicationName.htm" />
+  <HelpKINode Title="LicenseData.Code property" Url="html/P-Walter.Model.LicenseData.Code.htm" />
+  <HelpKINode Title="LicenseData.Domain property" Url="html/P-Walter.Model.LicenseData.Domain.htm" />
+  <HelpKINode Title="LicenseData.DomainName property" Url="html/P-Walter.Model.LicenseData.DomainName.htm" />
+  <HelpKINode Title="LicenseData.ExpireUtc property" Url="html/P-Walter.Model.LicenseData.ExpireUtc.htm" />
+  <HelpKINode Title="LicenseData.License property" Url="html/P-Walter.Model.LicenseData.License.htm" />
+  <HelpKINode Title="LicenseData.MachineName property" Url="html/P-Walter.Model.LicenseData.MachineName.htm" />
+  <HelpKINode Title="LicenseData.UserName property" Url="html/P-Walter.Model.LicenseData.UserName.htm" />
+  <HelpKINode Title="LicenseStatusCode enumeration" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="LicenseStatusCode.None field" Url="html/F-Walter.Model.LicenseStatusCode.None.htm" />
+  <HelpKINode Title="LicenseStatusCode.NotFound field" Url="html/F-Walter.Model.LicenseStatusCode.NotFound.htm" />
+  <HelpKINode Title="LicenseStatusCode.OK field" Url="html/F-Walter.Model.LicenseStatusCode.OK.htm" />
+  <HelpKINode Title="LicenseStatusCode.PaymentRequired field" Url="html/F-Walter.Model.LicenseStatusCode.PaymentRequired.htm" />
+  <HelpKINode Title="LicenseStatusCode.UnavailableForLegalReasons field" Url="html/F-Walter.Model.LicenseStatusCode.UnavailableForLegalReasons.htm" />
+  <HelpKINode Title="LicenseType enumeration" Url="html/T-Walter.Model.LicenseType.htm" />
+  <HelpKINode Title="LicenseType.Freeware field" Url="html/F-Walter.Model.LicenseType.Freeware.htm" />
+  <HelpKINode Title="LicenseType.Perpetual field" Url="html/F-Walter.Model.LicenseType.Perpetual.htm" />
+  <HelpKINode Title="LicenseType.Subscription field" Url="html/F-Walter.Model.LicenseType.Subscription.htm" />
+  <HelpKINode Title="Log method" Url="html/Overload-Walter.LoggerExtensionMethods.Log.htm" />
+  <HelpKINode Title="LogCritical method" Url="html/Overload-Walter.LoggerExtensionMethods.LogCritical.htm" />
+  <HelpKINode Title="LogDebug method" Url="html/Overload-Walter.LoggerExtensionMethods.LogDebug.htm" />
+  <HelpKINode Title="LogError method" Url="html/M-Walter.ICrossPlatformLogger.LogError.htm" />
+  <HelpKINode Title="LogError method" Url="html/Overload-Walter.LoggerExtensionMethods.LogError.htm" />
+  <HelpKINode Title="LogException method" Url="html/M-Walter.LoggerExtensionMethods.LogException.htm" />
+  <HelpKINode Title="LoggerExtensionMethods class" Url="html/AllMembers.T-Walter.LoggerExtensionMethods.htm" />
+  <HelpKINode Title="LoggerExtensionMethods class" Url="html/T-Walter.LoggerExtensionMethods.htm" />
+  <HelpKINode Title="LoggerExtensionMethods class">
+    <HelpKINode Title="about LoggerExtensionMethods class" Url="html/T-Walter.LoggerExtensionMethods.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.LoggerExtensionMethods.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.LoggerExtensionMethods.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoggerExtensionMethods.Lazy method" Url="html/M-Walter.LoggerExtensionMethods.Lazy.htm" />
+  <HelpKINode Title="LoggerExtensionMethods.Log method" Url="html/Overload-Walter.LoggerExtensionMethods.Log.htm" />
+  <HelpKINode Title="LoggerExtensionMethods.LogCritical method" Url="html/Overload-Walter.LoggerExtensionMethods.LogCritical.htm" />
+  <HelpKINode Title="LoggerExtensionMethods.LogDebug method" Url="html/Overload-Walter.LoggerExtensionMethods.LogDebug.htm" />
+  <HelpKINode Title="LoggerExtensionMethods.LogError method" Url="html/Overload-Walter.LoggerExtensionMethods.LogError.htm" />
+  <HelpKINode Title="LoggerExtensionMethods.LogException method" Url="html/M-Walter.LoggerExtensionMethods.LogException.htm" />
+  <HelpKINode Title="LoggerExtensionMethods.LogInformation method" Url="html/Overload-Walter.LoggerExtensionMethods.LogInformation.htm" />
+  <HelpKINode Title="LoggerExtensionMethods.LogWarning method" Url="html/Overload-Walter.LoggerExtensionMethods.LogWarning.htm" />
+  <HelpKINode Title="LogInformation method" Url="html/M-Walter.ICrossPlatformLogger.LogInformation.htm" />
+  <HelpKINode Title="LogInformation method" Url="html/Overload-Walter.LoggerExtensionMethods.LogInformation.htm" />
+  <HelpKINode Title="LogWarning method" Url="html/M-Walter.ICrossPlatformLogger.LogWarning.htm" />
+  <HelpKINode Title="LogWarning method" Url="html/Overload-Walter.LoggerExtensionMethods.LogWarning.htm" />
+  <HelpKINode Title="MacAddress property" Url="html/P-Walter.WifiAccessPoint.MacAddress.htm" />
+  <HelpKINode Title="Machine enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="Machine field" Url="html/F-Walter.Model.ApplicableLicense.Machine.htm" />
+  <HelpKINode Title="MachineName property" Url="html/P-Walter.Model.LicenseData.MachineName.htm" />
+  <HelpKINode Title="MethodImplOption field" Url="html/F-System.Runtime.CompilerServices.MIO.MethodImplOption.htm" />
+  <HelpKINode Title="MethodName method" Url="html/M-Walter.ExceptionsExtension.MethodName.htm" />
+  <HelpKINode Title="Microsoft.Extensions.DependencyInjection namespace" Url="html/N-Microsoft.Extensions.DependencyInjection.htm" />
+  <HelpKINode Title="Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper class" Url="html/AllMembers.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
+  <HelpKINode Title="Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper class" Url="html/T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
+  <HelpKINode Title="MIO class" Url="html/AllMembers.T-System.Runtime.CompilerServices.MIO.htm" />
+  <HelpKINode Title="MIO class" Url="html/T-System.Runtime.CompilerServices.MIO.htm" />
+  <HelpKINode Title="MIO class">
+    <HelpKINode Title="about MIO class" Url="html/T-System.Runtime.CompilerServices.MIO.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-System.Runtime.CompilerServices.MIO.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-System.Runtime.CompilerServices.MIO.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-System.Runtime.CompilerServices.MIO.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MIO.MethodImplOption field" Url="html/F-System.Runtime.CompilerServices.MIO.MethodImplOption.htm" />
+  <HelpKINode Title="NewGuid method" Url="html/M-Walter.SequentialGuid.NewGuid.htm" />
+  <HelpKINode Title="Newtonsoft.Json namespace" Url="html/N-Newtonsoft.Json.htm" />
+  <HelpKINode Title="Newtonsoft.Json.BigIntegerJsonConverter class" Url="html/AllMembers.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+  <HelpKINode Title="Newtonsoft.Json.BigIntegerJsonConverter class" Url="html/T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="None field" Url="html/F-Walter.Model.ApplicableLicense.None.htm" />
+  <HelpKINode Title="None field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.None.htm" />
+  <HelpKINode Title="None field" Url="html/F-Walter.Model.LicenseStatusCode.None.htm" />
+  <HelpKINode Title="NotFound enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="NotFound field" Url="html/F-Walter.Model.LicenseStatusCode.NotFound.htm" />
+  <HelpKINode Title="OK enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="OK field" Url="html/F-Walter.Model.LicenseStatusCode.OK.htm" />
+  <HelpKINode Title="PaymentRequired enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="PaymentRequired field" Url="html/F-Walter.Model.LicenseStatusCode.PaymentRequired.htm" />
+  <HelpKINode Title="Pending enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="Pending field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.Pending.htm" />
+  <HelpKINode Title="Perpetual enumeration member" Url="html/T-Walter.Model.LicenseType.htm" />
+  <HelpKINode Title="Perpetual field" Url="html/F-Walter.Model.LicenseType.Perpetual.htm" />
+  <HelpKINode Title="ProductLicense(Of T) class" Url="html/AllMembers.T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="ProductLicense(Of T) class" Url="html/T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="ProductLicense(Of T) class">
+    <HelpKINode Title="about ProductLicense(Of T) class" Url="html/T-Walter.ProductLicense-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.ProductLicense-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Walter.ProductLicense-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.ProductLicense-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.ProductLicense-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductLicense(Of T).Expires property" Url="html/P-Walter.ProductLicense-1.Expires.htm" />
+  <HelpKINode Title="ProductLicense(Of T).Features property" Url="html/P-Walter.ProductLicense-1.Features.htm" />
+  <HelpKINode Title="ProductLicense(Of T).Key property" Url="html/P-Walter.ProductLicense-1.Key.htm" />
+  <HelpKINode Title="ProductLicense(Of T).ProductLicense constructor" Url="html/Overload-Walter.ProductLicense-1.-ctor.htm" />
+  <HelpKINode Title="ProductLicense(Of T).Rest property" Url="html/P-Walter.ProductLicense-1.Rest.htm" />
+  <HelpKINode Title="ProductLicense&lt;T&gt; class" Url="html/AllMembers.T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="ProductLicense&lt;T&gt; class" Url="html/T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="ProductLicense&lt;T&gt; class">
+    <HelpKINode Title="about ProductLicense&lt;T&gt; class" Url="html/T-Walter.ProductLicense-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.ProductLicense-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Walter.ProductLicense-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.ProductLicense-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.ProductLicense-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductLicense&lt;T&gt;.Expires property" Url="html/P-Walter.ProductLicense-1.Expires.htm" />
+  <HelpKINode Title="ProductLicense&lt;T&gt;.Features property" Url="html/P-Walter.ProductLicense-1.Features.htm" />
+  <HelpKINode Title="ProductLicense&lt;T&gt;.Key property" Url="html/P-Walter.ProductLicense-1.Key.htm" />
+  <HelpKINode Title="ProductLicense&lt;T&gt;.ProductLicense constructor" Url="html/Overload-Walter.ProductLicense-1.-ctor.htm" />
+  <HelpKINode Title="ProductLicense&lt;T&gt;.Rest property" Url="html/P-Walter.ProductLicense-1.Rest.htm" />
+  <HelpKINode Title="ProtectedMemory class" Url="html/AllMembers.T-Walter.ProtectedMemory.htm" />
+  <HelpKINode Title="ProtectedMemory class" Url="html/T-Walter.ProtectedMemory.htm" />
+  <HelpKINode Title="ProtectedMemory class">
+    <HelpKINode Title="about ProtectedMemory class" Url="html/T-Walter.ProtectedMemory.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.ProtectedMemory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.ProtectedMemory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProtectedMemory.Create method" Url="html/Overload-Walter.ProtectedMemory.Create.htm" />
+  <HelpKINode Title="Query method" Url="html/M-Walter.Model.LicenseBase.Query.htm" />
+  <HelpKINode Title="Read method" Url="html/M-Walter.JsonStreamReader-1.Read.htm" />
+  <HelpKINode Title="ReadAllText method" Url="html/M-System.Net.HttpResponseExtension.ReadAllText.htm" />
+  <HelpKINode Title="ReadBytes method" Url="html/M-Walter.IProtectedMemory.ReadBytes.htm" />
+  <HelpKINode Title="ReadJson method" Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.ReadJson.htm" />
+  <HelpKINode Title="ReadJson method" Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.ReadJson.htm" />
+  <HelpKINode Title="ReadString method" Url="html/M-Walter.IProtectedMemory.ReadString.htm" />
+  <HelpKINode Title="RequestRoot class" Url="html/AllMembers.T-Walter.RequestRoot.htm" />
+  <HelpKINode Title="RequestRoot class" Url="html/T-Walter.RequestRoot.htm" />
+  <HelpKINode Title="RequestRoot class">
+    <HelpKINode Title="about RequestRoot class" Url="html/T-Walter.RequestRoot.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.RequestRoot.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.RequestRoot.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.RequestRoot.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestRoot.WifiAccessPoints property" Url="html/P-Walter.RequestRoot.WifiAccessPoints.htm" />
+  <HelpKINode Title="ResourceExtension class" Url="html/AllMembers.T-Walter.ResourceExtension.htm" />
+  <HelpKINode Title="ResourceExtension class" Url="html/T-Walter.ResourceExtension.htm" />
+  <HelpKINode Title="ResourceExtension class">
+    <HelpKINode Title="about ResourceExtension class" Url="html/T-Walter.ResourceExtension.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.ResourceExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.ResourceExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResourceExtension.TryGetBytes method" Url="html/M-Walter.ResourceExtension.TryGetBytes.htm" />
+  <HelpKINode Title="Rest property" Url="html/P-Walter.ProductLicense-1.Rest.htm" />
+  <HelpKINode Title="RfcHash method" Url="html/M-System.StringExtensions.RfcHash.htm" />
+  <HelpKINode Title="RingBuffer(Of T) class" Url="html/AllMembers.T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="RingBuffer(Of T) class" Url="html/T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="RingBuffer(Of T) class">
+    <HelpKINode Title="about RingBuffer(Of T) class" Url="html/T-Walter.RingBuffer-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.RingBuffer-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.RingBuffer-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.RingBuffer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RingBuffer(Of T).Add method" Url="html/M-Walter.RingBuffer-1.Add.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Count property" Url="html/P-Walter.RingBuffer-1.Count.htm" />
+  <HelpKINode Title="RingBuffer(Of T).IndexOf method" Url="html/M-Walter.RingBuffer-1.IndexOf.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Item property" Url="html/P-Walter.RingBuffer-1.Item-System.Int32-.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Items method" Url="html/M-Walter.RingBuffer-1.Items.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Last property" Url="html/P-Walter.RingBuffer-1.Last.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Length property" Url="html/P-Walter.RingBuffer-1.Length.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Snapshot method" Url="html/M-Walter.RingBuffer-1.Snapshot.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt; class" Url="html/AllMembers.T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt; class" Url="html/T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt; class">
+    <HelpKINode Title="about RingBuffer&lt;T&gt; class" Url="html/T-Walter.RingBuffer-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.RingBuffer-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.RingBuffer-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.RingBuffer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Add method" Url="html/M-Walter.RingBuffer-1.Add.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Count property" Url="html/P-Walter.RingBuffer-1.Count.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.IndexOf method" Url="html/M-Walter.RingBuffer-1.IndexOf.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Item property" Url="html/P-Walter.RingBuffer-1.Item-System.Int32-.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Items method" Url="html/M-Walter.RingBuffer-1.Items.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Last property" Url="html/P-Walter.RingBuffer-1.Last.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Length property" Url="html/P-Walter.RingBuffer-1.Length.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Snapshot method" Url="html/M-Walter.RingBuffer-1.Snapshot.htm" />
+  <HelpKINode Title="SequenceEndDate property" Url="html/P-Walter.SequentialGuid.SequenceEndDate.htm" />
+  <HelpKINode Title="SequenceStartDate property" Url="html/P-Walter.SequentialGuid.SequenceStartDate.htm" />
+  <HelpKINode Title="SequentialGuid class" Url="html/AllMembers.T-Walter.SequentialGuid.htm" />
+  <HelpKINode Title="SequentialGuid class" Url="html/T-Walter.SequentialGuid.htm" />
+  <HelpKINode Title="SequentialGuid class">
+    <HelpKINode Title="about SequentialGuid class" Url="html/T-Walter.SequentialGuid.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.SequentialGuid.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Walter.SequentialGuid.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.SequentialGuid.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.SequentialGuid.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SequentialGuid.NewGuid method" Url="html/M-Walter.SequentialGuid.NewGuid.htm" />
+  <HelpKINode Title="SequentialGuid.SequenceEndDate property" Url="html/P-Walter.SequentialGuid.SequenceEndDate.htm" />
+  <HelpKINode Title="SequentialGuid.SequenceStartDate property" Url="html/P-Walter.SequentialGuid.SequenceStartDate.htm" />
+  <HelpKINode Title="SequentialGuid.SequentialGuid constructor" Url="html/Overload-Walter.SequentialGuid.-ctor.htm" />
+  <HelpKINode Title="SequentialGuid.TimePerSequence property" Url="html/P-Walter.SequentialGuid.TimePerSequence.htm" />
+  <HelpKINode Title="SequentialGuid.TotalPeriod property" Url="html/P-Walter.SequentialGuid.TotalPeriod.htm" />
+  <HelpKINode Title="ServiceProvider property" Url="html/P-Walter.IPlatformServices.ServiceProvider.htm" />
+  <HelpKINode Title="SetPassword method" Url="html/M-Walter.SymmetricEncryption.SetPassword.htm" />
+  <HelpKINode Title="SHA1 enumeration member" Url="html/T-System.HashMethod.htm" />
+  <HelpKINode Title="SHA1 field" Url="html/F-System.HashMethod.SHA1.htm" />
+  <HelpKINode Title="SHA256 enumeration member" Url="html/T-System.HashMethod.htm" />
+  <HelpKINode Title="SHA256 field" Url="html/F-System.HashMethod.SHA256.htm" />
+  <HelpKINode Title="SHA384 enumeration member" Url="html/T-System.HashMethod.htm" />
+  <HelpKINode Title="SHA384 field" Url="html/F-System.HashMethod.SHA384.htm" />
+  <HelpKINode Title="SHA512 enumeration member" Url="html/T-System.HashMethod.htm" />
+  <HelpKINode Title="SHA512 field" Url="html/F-System.HashMethod.SHA512.htm" />
+  <HelpKINode Title="ShowMessage method" Url="html/Overload-Walter.IPlatformServices.ShowMessage.htm" />
+  <HelpKINode Title="SignalStrength property" Url="html/P-Walter.WifiAccessPoint.SignalStrength.htm" />
+  <HelpKINode Title="SizeOnDisk method" Url="html/M-System.IO.FileInfoExtensions.SizeOnDisk.htm" />
+  <HelpKINode Title="Snapshot method" Url="html/M-Walter.IReadOnlyBuffer-1.Snapshot.htm" />
+  <HelpKINode Title="Snapshot method" Url="html/M-Walter.RingBuffer-1.Snapshot.htm" />
+  <HelpKINode Title="StartsWith enumeration member" Url="html/T-System.StringPart.htm" />
+  <HelpKINode Title="StartsWith field" Url="html/F-System.StringPart.StartsWith.htm" />
+  <HelpKINode Title="StrategicPartner enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="StrategicPartner field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.StrategicPartner.htm" />
+  <HelpKINode Title="StringExtensions class" Url="html/AllMembers.T-System.StringExtensions.htm" />
+  <HelpKINode Title="StringExtensions class" Url="html/T-System.StringExtensions.htm" />
+  <HelpKINode Title="StringExtensions class">
+    <HelpKINode Title="about StringExtensions class" Url="html/T-System.StringExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-System.StringExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-System.StringExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringExtensions.AsJsonEnumerable(Of T) method" Url="html/M-System.StringExtensions.AsJsonEnumerable--1.htm" />
+  <HelpKINode Title="StringExtensions.AsJsonEnumerable&lt;T&gt; method" Url="html/M-System.StringExtensions.AsJsonEnumerable--1.htm" />
+  <HelpKINode Title="StringExtensions.AsMD5Hash method" Url="html/Overload-System.StringExtensions.AsMD5Hash.htm" />
+  <HelpKINode Title="StringExtensions.AsShaHash method" Url="html/Overload-System.StringExtensions.AsShaHash.htm" />
+  <HelpKINode Title="StringExtensions.AsShaHashBytes method" Url="html/Overload-System.StringExtensions.AsShaHashBytes.htm" />
+  <HelpKINode Title="StringExtensions.AsString method" Url="html/M-System.StringExtensions.AsString.htm" />
+  <HelpKINode Title="StringExtensions.Base64Encode method" Url="html/M-System.StringExtensions.Base64Encode.htm" />
+  <HelpKINode Title="StringExtensions.CidrToIp method" Url="html/Overload-System.StringExtensions.CidrToIp.htm" />
+  <HelpKINode Title="StringExtensions.FromHexString method" Url="html/M-System.StringExtensions.FromHexString.htm" />
+  <HelpKINode Title="StringExtensions.GetDeterministicHashCode method" Url="html/Overload-System.StringExtensions.GetDeterministicHashCode.htm" />
+  <HelpKINode Title="StringExtensions.IsBase64 method" Url="html/M-System.StringExtensions.IsBase64.htm" />
+  <HelpKINode Title="StringExtensions.IsValidJson method" Url="html/Overload-System.StringExtensions.IsValidJson.htm" />
+  <HelpKINode Title="StringExtensions.IsValidMD5HashFor method" Url="html/Overload-System.StringExtensions.IsValidMD5HashFor.htm" />
+  <HelpKINode Title="StringExtensions.IsValidRfcHashFor method" Url="html/M-System.StringExtensions.IsValidRfcHashFor.htm" />
+  <HelpKINode Title="StringExtensions.IsValidShaHashFor method" Url="html/Overload-System.StringExtensions.IsValidShaHashFor.htm" />
+  <HelpKINode Title="StringExtensions.RfcHash method" Url="html/M-System.StringExtensions.RfcHash.htm" />
+  <HelpKINode Title="StringExtensions.Substrings method" Url="html/M-System.StringExtensions.Substrings.htm" />
+  <HelpKINode Title="StringExtensions.ToBytes method" Url="html/M-System.StringExtensions.ToBytes.htm" />
+  <HelpKINode Title="StringExtensions.ToHexString method" Url="html/M-System.StringExtensions.ToHexString.htm" />
+  <HelpKINode Title="StringExtensions.ToSqlBinaryString method" Url="html/M-System.StringExtensions.ToSqlBinaryString.htm" />
+  <HelpKINode Title="StringExtensions.TryParseCidr method" Url="html/M-System.StringExtensions.TryParseCidr.htm" />
+  <HelpKINode Title="StringPart enumeration" Url="html/T-System.StringPart.htm" />
+  <HelpKINode Title="StringPart.Contains field" Url="html/F-System.StringPart.Contains.htm" />
+  <HelpKINode Title="StringPart.EndsOn field" Url="html/F-System.StringPart.EndsOn.htm" />
+  <HelpKINode Title="StringPart.StartsWith field" Url="html/F-System.StringPart.StartsWith.htm" />
+  <HelpKINode Title="StringPart.WholeString field" Url="html/F-System.StringPart.WholeString.htm" />
+  <HelpKINode Title="Subscription enumeration member" Url="html/T-Walter.Model.LicenseType.htm" />
+  <HelpKINode Title="Subscription field" Url="html/F-Walter.Model.LicenseType.Subscription.htm" />
+  <HelpKINode Title="Substrings method" Url="html/M-System.StringExtensions.Substrings.htm" />
+  <HelpKINode Title="SymmetricEncryption class" Url="html/AllMembers.T-Walter.SymmetricEncryption.htm" />
+  <HelpKINode Title="SymmetricEncryption class" Url="html/T-Walter.SymmetricEncryption.htm" />
+  <HelpKINode Title="SymmetricEncryption class">
+    <HelpKINode Title="about SymmetricEncryption class" Url="html/T-Walter.SymmetricEncryption.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.SymmetricEncryption.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Walter.SymmetricEncryption.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.SymmetricEncryption.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.SymmetricEncryption.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SymmetricEncryption.Decrypt method" Url="html/M-Walter.SymmetricEncryption.Decrypt.htm" />
+  <HelpKINode Title="SymmetricEncryption.DecryptString method" Url="html/M-Walter.SymmetricEncryption.DecryptString.htm" />
+  <HelpKINode Title="SymmetricEncryption.Encrypt method" Url="html/M-Walter.SymmetricEncryption.Encrypt.htm" />
+  <HelpKINode Title="SymmetricEncryption.EncryptString method" Url="html/M-Walter.SymmetricEncryption.EncryptString.htm" />
+  <HelpKINode Title="SymmetricEncryption.Instance property" Url="html/P-Walter.SymmetricEncryption.Instance.htm" />
+  <HelpKINode Title="SymmetricEncryption.SetPassword method" Url="html/M-Walter.SymmetricEncryption.SetPassword.htm" />
+  <HelpKINode Title="SymmetricEncryption.SymmetricEncryption constructor" Url="html/M-Walter.SymmetricEncryption.-ctor.htm" />
+  <HelpKINode Title="System namespace" Url="html/N-System.htm" />
+  <HelpKINode Title="System.HashMethod enumeration" Url="html/T-System.HashMethod.htm" />
+  <HelpKINode Title="System.IO namespace" Url="html/N-System.IO.htm" />
+  <HelpKINode Title="System.IO.FileInfoExtensions class" Url="html/AllMembers.T-System.IO.FileInfoExtensions.htm" />
+  <HelpKINode Title="System.IO.FileInfoExtensions class" Url="html/T-System.IO.FileInfoExtensions.htm" />
+  <HelpKINode Title="System.Net namespace" Url="html/N-System.Net.htm" />
+  <HelpKINode Title="System.Net.HttpResponseExtension class" Url="html/AllMembers.T-System.Net.HttpResponseExtension.htm" />
+  <HelpKINode Title="System.Net.HttpResponseExtension class" Url="html/T-System.Net.HttpResponseExtension.htm" />
+  <HelpKINode Title="System.Runtime.CompilerServices namespace" Url="html/N-System.Runtime.CompilerServices.htm" />
+  <HelpKINode Title="System.Runtime.CompilerServices.MIO class" Url="html/AllMembers.T-System.Runtime.CompilerServices.MIO.htm" />
+  <HelpKINode Title="System.Runtime.CompilerServices.MIO class" Url="html/T-System.Runtime.CompilerServices.MIO.htm" />
+  <HelpKINode Title="System.StringExtensions class" Url="html/AllMembers.T-System.StringExtensions.htm" />
+  <HelpKINode Title="System.StringExtensions class" Url="html/T-System.StringExtensions.htm" />
+  <HelpKINode Title="System.StringPart enumeration" Url="html/T-System.StringPart.htm" />
+  <HelpKINode Title="TaskExtensions class" Url="html/AllMembers.T-Walter.TaskExtensions.htm" />
+  <HelpKINode Title="TaskExtensions class" Url="html/T-Walter.TaskExtensions.htm" />
+  <HelpKINode Title="TaskExtensions class">
+    <HelpKINode Title="about TaskExtensions class" Url="html/T-Walter.TaskExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.TaskExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.TaskExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TaskExtensions.Forget method" Url="html/M-Walter.TaskExtensions.Forget.htm" />
+  <HelpKINode Title="TimePerSequence property" Url="html/P-Walter.SequentialGuid.TimePerSequence.htm" />
+  <HelpKINode Title="ToBytes method" Url="html/M-System.StringExtensions.ToBytes.htm" />
+  <HelpKINode Title="ToHexString method" Url="html/M-System.StringExtensions.ToHexString.htm" />
+  <HelpKINode Title="ToSqlBinaryString method" Url="html/M-System.StringExtensions.ToSqlBinaryString.htm" />
+  <HelpKINode Title="TotalPeriod property" Url="html/P-Walter.SequentialGuid.TotalPeriod.htm" />
+  <HelpKINode Title="TrailExpired method" Url="html/M-Walter.IPlatformServices.TrailExpired.htm" />
+  <HelpKINode Title="TryDiscoverWhoisBlocking method" Url="html/M-System.IO.FileInfoExtensions.TryDiscoverWhoisBlocking.htm" />
+  <HelpKINode Title="TryGet method" Url="html/M-System.Net.HttpResponseExtension.TryGet.htm" />
+  <HelpKINode Title="TryGetBytes method" Url="html/M-Walter.ResourceExtension.TryGetBytes.htm" />
+  <HelpKINode Title="TryParseCidr method" Url="html/M-System.StringExtensions.TryParseCidr.htm" />
+  <HelpKINode Title="UnavailableForLegalReasons enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="UnavailableForLegalReasons field" Url="html/F-Walter.Model.LicenseStatusCode.UnavailableForLegalReasons.htm" />
+  <HelpKINode Title="Uri property" Url="html/P-Walter.UrlBasedException.Uri.htm" />
+  <HelpKINode Title="UrlBasedException class" Url="html/AllMembers.T-Walter.UrlBasedException.htm" />
+  <HelpKINode Title="UrlBasedException class" Url="html/T-Walter.UrlBasedException.htm" />
+  <HelpKINode Title="UrlBasedException class">
+    <HelpKINode Title="about UrlBasedException class" Url="html/T-Walter.UrlBasedException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.UrlBasedException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-Walter.UrlBasedException.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-Walter.UrlBasedException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.UrlBasedException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.UrlBasedException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UrlBasedException.HttpStatusCode property" Url="html/P-Walter.UrlBasedException.HttpStatusCode.htm" />
+  <HelpKINode Title="UrlBasedException.Uri property" Url="html/P-Walter.UrlBasedException.Uri.htm" />
+  <HelpKINode Title="UrlBasedException.UrlBasedException constructor" Url="html/Overload-Walter.UrlBasedException.-ctor.htm" />
+  <HelpKINode Title="User enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="User field" Url="html/F-Walter.Model.ApplicableLicense.User.htm" />
+  <HelpKINode Title="UserName property" Url="html/P-Walter.Model.LicenseData.UserName.htm" />
+  <HelpKINode Title="UseSymetricEncryption(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
+  <HelpKINode Title="UseSymetricEncryption&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
+  <HelpKINode Title="Walter namespace" Url="html/N-Walter.htm" />
+  <HelpKINode Title="Walter.AsHashSubsetLocation enumeration" Url="html/T-Walter.AsHashSubsetLocation.htm" />
+  <HelpKINode Title="Walter.ExceptionsExtension class" Url="html/AllMembers.T-Walter.ExceptionsExtension.htm" />
+  <HelpKINode Title="Walter.ExceptionsExtension class" Url="html/T-Walter.ExceptionsExtension.htm" />
+  <HelpKINode Title="Walter.FluentLogger class" Url="html/AllMembers.T-Walter.FluentLogger.htm" />
+  <HelpKINode Title="Walter.FluentLogger class" Url="html/T-Walter.FluentLogger.htm" />
+  <HelpKINode Title="Walter.GenericLicenseValidater class" Url="html/AllMembers.T-Walter.GenericLicenseValidater.htm" />
+  <HelpKINode Title="Walter.GenericLicenseValidater class" Url="html/T-Walter.GenericLicenseValidater.htm" />
+  <HelpKINode Title="Walter.ICrossPlatformLogger interface" Url="html/AllMembers.T-Walter.ICrossPlatformLogger.htm" />
+  <HelpKINode Title="Walter.ICrossPlatformLogger interface" Url="html/T-Walter.ICrossPlatformLogger.htm" />
+  <HelpKINode Title="Walter.ILicenseValidater interface" Url="html/AllMembers.T-Walter.ILicenseValidater.htm" />
+  <HelpKINode Title="Walter.ILicenseValidater interface" Url="html/T-Walter.ILicenseValidater.htm" />
+  <HelpKINode Title="Walter.Infrastructure namespace" Url="html/N-Walter.Infrastructure.htm" />
+  <HelpKINode Title="Walter.Infrastructure.GetExecutingAssembly class" Url="html/AllMembers.T-Walter.Infrastructure.GetExecutingAssembly.htm" />
+  <HelpKINode Title="Walter.Infrastructure.GetExecutingAssembly class" Url="html/T-Walter.Infrastructure.GetExecutingAssembly.htm" />
+  <HelpKINode Title="Walter.IPlatformServices interface" Url="html/AllMembers.T-Walter.IPlatformServices.htm" />
+  <HelpKINode Title="Walter.IPlatformServices interface" Url="html/T-Walter.IPlatformServices.htm" />
+  <HelpKINode Title="Walter.IProtectedMemory interface" Url="html/AllMembers.T-Walter.IProtectedMemory.htm" />
+  <HelpKINode Title="Walter.IProtectedMemory interface" Url="html/T-Walter.IProtectedMemory.htm" />
+  <HelpKINode Title="Walter.IReadOnlyBuffer interface" Url="html/AllMembers.T-Walter.IReadOnlyBuffer-1.htm" />
+  <HelpKINode Title="Walter.IReadOnlyBuffer(Of T) interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm" />
+  <HelpKINode Title="Walter.IReadOnlyBuffer&lt;T&gt; interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm" />
+  <HelpKINode Title="Walter.JsonConvertExt class" Url="html/AllMembers.T-Walter.JsonConvertExt.htm" />
+  <HelpKINode Title="Walter.JsonConvertExt class" Url="html/T-Walter.JsonConvertExt.htm" />
+  <HelpKINode Title="Walter.JsonStreamReader(Of T) class" Url="html/AllMembers.T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="Walter.JsonStreamReader(Of T) class" Url="html/T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="Walter.JsonStreamReader&lt;T&gt; class" Url="html/AllMembers.T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="Walter.JsonStreamReader&lt;T&gt; class" Url="html/T-Walter.JsonStreamReader-1.htm" />
+  <HelpKINode Title="Walter.LoggerExtensionMethods class" Url="html/AllMembers.T-Walter.LoggerExtensionMethods.htm" />
+  <HelpKINode Title="Walter.LoggerExtensionMethods class" Url="html/T-Walter.LoggerExtensionMethods.htm" />
+  <HelpKINode Title="Walter.Model namespace" Url="html/N-Walter.Model.htm" />
+  <HelpKINode Title="Walter.Model.ApplicableLicense enumeration" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="Walter.Model.ApplicableLicenseExcempt enumeration" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
+  <HelpKINode Title="Walter.Model.LicenseBase class" Url="html/AllMembers.T-Walter.Model.LicenseBase.htm" />
+  <HelpKINode Title="Walter.Model.LicenseBase class" Url="html/T-Walter.Model.LicenseBase.htm" />
+  <HelpKINode Title="Walter.Model.LicenseData class" Url="html/AllMembers.T-Walter.Model.LicenseData.htm" />
+  <HelpKINode Title="Walter.Model.LicenseData class" Url="html/T-Walter.Model.LicenseData.htm" />
+  <HelpKINode Title="Walter.Model.LicenseStatusCode enumeration" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="Walter.Model.LicenseType enumeration" Url="html/T-Walter.Model.LicenseType.htm" />
+  <HelpKINode Title="Walter.ProductLicense(Of T) class" Url="html/AllMembers.T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="Walter.ProductLicense(Of T) class" Url="html/T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="Walter.ProductLicense&lt;T&gt; class" Url="html/AllMembers.T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="Walter.ProductLicense&lt;T&gt; class" Url="html/T-Walter.ProductLicense-1.htm" />
+  <HelpKINode Title="Walter.ProtectedMemory class" Url="html/AllMembers.T-Walter.ProtectedMemory.htm" />
+  <HelpKINode Title="Walter.ProtectedMemory class" Url="html/T-Walter.ProtectedMemory.htm" />
+  <HelpKINode Title="Walter.RequestRoot class" Url="html/AllMembers.T-Walter.RequestRoot.htm" />
+  <HelpKINode Title="Walter.RequestRoot class" Url="html/T-Walter.RequestRoot.htm" />
+  <HelpKINode Title="Walter.ResourceExtension class" Url="html/AllMembers.T-Walter.ResourceExtension.htm" />
+  <HelpKINode Title="Walter.ResourceExtension class" Url="html/T-Walter.ResourceExtension.htm" />
+  <HelpKINode Title="Walter.RingBuffer(Of T) class" Url="html/AllMembers.T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="Walter.RingBuffer(Of T) class" Url="html/T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="Walter.RingBuffer&lt;T&gt; class" Url="html/AllMembers.T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="Walter.RingBuffer&lt;T&gt; class" Url="html/T-Walter.RingBuffer-1.htm" />
+  <HelpKINode Title="Walter.SequentialGuid class" Url="html/AllMembers.T-Walter.SequentialGuid.htm" />
+  <HelpKINode Title="Walter.SequentialGuid class" Url="html/T-Walter.SequentialGuid.htm" />
+  <HelpKINode Title="Walter.SymmetricEncryption class" Url="html/AllMembers.T-Walter.SymmetricEncryption.htm" />
+  <HelpKINode Title="Walter.SymmetricEncryption class" Url="html/T-Walter.SymmetricEncryption.htm" />
+  <HelpKINode Title="Walter.TaskExtensions class" Url="html/AllMembers.T-Walter.TaskExtensions.htm" />
+  <HelpKINode Title="Walter.TaskExtensions class" Url="html/T-Walter.TaskExtensions.htm" />
+  <HelpKINode Title="Walter.UrlBasedException class" Url="html/AllMembers.T-Walter.UrlBasedException.htm" />
+  <HelpKINode Title="Walter.UrlBasedException class" Url="html/T-Walter.UrlBasedException.htm" />
+  <HelpKINode Title="Walter.WifiAccessPoint class" Url="html/AllMembers.T-Walter.WifiAccessPoint.htm" />
+  <HelpKINode Title="Walter.WifiAccessPoint class" Url="html/T-Walter.WifiAccessPoint.htm" />
+  <HelpKINode Title="Walter.WiFiDetector class" Url="html/AllMembers.T-Walter.WiFiDetector.htm" />
+  <HelpKINode Title="Walter.WiFiDetector class" Url="html/T-Walter.WiFiDetector.htm" />
+  <HelpKINode Title="WalterDependencyInjectionHelper class" Url="html/AllMembers.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
+  <HelpKINode Title="WalterDependencyInjectionHelper class" Url="html/T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
+  <HelpKINode Title="WalterDependencyInjectionHelper class">
+    <HelpKINode Title="about WalterDependencyInjectionHelper class" Url="html/T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WalterDependencyInjectionHelper.UseSymetricEncryption(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
+  <HelpKINode Title="WalterDependencyInjectionHelper.UseSymetricEncryption&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
+  <HelpKINode Title="Website enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
+  <HelpKINode Title="Website field" Url="html/F-Walter.Model.ApplicableLicense.Website.htm" />
+  <HelpKINode Title="WholeString enumeration member" Url="html/T-System.StringPart.htm" />
+  <HelpKINode Title="WholeString field" Url="html/F-System.StringPart.WholeString.htm" />
+  <HelpKINode Title="WifiAccessPoint class" Url="html/AllMembers.T-Walter.WifiAccessPoint.htm" />
+  <HelpKINode Title="WifiAccessPoint class" Url="html/T-Walter.WifiAccessPoint.htm" />
+  <HelpKINode Title="WifiAccessPoint class">
+    <HelpKINode Title="about WifiAccessPoint class" Url="html/T-Walter.WifiAccessPoint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.WifiAccessPoint.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.WifiAccessPoint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.WifiAccessPoint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WifiAccessPoint.Channel property" Url="html/P-Walter.WifiAccessPoint.Channel.htm" />
+  <HelpKINode Title="WifiAccessPoint.MacAddress property" Url="html/P-Walter.WifiAccessPoint.MacAddress.htm" />
+  <HelpKINode Title="WifiAccessPoint.SignalStrength property" Url="html/P-Walter.WifiAccessPoint.SignalStrength.htm" />
+  <HelpKINode Title="WifiAccessPoints property" Url="html/P-Walter.RequestRoot.WifiAccessPoints.htm" />
+  <HelpKINode Title="WiFiDetector class" Url="html/AllMembers.T-Walter.WiFiDetector.htm" />
+  <HelpKINode Title="WiFiDetector class" Url="html/T-Walter.WiFiDetector.htm" />
+  <HelpKINode Title="WiFiDetector class">
+    <HelpKINode Title="about WiFiDetector class" Url="html/T-Walter.WiFiDetector.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.WiFiDetector.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.WiFiDetector.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WiFiDetector.Execute method" Url="html/M-Walter.WiFiDetector.Execute.htm" />
+  <HelpKINode Title="WriteJson method" Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.WriteJson.htm" />
+  <HelpKINode Title="WriteJson method" Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.WriteJson.htm" />
+</HelpKI>
