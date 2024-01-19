@@ -29,9 +29,10 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Class SequentialGuid allows you to generate unique sequential guids." />
+      <MSHelp:Attr Name="Abstract" Value="The SequentialGuid class is used for generating unique sequential GUIDs. This can be particularly useful for databases where GUIDs are used as primary keys do facilitate row insert speed reducing fragmentation and overhead on indexing mainte ..." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
   <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
             <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
@@ -84,7 +85,10 @@
             </div>
 
             <div class="Tree" id="divTree" onselectstart="javascript: return false;">
-              <div class="TreeNode">
+              <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" target="_self">The Walter NuGet Package</a>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Microsoft.Extensions.DependencyInjection.htm" target="_self">Microsoft.Extensions.DependencyInjection Namespace</a>
 <div class="Hidden">
 <div class="TreeNode">
@@ -157,6 +161,11 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.AsHashSubsetLocation.htm" target="_self">AsHashSubsetLocation Enumeration</a>
 </div>
 <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Clock.htm" target="_self">Clock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ExceptionsExtension.htm" target="_self">ExceptionsExtension Class</a>
 <div class="Hidden">
 </div>
@@ -168,6 +177,11 @@
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.GenericLicenseValidater.htm" target="_self">GenericLicenseValidater Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IClock.htm" target="_self">IClock Interface</a>
 <div class="Hidden">
 </div>
 </div>
@@ -270,6 +284,21 @@
 </div>
 </div>
 <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TestClock.htm" target="_self">TestClock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseAddedEventArgs.htm" target="_self">TrueUpLicenseAddedEventArgs Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseManager.htm" target="_self">TrueUpLicenseManager Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.UrlBasedException.htm" target="_self">UrlBasedException Class</a>
 <div class="Hidden">
 </div>
@@ -353,16 +382,42 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   Class SequentialGuid allows you to generate unique sequential guids.
+   The SequentialGuid class is used for generating unique sequential GUIDs.
+   This can be particularly useful for databases where GUIDs are used as primary keys do facilitate row insert speed reducing fragmentation and overhead on indexing maintenance.
    </div>
                 <p />
     <b>Namespace:</b> 
    <a href="N-Walter.htm">Walter</a><br />
     <b>Assembly:</b>
    <span sdata="assembly">Walter</span> (in Walter.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode">[<a href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggerdisplayattribute" target="_blank">DebuggerDisplayAttribute</a>]
-[<a href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggernonusercodeattribute" target="_blank">DebuggerNonUserCodeAttribute</a>]
-[<a href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggerstepthroughattribute" target="_blank">DebuggerStepThroughAttribute</a>]
-<span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">SequentialGuid</span></pre></div></div></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Inheritance Hierarchy</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="familySection"><!----></a><a href="https://docs.microsoft.com/en-us/dotnet/api/system.object" target="_blank">Object</a><br />  <span class="selflink">Walter<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SequentialGuid</span><br /></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="AllMembers.T-Walter.SequentialGuid.htm">SequentialGuid Members</a></div><div class="seeAlsoStyle"><a href="N-Walter.htm">Walter Namespace</a></div></div></div>
+<span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">SequentialGuid</span></pre></div></div></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   The class calculates GUIDs that are sequential within a given time frame defined by a start and end date.
+   The guid generated are sequential and are therefor ordered ascending and could be guessed, not as simple as integer increments but are guessing the ID is possible.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a><p><strong>Introduction to Sequential GUID Tests</strong></p><p>These tests are designed to verify the behavior of GUIDs generated using our custom SequentialGuid.NewGuid() method. This method is intended to create globally unique identifiers (GUIDs) that are sequential, which can be beneficial for database indexing and retrieval performance. We have two specific tests to validate the essential characteristics of our GUID generation method:</p><ol><li>Test for Uniqueness with the Same Timestamp (SequentialGuidTest):</li><li>Test for Sequential Order (SortOrderFirstIsBeforeSecond):</li></ol><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>Test for Uniqueness with the Same Timestamp</div><div class="code"><pre xml:space="preserve">[TestMethod()]
+   <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> SequentialGuidTest()
+   {
+        <span class="highlight-comment">// Arrange</span>
+       <span class="highlight-keyword">var</span> time = DateTime.UtcNow;
+
+       <span class="highlight-comment">// Act</span>
+       <span class="highlight-keyword">var</span> guid1 =SequentialGuid.NewGuid(time);
+       <span class="highlight-keyword">var</span> guid2 = SequentialGuid.NewGuid(time);
+
+       <span class="highlight-comment">// Assert</span>
+       Assert.AreNotEqual(guid1, guid2);
+   }</pre></div></span><span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>Test for Sequential Order</div><div class="code"><pre xml:space="preserve">[TestMethod]
+   <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> SortOrderFirstIsBeforeSecond()
+   {
+       <span class="highlight-comment">// Arrange</span>
+       <span class="highlight-keyword">var</span> first = SequentialGuid.NewGuid();
+       <span class="highlight-keyword">var</span> second = SequentialGuid.NewGuid();
+
+       <span class="highlight-comment">// Act</span>
+       <span class="highlight-keyword">var</span> result = first.CompareTo(second);
+
+       <span class="highlight-comment">// Assert</span>
+       Assert.IsTrue(result&lt; <span class="highlight-number">0</span>);
+   }</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Inheritance Hierarchy</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="familySection"><!----></a><a href="https://docs.microsoft.com/en-us/dotnet/api/system.object" target="_blank">Object</a><br />  <span class="selflink">Walter<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SequentialGuid</span><br /></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="AllMembers.T-Walter.SequentialGuid.htm">SequentialGuid Members</a></div><div class="seeAlsoStyle"><a href="N-Walter.htm">Walter Namespace</a></div></div></div>
             </div>
           </div>
         </div>
@@ -371,7 +426,7 @@
         <div id="footer" class="footerContainer">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Stijn Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
             </div>
             <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
             <div> </div>

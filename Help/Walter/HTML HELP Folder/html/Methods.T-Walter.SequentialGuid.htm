@@ -76,7 +76,10 @@
             </div>
 
             <div class="Tree" id="divTree" onselectstart="javascript: return false;">
-              <div class="TreeNode">
+              <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" target="_self">The Walter NuGet Package</a>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Microsoft.Extensions.DependencyInjection.htm" target="_self">Microsoft.Extensions.DependencyInjection Namespace</a>
 <div class="Hidden">
 <div class="TreeNode">
@@ -149,6 +152,11 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.AsHashSubsetLocation.htm" target="_self">AsHashSubsetLocation Enumeration</a>
 </div>
 <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Clock.htm" target="_self">Clock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ExceptionsExtension.htm" target="_self">ExceptionsExtension Class</a>
 <div class="Hidden">
 </div>
@@ -160,6 +168,11 @@
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.GenericLicenseValidater.htm" target="_self">GenericLicenseValidater Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IClock.htm" target="_self">IClock Interface</a>
 <div class="Hidden">
 </div>
 </div>
@@ -242,11 +255,10 @@
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Walter.SequentialGuid.htm" target="_self">SequentialGuid Methods</a>
 <div class="Hidden">
-<div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.SequentialGuid.GetGuid.htm" target="_self">GetGuid Method </a>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-Walter.SequentialGuid.NewGuid.htm" target="_self">NewGuid Method </a>
+<div class="Hidden">
 </div>
-<div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.SequentialGuid.NewGuid.htm" target="_self">NewGuid Method </a>
 </div>
 </div>
 </div>
@@ -264,6 +276,21 @@
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TaskExtensions.htm" target="_self">TaskExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TestClock.htm" target="_self">TestClock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseAddedEventArgs.htm" target="_self">TrueUpLicenseAddedEventArgs Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseManager.htm" target="_self">TrueUpLicenseManager Class</a>
 <div class="Hidden">
 </div>
 </div>
@@ -387,19 +414,6 @@
                       </td>
                       <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object" target="_blank">Object</a>.)</td>
                     </tr>
-                    <tr data="public;declared;notNetfw;">
-                      <td>
-                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                      </td>
-                      <td>
-                        <a href="M-Walter.SequentialGuid.GetGuid.htm">GetGuid<span class="languageSpecificText"><span class="cs">()</span><span class="cpp">()</span><span class="nu">()</span><span class="fs">()</span></span></a>
-                      </td>
-                      <td>
-                        <div class="summary">
-   Gets the unique identifier.
-   </div>
-                      </td>
-                    </tr>
                     <tr data="public;inherited;notNetfw;">
                       <td>
                         <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
@@ -433,11 +447,23 @@
                         <img src="../icons/static.gif" alt="Static member" title="Static member" />
                       </td>
                       <td>
-                        <a href="M-Walter.SequentialGuid.NewGuid.htm">NewGuid</a>
+                        <a href="M-Walter.SequentialGuid.NewGuid.htm">NewGuid<span class="languageSpecificText"><span class="cs">()</span><span class="cpp">()</span><span class="nu">()</span><span class="fs">()</span></span></a>
+                      </td>
+                      <td>
+                        <div class="summary">Creates a new sequential GUID using the <a href="T-Walter.IClock.htm">IClock</a> UTC time.</div>
+                      </td>
+                    </tr>
+                    <tr data="public;static;declared;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                        <img src="../icons/static.gif" alt="Static member" title="Static member" />
+                      </td>
+                      <td>
+                        <a href="M-Walter.SequentialGuid.NewGuid_1.htm">NewGuid(DateTime)</a>
                       </td>
                       <td>
                         <div class="summary">
-   Creates new guid.
+   Creates a new sequential GUID using the provided time stamp.
    </div>
                       </td>
                     </tr>
@@ -478,7 +504,7 @@
         <div id="footer" class="footerContainer">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Stijn Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
             </div>
             <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
             <div> </div>

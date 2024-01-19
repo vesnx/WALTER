@@ -1,0 +1,684 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
+<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head><link rel="shortcut icon" href="../favicon.ico" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>The Walter NuGet Package</title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-miranda.css" />
+    <script type="text/javascript" src="../scripts/EventUtilities.js">
+       </script>
+    <script type="text/javascript" src="../scripts/SplitScreen.js">
+       </script>
+    <script type="text/javascript" src="../scripts/Dropdown.js">
+       </script>
+    <script type="text/javascript" src="../scripts/script_manifold.js">
+       </script>
+    <script type="text/javascript" src="../scripts/script_feedBack.js">
+       </script>
+    <script type="text/javascript" src="../scripts/CheckboxMenu.js">
+       </script>
+    <script type="text/javascript" src="../scripts/CommonUtilities.js">
+       </script>
+    <xml>
+      <MSHelp:Keyword Index="A" Term="ad7c0a14-5d9b-4402-977a-9334787de1ec" />
+      <MSHelp:Keyword Index="K" Term="Get Started" />
+      <MSHelp:Attr Name="RevisionNumber" Value="1" />
+      <MSHelp:Attr Name="AssetID" Value="ad7c0a14-5d9b-4402-977a-9334787de1ec" />
+      <MSHelp:Attr Name="Abstract" Value="Welcome to the WALTER Framework documentation! WALTER stands for Workable Algorithms for Location-aware Transmission, Encryption Response, offering a suite of NuGet packages designed for .NET Standard, Core, and various C++ environments. Let's explor ..." />
+      <MSHelp:Attr Name="TopicType" Value="kbArticle">
+        
+      </MSHelp:Attr>
+      <MSHelp:Attr Name="Locale" Value="en-us">
+        
+      </MSHelp:Attr>
+    </xml>
+  <link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
+  <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
+            <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
+
+            <div id="divSearchOpts" class="SearchOpts" style="height: 95px; display: none;">
+                <div class="SearchOptsInner">
+                    <img class="TOCLink" onclick="javascript: ShowHideSearch(false);" src="../Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;" />
+                    <span class="Title">Keyword(s) to search:</span>
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="txtSearchText" type="text" style="width: 95.5%;" onkeypress="javascript: return OnSearchTextKeyPress(event);" />
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="chkSortByTitle" type="checkbox" />&nbsp;Sort results by title
+                    <input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+                </div>
+            </div>
+
+            <div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+                <img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+                     src="../Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;" />
+                <span class="Title">Keyword Index</span>
+            </div>
+
+            <div id="divNavOpts" class="NavOpts" style="height: 28px;">
+                <!--<img class="TOCLink" onclick="javascript: SyncTOC();" src="../SyncTOC.png"
+                     height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />-->
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+                     src="../ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+                     src="../CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+                <!--<img class="TOCLink" onclick="javascript: alert('Please make sure to use either Index.aspx or Index.php to enable the Keyword Index feature.');"
+                     src="../Index.png" height="24" width="24" alt="Keyword Index" title="Keyword Index" />-->
+                <img class="TOCLink" onclick="javascript: ShowHideSearch(true);"
+                     src="../Search.png" height="24" width="24" alt="Search" title="Search" />
+                <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+                     src="../Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+                <a href="#" onclick="javascript: window.history.go(-1); return false;">
+                    <img class="TOCLink" style="float: right;"
+                         src="../Back.png" height="24" width="24" alt="Previous page" title="Previous page" />
+                </a>
+            </div>
+
+            <div class="Tree" id="divSearchResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divIndexResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divTree" onselectstart="javascript: return false;">
+              <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" target="_self">The Walter NuGet Package</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Microsoft.Extensions.DependencyInjection.htm" target="_self">Microsoft.Extensions.DependencyInjection Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" target="_self">WalterDependencyInjectionHelper Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Newtonsoft.Json.htm" target="_self">Newtonsoft.Json Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Newtonsoft.Json.BigIntegerJsonConverter.htm" target="_self">BigIntegerJsonConverter Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-System.htm" target="_self">System Namespace</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-System.HashMethod.htm" target="_self">HashMethod Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.StringExtensions.htm" target="_self">StringExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-System.StringPart.htm" target="_self">StringPart Enumeration</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-System.IO.htm" target="_self">System.IO Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.IO.FileInfoExtensions.htm" target="_self">FileInfoExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-System.Net.htm" target="_self">System.Net Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.Net.HttpResponseExtension.htm" target="_self">HttpResponseExtension Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-System.Runtime.CompilerServices.htm" target="_self">System.Runtime.CompilerServices Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.Runtime.CompilerServices.MIO.htm" target="_self">MIO Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.htm" target="_self">Walter Namespace</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.AsHashSubsetLocation.htm" target="_self">AsHashSubsetLocation Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Clock.htm" target="_self">Clock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ExceptionsExtension.htm" target="_self">ExceptionsExtension Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.FluentLogger.htm" target="_self">FluentLogger Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.GenericLicenseValidater.htm" target="_self">GenericLicenseValidater Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IClock.htm" target="_self">IClock Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ICrossPlatformLogger.htm" target="_self">ICrossPlatformLogger Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ILicenseValidater.htm" target="_self">ILicenseValidater Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IPlatformServices.htm" target="_self">IPlatformServices Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IProtectedMemory.htm" target="_self">IProtectedMemory Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IReadOnlyBuffer-1.htm" target="_self">IReadOnlyBuffer(T) Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.JsonConvertExt.htm" target="_self">JsonConvertExt Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.JsonStreamReader-1.htm" target="_self">JsonStreamReader(T) Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.LoggerExtensionMethods.htm" target="_self">LoggerExtensionMethods Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ProductLicense-1.htm" target="_self">ProductLicense(T) Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ProtectedMemory.htm" target="_self">ProtectedMemory Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.RequestRoot.htm" target="_self">RequestRoot Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ResourceExtension.htm" target="_self">ResourceExtension Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.RingBuffer-1.htm" target="_self">RingBuffer(T) Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.SequentialGuid.htm" target="_self">SequentialGuid Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.SymmetricEncryption.htm" target="_self">SymmetricEncryption Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TaskExtensions.htm" target="_self">TaskExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TestClock.htm" target="_self">TestClock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseAddedEventArgs.htm" target="_self">TrueUpLicenseAddedEventArgs Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseManager.htm" target="_self">TrueUpLicenseManager Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.UrlBasedException.htm" target="_self">UrlBasedException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.WifiAccessPoint.htm" target="_self">WifiAccessPoint Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.WiFiDetector.htm" target="_self">WiFiDetector Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.Infrastructure.htm" target="_self">Walter.Infrastructure Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Infrastructure.GetExecutingAssembly.htm" target="_self">GetExecutingAssembly Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.Model.htm" target="_self">Walter.Model Namespace</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Model.ApplicableLicense.htm" target="_self">ApplicableLicense Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Model.ApplicableLicenseExcempt.htm" target="_self">ApplicableLicenseExcempt Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Model.LicenseBase.htm" target="_self">LicenseBase Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Model.LicenseData.htm" target="_self">LicenseData Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Model.LicenseStatusCode.htm" target="_self">LicenseStatusCode Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Model.LicenseType.htm" target="_self">LicenseType Enumeration</a>
+</div>
+</div>
+</div>
+
+            </div>
+
+        </div>
+
+        <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+        
+        <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
+          <div class="header">
+      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
+            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
+              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+          <!-- Content Starts Here -->
+          <div class="contentPlaceHolder">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">The Walter NuGet Package</h1>
+            <!--(No platform information found in metadata.)-->
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="introduction">
+                  <img alt="VESNX SA" src="../media/Banner.png" />
+                  <p>Welcome to the WALTER Framework documentation! WALTER stands for Workable Algorithms for Location-aware Transmission, Encryption Response, offering a suite of NuGet packages designed for .NET Standard, Core, and various C++ environments. Let's explore its capabilities and how it can enhance your development process.</p>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">About this Nuget Package</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection0" class="section" name="collapseableSection" style="">
+                    <p>
+					This package is designed for projects ranging from Web to MAUI, Native Windows, Linux, or Mac applications. Although not intended for direct use, it includes useful features and extension methods. Discover more and see code samples on our <a href="https://github.com/vesnx/walter">GitHub page</a>.
+				</p>
+                  </div>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Ahead-Of-Time (AOT) Compilation Compliance</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection1" class="section" name="collapseableSection" style="">
+				
+					The WALTER NuGet package supports AoT compilation, with certain limitations due to Newtonsoft Json's reflection usage. However, our extension methods are designed to maximize performance while ensuring compliance with various .NET versions.
+					
+			</div>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Json Extensions</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection2" class="section" name="collapseableSection" style="">
+				
+					WALTER provides efficient and exception-free processing of large JSON files and streams. The JsonStreamReader&lt;T&gt; class is a prime example, offering seamless deserialization from streams with support for various .NET versions. The following examples demonstrate its use in different scenarios.
+				
+				<span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> stream = File.OpenRead(<span class="highlight-literal">"AppData\\LinkedIn.json"</span>);
+<span class="highlight-keyword">var</span> sr = <span class="highlight-keyword">new</span> Walter.JsonStreamReader&lt;TCPIPNetwork&gt;(stream, TCPIPNetworkJsonContext.Default.TCPIPNetwork);
+<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>;
+<span class="highlight-keyword">var</span> items = <span class="highlight-keyword">new</span> List&lt;TCPIPNetwork&gt;();
+<span class="highlight-keyword">await</span> <span class="highlight-keyword">foreach</span> (TCPIPNetwork item <span class="highlight-keyword">in</span> sr.ReadAsync())
+{
+    i++;
+    items.Add(item);
+    <span class="highlight-keyword">if</span> (sr.Errors.Count &gt; <span class="highlight-number">0</span>)
+    {
+        _logger.LogError(sr.Errors[^<span class="highlight-number">1</span>], <span class="highlight-literal">"File line {line}, failed so entry {i} is skipped as it failed due to {error}"</span>, sr.Errors[^<span class="highlight-number">1</span>].LineNumber, i + <span class="highlight-number">1</span>, sr.Errors[^<span class="highlight-number">1</span>].Message);
+    }
+}</pre></div></span>Process data from a web service<br />
+					The sample shows fetching a JSON stream from a web service streaming endpoint and processing the data row by row:
+				
+				<span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve">                    <span class="highlight-keyword">using</span> System.Net.Http;
+<span class="highlight-keyword">using</span> System.IO;
+<span class="highlight-keyword">using</span> System.Threading.Tasks;
+
+<span class="highlight-comment">// ... other necessary namespaces</span>
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">async</span> Task ProcessJsonDataFromWebServiceAsync()
+{
+    <span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> httpClient = <span class="highlight-keyword">new</span> HttpClient();
+    <span class="highlight-keyword">try</span>
+    {
+        <span class="highlight-keyword">var</span> response = <span class="highlight-keyword">await</span> httpClient.GetStreamAsync(<span class="highlight-literal">"https://example.com/api/datastream"</span>);
+
+        <span class="highlight-keyword">var</span> sr = <span class="highlight-keyword">new</span> Walter.JsonStreamReader&lt;TCPIPNetwork&gt;(response, TCPIPNetworkJsonContext.Default.TCPIPNetwork);
+        <span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>;
+        <span class="highlight-keyword">await</span> <span class="highlight-keyword">foreach</span> (TCPIPNetwork item <span class="highlight-keyword">in</span> sr.ReadAsync())
+        {
+            i++;
+            <span class="highlight-comment">// Process each item</span>
+            <span class="highlight-comment">// ...</span>
+
+            <span class="highlight-keyword">if</span> (sr.Errors.Count &gt; <span class="highlight-number">0</span>)
+            {
+                _logger.LogError(sr.Errors[i - <span class="highlight-number">1</span>],
+                                 <span class="highlight-literal">"File line {line}, failed so entry {i} is skipped as it failed due to {error}"</span>,
+                                 sr.Errors[i - <span class="highlight-number">1</span>].LineNumber, i, sr.Errors[i - <span class="highlight-number">1</span>].Message);
+            }
+        }
+    }
+    <span class="highlight-keyword">catch</span> (HttpRequestException e)
+    {
+        _logger.LogError(<span class="highlight-literal">"Error fetching data from web service: {Message}"</span>, e.Message);
+    }
+}</pre></div></span>Reading a whole file skipping corrupt data<br />
+				Read a file in one time and process all entries skip those that would fail.
+				
+				<span id="cbc_3" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve">                <span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> stream = File.OpenRead(<span class="highlight-literal">"TestData\\LinkedIn.json"</span>);
+<span class="highlight-keyword">var</span> sr = <span class="highlight-keyword">new</span> Walter.JsonStreamReader&lt;List&lt;TCPIPNetwork&gt;&gt;(stream,TCPIPNetworkListJsonContext.Default.ListTCPIPNetwork);
+<span class="highlight-keyword">var</span> list = sr.Read();
+
+<span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> item <span class="highlight-keyword">in</span> list)
+{
+ ...
+}</pre></div></span></div>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Secure Encryption and Decryption</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection3" class="section" name="collapseableSection" style="">
+				Explore the robust encryption and decryption capabilities of WALTER, including deterministic encryption for GDPR compliance and operational efficiency. Below are some test cases and usage examples to guide you through these features.
+				<span id="cbc_4" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-comment">// Sample to demonstrate GDPR-compliant encryption of sensitive data using deterministic encryption</span>
+<span class="highlight-comment">// for storage in a third-party hosted SQL server.</span>
+
+<span class="highlight-comment">// Define the company name to be encrypted.</span>
+<span class="highlight-keyword">string</span> companyName = <span class="highlight-literal">"Undefined Corp"</span>;
+
+<span class="highlight-comment">// Create an instance of the symmetric encryption service with a secure password and salt.</span>
+<span class="highlight-comment">// Note: In a production environment, securely manage the password and salt, avoiding hardcoded values.</span>
+<span class="highlight-keyword">var</span> encryptionService = <span class="highlight-keyword">new</span> Walter.Cypher.DeterministicEncryption(
+    password: <span class="highlight-literal">"My $ectet Pa$w0rd"</span>,
+    salt: <span class="highlight-literal">"123456789+*ç%&amp;/"</span>
+);
+
+<span class="highlight-comment">// Encrypt the company name into a byte array.</span>
+<span class="highlight-keyword">byte</span>[] encryptedBytes = encryptionService.Encrypt(companyName.ToBytes());
+
+<span class="highlight-comment">// Prepare the T-SQL command for data insertion, using the encrypted company name.</span>
+<span class="highlight-keyword">var</span> tsql = @$"
+declare @UndefinedCorp Varbinary(<span class="highlight-number">64</span>) = {encryptedBytes.ToSqlBinaryString()};
+declare @checksum <span class="highlight-keyword">int</span> = CHECKSUM(@UndefinedCorp);
+
+<span class="highlight-comment">// Check for the existence of the company and insert if not present.</span>
+<span class="highlight-keyword">if</span> not exists(<span class="highlight-keyword">select</span> * <span class="highlight-keyword">from</span> [dbo].[Companies] <span class="highlight-keyword">where</span> [CompanyName] = @UndefinedCorp and [cs_CompanyName] = @checksum)
+BEGIN
+    INSERT [dbo].[Companies] ([CompanyName],[cs_CompanyName],[TrueUpDays],[AutoInvoice],[ApplicableLicenseExcempt])
+    Values(@UndefinedCorp, @checksum, <span class="highlight-number">-1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>);
+END
+";
+
+<span class="highlight-comment">// Execute the T-SQL command to store the encrypted data.</span>
+<span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> con = <span class="highlight-keyword">new</span> SqlConnection(config.GetConnectionString(<span class="highlight-literal">"Billing"</span>));
+<span class="highlight-keyword">using</span> <span class="highlight-keyword">var</span> cmd = con.CreateCommand();
+cmd.CommandText = tsql;
+cmd.CommandType = System.Data.CommandType.Text;
+con.Open();
+cmd.ExecuteNonQuery();</pre></div></span></div>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Extension Methods</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection4" class="section" name="collapseableSection" style="">
+				Discover a range of useful extension methods provided by WALTER, such as ToBytes() and ToSqlBinaryString(), demonstrated in the following examples.
+				
+				<span id="cbc_5" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">var</span> encryptedDataString = encryptedBytes.ToSqlBinaryString();
+<span class="highlight-keyword">var</span> tsql = @$"
+    declare @EncryptedData Varbinary(<span class="highlight-number">64</span>) = {encryptedDataString};
+    ...
+    INSERT INTO MyTable (EncryptedColumn) VALUES (@EncryptedData);
+";</pre></div></span></div>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Sample Test Cases for Understanding the Symmetric Encryption</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection5" class="section" name="collapseableSection" style="">
+				
+					We've included sample test cases in our codebase to demonstrate the functionality of the Symmetric Encryption process. These samples are crafted not just to test the code, but also to serve as practical examples for those looking to understand the encryption and decryption mechanisms in depth.
+				<br />Why Test Cases?<ul><li><p>Hands-On Learning: By setting breakpoints and stepping through these tests, you can gain a hands-on understanding of how the encryption and decryption process works.
+						</p></li><li><p>Debugging and Inspection: It's an excellent opportunity to inspect the flow of data, observe how the encryption algorithm behaves, and understand how different components interact.
+						</p></li><li><p>Real-World Examples: These tests are more than theoretical scenarios; they represent real-world use cases, helping you relate the functionality to practical applications.
+						</p></li></ul><p>What's in the Sample?</p><ul><li><p>Encryption Consistency Test:Encrypt_WithSamePassword_ShouldGenerateDifferentCiphertexts ensures that the encryption process is secure and generates different ciphertexts for the same plaintext.
+						</p></li><li><p>Cross-Instance Compatibility Test:EncryptAndDecrypt_WithDifferentInstances_ShouldBeCompatible confirms that the encrypted data by one instance can be decrypted by another, ensuring consistency across different instances.
+						</p></li></ul><br /><br />How to Use the Sample<ul><li>Install the 'walter' NuGet Package: Start by adding the 'walter' package to your C# project. This package is essential as it contains the components you'll need for the encryption examples.
+						
+					</li><li>Navigate to your Tests: Copy and paste the test cases in the project's test project.
+						
+					</li><li>Set Breakpoints: Place breakpoints at critical points in the tests.
+						
+					</li><li>Debug and Step Through: Run the tests in debug mode and step through the code to observe how the encryption process is executed and validated.
+						
+					</li></ul><p>We encourage you to explore these tests to deepen your understanding of symmetric encryption in a .NET environment.</p><span id="cbc_6" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve">[TestClass]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> SymmetricEncryptionTests
+{
+    <span class="highlight-comment">// This test verifies that the same text encrypted with the same password generates different byte arrays.</span>
+    <span class="highlight-comment">// This is important to ensure that the encryption algorithm uses a unique initialization vector (IV) for each encryption,</span>
+    <span class="highlight-comment">// which enhances security by producing different ciphertexts for the same plaintext.</span>
+    [TestMethod]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> Encrypt_WithSamePassword_ShouldGenerateDifferentCiphertexts()
+    {
+        <span class="highlight-keyword">var</span> secretText = <span class="highlight-literal">"Hello World"</span>;
+        <span class="highlight-keyword">var</span> encryptionInstance1 = <span class="highlight-keyword">new</span> SymmetricEncryption(<span class="highlight-literal">"TestPassword"</span>);
+        <span class="highlight-keyword">var</span> encryptionInstance2 = <span class="highlight-keyword">new</span> SymmetricEncryption(<span class="highlight-literal">"TestPassword"</span>);
+
+        <span class="highlight-keyword">byte</span>[] encryptedBytes1 = encryptionInstance1.Encrypt(Encoding.UTF8.GetBytes(secretText));
+        <span class="highlight-keyword">byte</span>[] encryptedBytes2 = encryptionInstance2.Encrypt(Encoding.UTF8.GetBytes(secretText));
+
+        <span class="highlight-keyword">string</span> ciphertext1 = Encoding.UTF8.GetString(encryptedBytes1);
+        <span class="highlight-keyword">string</span> ciphertext2 = Encoding.UTF8.GetString(encryptedBytes2);
+
+        Assert.AreNotEqual(ciphertext1, ciphertext2, <span class="highlight-literal">"Encrypted bytes should be different for the same input text."</span>);
+
+        <span class="highlight-keyword">string</span> decryptedText1 = Encoding.UTF8.GetString(encryptionInstance1.Decrypt(encryptedBytes1));
+        <span class="highlight-keyword">string</span> decryptedText2 = Encoding.UTF8.GetString(encryptionInstance2.Decrypt(encryptedBytes2));
+
+        Assert.AreEqual(decryptedText1, decryptedText2, <span class="highlight-literal">"Decrypted texts should match the original secret text."</span>);
+    }
+
+    <span class="highlight-comment">// This test ensures that text encrypted by one instance of the SymmetricEncryption class</span>
+    <span class="highlight-comment">// can be decrypted by another instance using the same password. This is crucial for verifying</span>
+    <span class="highlight-comment">// that the encryption and decryption processes are compatible and consistent across different instances.</span>
+    [TestMethod]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> EncryptAndDecrypt_WithDifferentInstances_ShouldBeCompatible()
+    {
+        <span class="highlight-keyword">var</span> secretText = <span class="highlight-literal">"Hello World"</span>;
+        <span class="highlight-keyword">var</span> encryptionInstanceClient = <span class="highlight-keyword">new</span> SymmetricEncryption(<span class="highlight-literal">"TestPassword"</span>);
+        <span class="highlight-keyword">var</span> encryptionInstanceServer = <span class="highlight-keyword">new</span> SymmetricEncryption(<span class="highlight-literal">"TestPassword"</span>);
+
+        <span class="highlight-keyword">string</span> ciphertext = encryptionInstanceClient.EncryptString(secretText);
+        <span class="highlight-keyword">string</span> decryptedText = encryptionInstanceServer.DecryptString(ciphertext);
+
+        Assert.AreEqual(secretText, decryptedText, <span class="highlight-literal">"Decrypted text should match the original secret text."</span>);
+    }
+}</pre></div></span></div>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">AoT Exceptions Extension for .NET</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection6" class="section" name="collapseableSection" style="">
+				
+					The ExceptionsExtension class enhances .NET exception handling by adding diagnostic information. Learn how to utilize this class in AoT-compiled binaries for improved error tracking and diagnostics.
+				
+				<br /><br />
+					The ExceptionsExtension class is a powerful utility for .NET developers, enhancing exception handling with additional diagnostic information. 
+					This extension provides methods to extract class names, method names, file names, and approximate line numbers from exceptions especially useful in AoT.
+					
+				<br /><br />Features:<br /><ul><li>ClassName: Retrieves the class name where the exception originated.</li><li>MethodName: Obtains the method name that generated the exception.
+						</li><li>FileName:Gets the filename of the class that generated the exception.
+						</li><li>CodeLineNumber: Provides the actual or approximate line number where the exception was thrown.
+						</li></ul><span id="cbc_7" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">try</span>
+{
+    _ = File.Open(<span class="highlight-literal">"A:\\doesNotExist.txt"</span>, FileMode.Open);
+}
+<span class="highlight-keyword">catch</span> (Exception e)
+{
+    <span class="highlight-comment">//if the binary is AoT compiled the line number is this line</span>
+    _logger.LogError(e, <span class="highlight-literal">"{Class}.{method} (line {line}) failed with a {exception}:{message}"</span>,e.ClassName(), e.MethodName(), e.CodeLineNumber(),e.GetType().Name,e.Message);
+}</pre></div></span></div>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Additional Information</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="Section">
+                    <!---->
+                  </a>
+                  <div id="sectionSection7" class="section" name="collapseableSection" style="">
+				
+					For more information and in-depth documentation click the classes on the left or visit our website at <a href="https://www.asp-waf.com">www.asp-waf.com</a>.
+				
+			</div>
+                </div> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- /Content Ends Here -->
+        </div>
+
+
+  </body>
+</html>

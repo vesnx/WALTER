@@ -20,6 +20,7 @@
       <MSHelp:Keyword Index="A" Term="F:Walter.Model.LicenseStatusCode.PaymentRequired" />
       <MSHelp:Keyword Index="A" Term="F:Walter.Model.LicenseStatusCode.NotFound" />
       <MSHelp:Keyword Index="A" Term="F:Walter.Model.LicenseStatusCode.UnavailableForLegalReasons" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.Model.LicenseStatusCode.FailedToProcess" />
       <MSHelp:Keyword Index="A" Term="frlrfWalterModelLicenseStatusCodeClassTopic" />
       <MSHelp:Keyword Index="K" Term="LicenseStatusCode enumeration" />
       <MSHelp:Keyword Index="K" Term="Walter.Model.LicenseStatusCode enumeration" />
@@ -28,12 +29,14 @@
       <MSHelp:Keyword Index="K" Term="PaymentRequired enumeration member" />
       <MSHelp:Keyword Index="K" Term="NotFound enumeration member" />
       <MSHelp:Keyword Index="K" Term="UnavailableForLegalReasons enumeration member" />
+      <MSHelp:Keyword Index="K" Term="FailedToProcess enumeration member" />
       <MSHelp:Keyword Index="F" Term="Walter.Model.LicenseStatusCode" />
       <MSHelp:Keyword Index="F" Term="Walter.Model.LicenseStatusCode.None" />
       <MSHelp:Keyword Index="F" Term="Walter.Model.LicenseStatusCode.OK" />
       <MSHelp:Keyword Index="F" Term="Walter.Model.LicenseStatusCode.PaymentRequired" />
       <MSHelp:Keyword Index="F" Term="Walter.Model.LicenseStatusCode.NotFound" />
       <MSHelp:Keyword Index="F" Term="Walter.Model.LicenseStatusCode.UnavailableForLegalReasons" />
+      <MSHelp:Keyword Index="F" Term="Walter.Model.LicenseStatusCode.FailedToProcess" />
       <MSHelp:Attr Name="HelpPriority" Value="2" />
       <MSHelp:Attr Name="APIType" Value="Managed" />
       <MSHelp:Attr Name="APILocation" Value="Walter.dll" />
@@ -43,6 +46,7 @@
       <MSHelp:Attr Name="APIName" Value="Walter.Model.LicenseStatusCode.PaymentRequired" />
       <MSHelp:Attr Name="APIName" Value="Walter.Model.LicenseStatusCode.NotFound" />
       <MSHelp:Attr Name="APIName" Value="Walter.Model.LicenseStatusCode.UnavailableForLegalReasons" />
+      <MSHelp:Attr Name="APIName" Value="Walter.Model.LicenseStatusCode.FailedToProcess" />
       <MSHelp:Attr Name="DevLang" Value="CSharp" />
       <MSHelp:Attr Name="DevLang" Value="VB" />
       <MSHelp:Attr Name="Locale" Value="en-us" />
@@ -103,7 +107,10 @@
             </div>
 
             <div class="Tree" id="divTree" onselectstart="javascript: return false;">
-              <div class="TreeNode">
+              <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" target="_self">The Walter NuGet Package</a>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Microsoft.Extensions.DependencyInjection.htm" target="_self">Microsoft.Extensions.DependencyInjection Namespace</a>
 <div class="Hidden">
 <div class="TreeNode">
@@ -176,6 +183,11 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.AsHashSubsetLocation.htm" target="_self">AsHashSubsetLocation Enumeration</a>
 </div>
 <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Clock.htm" target="_self">Clock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ExceptionsExtension.htm" target="_self">ExceptionsExtension Class</a>
 <div class="Hidden">
 </div>
@@ -187,6 +199,11 @@
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.GenericLicenseValidater.htm" target="_self">GenericLicenseValidater Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IClock.htm" target="_self">IClock Interface</a>
 <div class="Hidden">
 </div>
 </div>
@@ -267,6 +284,21 @@
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TaskExtensions.htm" target="_self">TaskExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TestClock.htm" target="_self">TestClock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseAddedEventArgs.htm" target="_self">TrueUpLicenseAddedEventArgs Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseManager.htm" target="_self">TrueUpLicenseManager Class</a>
 <div class="Hidden">
 </div>
 </div>
@@ -370,6 +402,8 @@
    The server or license not found
    </td></tr><tr><td /><td target="F:Walter.Model.LicenseStatusCode.UnavailableForLegalReasons"><span class="selflink">UnavailableForLegalReasons</span></td><td>
    unavailable for legal reasons
+   </td></tr><tr><td /><td target="F:Walter.Model.LicenseStatusCode.FailedToProcess"><span class="selflink">FailedToProcess</span></td><td>
+   The license server failed to process the request due to a server error
    </td></tr></table></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="N-Walter.Model.htm">Walter.Model Namespace</a></div></div></div>
             </div>
           </div>
@@ -379,7 +413,7 @@
         <div id="footer" class="footerContainer">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Stijn Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
             </div>
             <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
             <div> </div>

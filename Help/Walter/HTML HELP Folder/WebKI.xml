@@ -8,6 +8,8 @@
   <HelpKINode Title="ActiveDirectoryDomain enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
   <HelpKINode Title="ActiveDirectoryDomain field" Url="html/F-Walter.Model.ApplicableLicense.ActiveDirectoryDomain.htm" />
   <HelpKINode Title="Add method" Url="html/M-Walter.RingBuffer-1.Add.htm" />
+  <HelpKINode Title="Add method" Url="html/M-Walter.TestClock.Add.htm" />
+  <HelpKINode Title="AddSeconds method" Url="html/M-Walter.TestClock.AddSeconds.htm" />
   <HelpKINode Title="ApplicableLicense enumeration" Url="html/T-Walter.Model.ApplicableLicense.htm" />
   <HelpKINode Title="ApplicableLicense.ActiveDirectoryDomain field" Url="html/F-Walter.Model.ApplicableLicense.ActiveDirectoryDomain.htm" />
   <HelpKINode Title="ApplicableLicense.Application field" Url="html/F-Walter.Model.ApplicableLicense.Application.htm" />
@@ -59,6 +61,15 @@
   <HelpKINode Title="Channel property" Url="html/P-Walter.WifiAccessPoint.Channel.htm" />
   <HelpKINode Title="CidrToIp method" Url="html/Overload-System.StringExtensions.CidrToIp.htm" />
   <HelpKINode Title="ClassName method" Url="html/M-Walter.ExceptionsExtension.ClassName.htm" />
+  <HelpKINode Title="Clock class" Url="html/AllMembers.T-Walter.Clock.htm" />
+  <HelpKINode Title="Clock class" Url="html/T-Walter.Clock.htm" />
+  <HelpKINode Title="Clock class">
+    <HelpKINode Title="about Clock class" Url="html/T-Walter.Clock.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.Clock.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.Clock.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.Clock.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Clock.Instance property" Url="html/P-Walter.Clock.Instance.htm" />
   <HelpKINode Title="Code property" Url="html/P-Walter.Model.LicenseData.Code.htm" />
   <HelpKINode Title="CodeLineNumber method" Url="html/M-Walter.ExceptionsExtension.CodeLineNumber.htm" />
   <HelpKINode Title="Contains enumeration member" Url="html/T-System.StringPart.htm" />
@@ -99,6 +110,8 @@
   <HelpKINode Title="Execute method" Url="html/M-Walter.WiFiDetector.Execute.htm" />
   <HelpKINode Title="Expires property" Url="html/P-Walter.ProductLicense-1.Expires.htm" />
   <HelpKINode Title="ExpireUtc property" Url="html/P-Walter.Model.LicenseData.ExpireUtc.htm" />
+  <HelpKINode Title="FailedToProcess enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="FailedToProcess field" Url="html/F-Walter.Model.LicenseStatusCode.FailedToProcess.htm" />
   <HelpKINode Title="Features property" Url="html/P-Walter.ProductLicense-1.Features.htm" />
   <HelpKINode Title="FileInfoExtensions class" Url="html/AllMembers.T-System.IO.FileInfoExtensions.htm" />
   <HelpKINode Title="FileInfoExtensions class" Url="html/T-System.IO.FileInfoExtensions.htm" />
@@ -136,6 +149,7 @@
     <HelpKINode Title="methods" Url="html/Methods.T-Walter.GenericLicenseValidater.htm" />
   </HelpKINode>
   <HelpKINode Title="GenericLicenseValidater.IsLicensed method" Url="html/Overload-Walter.GenericLicenseValidater.IsLicensed.htm" />
+  <HelpKINode Title="Get Started" Url="html/ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" />
   <HelpKINode Title="GetDeterministicHashCode method" Url="html/Overload-System.StringExtensions.GetDeterministicHashCode.htm" />
   <HelpKINode Title="GetExecutingAssembly class" Url="html/AllMembers.T-Walter.Infrastructure.GetExecutingAssembly.htm" />
   <HelpKINode Title="GetExecutingAssembly class" Url="html/T-Walter.Infrastructure.GetExecutingAssembly.htm" />
@@ -162,6 +176,17 @@
   <HelpKINode Title="HttpResponseExtension.ReadAllText method" Url="html/M-System.Net.HttpResponseExtension.ReadAllText.htm" />
   <HelpKINode Title="HttpResponseExtension.TryGet method" Url="html/M-System.Net.HttpResponseExtension.TryGet.htm" />
   <HelpKINode Title="HttpStatusCode property" Url="html/P-Walter.UrlBasedException.HttpStatusCode.htm" />
+  <HelpKINode Title="IClock interface" Url="html/AllMembers.T-Walter.IClock.htm" />
+  <HelpKINode Title="IClock interface" Url="html/T-Walter.IClock.htm" />
+  <HelpKINode Title="IClock interface">
+    <HelpKINode Title="about IClock interface" Url="html/T-Walter.IClock.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.IClock.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.IClock.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.IClock.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IClock.Instance property" Url="html/P-Walter.IClock.Instance.htm" />
+  <HelpKINode Title="IClock.Now property" Url="html/P-Walter.IClock.Now.htm" />
+  <HelpKINode Title="IClock.UtcNow property" Url="html/P-Walter.IClock.UtcNow.htm" />
   <HelpKINode Title="ICrossPlatformLogger interface" Url="html/AllMembers.T-Walter.ICrossPlatformLogger.htm" />
   <HelpKINode Title="ICrossPlatformLogger interface" Url="html/T-Walter.ICrossPlatformLogger.htm" />
   <HelpKINode Title="ICrossPlatformLogger interface">
@@ -190,6 +215,8 @@
   <HelpKINode Title="InhouseHardware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseHardware.htm" />
   <HelpKINode Title="InhouseSoftware enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
   <HelpKINode Title="InhouseSoftware field" Url="html/F-Walter.Model.ApplicableLicenseExcempt.InhouseSoftware.htm" />
+  <HelpKINode Title="Instance property" Url="html/P-Walter.Clock.Instance.htm" />
+  <HelpKINode Title="Instance property" Url="html/P-Walter.IClock.Instance.htm" />
   <HelpKINode Title="Instance property" Url="html/P-Walter.SymmetricEncryption.Instance.htm" />
   <HelpKINode Title="IPlatformServices interface" Url="html/AllMembers.T-Walter.IPlatformServices.htm" />
   <HelpKINode Title="IPlatformServices interface" Url="html/T-Walter.IPlatformServices.htm" />
@@ -291,6 +318,7 @@
   <HelpKINode Title="Length property" Url="html/P-Walter.IReadOnlyBuffer-1.Length.htm" />
   <HelpKINode Title="Length property" Url="html/P-Walter.RingBuffer-1.Length.htm" />
   <HelpKINode Title="License property" Url="html/P-Walter.Model.LicenseData.License.htm" />
+  <HelpKINode Title="License property" Url="html/P-Walter.TrueUpLicenseAddedEventArgs.License.htm" />
   <HelpKINode Title="LicenseBase class" Url="html/AllMembers.T-Walter.Model.LicenseBase.htm" />
   <HelpKINode Title="LicenseBase class" Url="html/T-Walter.Model.LicenseBase.htm" />
   <HelpKINode Title="LicenseBase class">
@@ -318,6 +346,7 @@
   <HelpKINode Title="LicenseData.MachineName property" Url="html/P-Walter.Model.LicenseData.MachineName.htm" />
   <HelpKINode Title="LicenseData.UserName property" Url="html/P-Walter.Model.LicenseData.UserName.htm" />
   <HelpKINode Title="LicenseStatusCode enumeration" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
+  <HelpKINode Title="LicenseStatusCode.FailedToProcess field" Url="html/F-Walter.Model.LicenseStatusCode.FailedToProcess.htm" />
   <HelpKINode Title="LicenseStatusCode.None field" Url="html/F-Walter.Model.LicenseStatusCode.None.htm" />
   <HelpKINode Title="LicenseStatusCode.NotFound field" Url="html/F-Walter.Model.LicenseStatusCode.NotFound.htm" />
   <HelpKINode Title="LicenseStatusCode.OK field" Url="html/F-Walter.Model.LicenseStatusCode.OK.htm" />
@@ -370,7 +399,7 @@
     <HelpKINode Title="methods" Url="html/Methods.T-System.Runtime.CompilerServices.MIO.htm" />
   </HelpKINode>
   <HelpKINode Title="MIO.MethodImplOption field" Url="html/F-System.Runtime.CompilerServices.MIO.MethodImplOption.htm" />
-  <HelpKINode Title="NewGuid method" Url="html/M-Walter.SequentialGuid.NewGuid.htm" />
+  <HelpKINode Title="NewGuid method" Url="html/Overload-Walter.SequentialGuid.NewGuid.htm" />
   <HelpKINode Title="Newtonsoft.Json namespace" Url="html/N-Newtonsoft.Json.htm" />
   <HelpKINode Title="Newtonsoft.Json.BigIntegerJsonConverter class" Url="html/AllMembers.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
   <HelpKINode Title="Newtonsoft.Json.BigIntegerJsonConverter class" Url="html/T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
@@ -382,8 +411,13 @@
   <HelpKINode Title="None field" Url="html/F-Walter.Model.LicenseStatusCode.None.htm" />
   <HelpKINode Title="NotFound enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
   <HelpKINode Title="NotFound field" Url="html/F-Walter.Model.LicenseStatusCode.NotFound.htm" />
+  <HelpKINode Title="Now property" Url="html/P-Walter.IClock.Now.htm" />
+  <HelpKINode Title="Now property" Url="html/P-Walter.TestClock.Now.htm" />
+  <HelpKINode Title="NuGetPackage property" Url="html/P-Walter.TrueUpLicenseAddedEventArgs.NuGetPackage.htm" />
+  <HelpKINode Title="NuGetPackages property" Url="html/P-Walter.TrueUpLicenseManager.NuGetPackages.htm" />
   <HelpKINode Title="OK enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
   <HelpKINode Title="OK field" Url="html/F-Walter.Model.LicenseStatusCode.OK.htm" />
+  <HelpKINode Title="OnPackageAdded event" Url="html/E-Walter.TrueUpLicenseManager.OnPackageAdded.htm" />
   <HelpKINode Title="PaymentRequired enumeration member" Url="html/T-Walter.Model.LicenseStatusCode.htm" />
   <HelpKINode Title="PaymentRequired field" Url="html/F-Walter.Model.LicenseStatusCode.PaymentRequired.htm" />
   <HelpKINode Title="Pending enumeration member" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
@@ -495,13 +529,14 @@
     <HelpKINode Title="methods" Url="html/Methods.T-Walter.SequentialGuid.htm" />
     <HelpKINode Title="properties" Url="html/Properties.T-Walter.SequentialGuid.htm" />
   </HelpKINode>
-  <HelpKINode Title="SequentialGuid.NewGuid method" Url="html/M-Walter.SequentialGuid.NewGuid.htm" />
+  <HelpKINode Title="SequentialGuid.NewGuid method" Url="html/Overload-Walter.SequentialGuid.NewGuid.htm" />
   <HelpKINode Title="SequentialGuid.SequenceEndDate property" Url="html/P-Walter.SequentialGuid.SequenceEndDate.htm" />
   <HelpKINode Title="SequentialGuid.SequenceStartDate property" Url="html/P-Walter.SequentialGuid.SequenceStartDate.htm" />
   <HelpKINode Title="SequentialGuid.SequentialGuid constructor" Url="html/Overload-Walter.SequentialGuid.-ctor.htm" />
   <HelpKINode Title="SequentialGuid.TimePerSequence property" Url="html/P-Walter.SequentialGuid.TimePerSequence.htm" />
   <HelpKINode Title="SequentialGuid.TotalPeriod property" Url="html/P-Walter.SequentialGuid.TotalPeriod.htm" />
   <HelpKINode Title="ServiceProvider property" Url="html/P-Walter.IPlatformServices.ServiceProvider.htm" />
+  <HelpKINode Title="Set method" Url="html/M-Walter.TestClock.Set.htm" />
   <HelpKINode Title="SetPassword method" Url="html/M-Walter.SymmetricEncryption.SetPassword.htm" />
   <HelpKINode Title="SHA1 enumeration member" Url="html/T-System.HashMethod.htm" />
   <HelpKINode Title="SHA1 field" Url="html/F-System.HashMethod.SHA1.htm" />
@@ -594,12 +629,48 @@
     <HelpKINode Title="methods" Url="html/Methods.T-Walter.TaskExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="TaskExtensions.Forget method" Url="html/M-Walter.TaskExtensions.Forget.htm" />
+  <HelpKINode Title="TestClock class" Url="html/AllMembers.T-Walter.TestClock.htm" />
+  <HelpKINode Title="TestClock class" Url="html/T-Walter.TestClock.htm" />
+  <HelpKINode Title="TestClock class">
+    <HelpKINode Title="about TestClock class" Url="html/T-Walter.TestClock.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.TestClock.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Walter.TestClock.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.TestClock.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.TestClock.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TestClock.Add method" Url="html/M-Walter.TestClock.Add.htm" />
+  <HelpKINode Title="TestClock.AddSeconds method" Url="html/M-Walter.TestClock.AddSeconds.htm" />
+  <HelpKINode Title="TestClock.Now property" Url="html/P-Walter.TestClock.Now.htm" />
+  <HelpKINode Title="TestClock.Set method" Url="html/M-Walter.TestClock.Set.htm" />
+  <HelpKINode Title="TestClock.TestClock constructor" Url="html/M-Walter.TestClock.-ctor.htm" />
+  <HelpKINode Title="TestClock.UtcNow property" Url="html/P-Walter.TestClock.UtcNow.htm" />
   <HelpKINode Title="TimePerSequence property" Url="html/P-Walter.SequentialGuid.TimePerSequence.htm" />
   <HelpKINode Title="ToBytes method" Url="html/M-System.StringExtensions.ToBytes.htm" />
   <HelpKINode Title="ToHexString method" Url="html/M-System.StringExtensions.ToHexString.htm" />
   <HelpKINode Title="ToSqlBinaryString method" Url="html/M-System.StringExtensions.ToSqlBinaryString.htm" />
   <HelpKINode Title="TotalPeriod property" Url="html/P-Walter.SequentialGuid.TotalPeriod.htm" />
   <HelpKINode Title="TrailExpired method" Url="html/M-Walter.IPlatformServices.TrailExpired.htm" />
+  <HelpKINode Title="TrueUpLicenseAddedEventArgs class" Url="html/AllMembers.T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+  <HelpKINode Title="TrueUpLicenseAddedEventArgs class" Url="html/T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+  <HelpKINode Title="TrueUpLicenseAddedEventArgs class">
+    <HelpKINode Title="about TrueUpLicenseAddedEventArgs class" Url="html/T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrueUpLicenseAddedEventArgs.License property" Url="html/P-Walter.TrueUpLicenseAddedEventArgs.License.htm" />
+  <HelpKINode Title="TrueUpLicenseAddedEventArgs.NuGetPackage property" Url="html/P-Walter.TrueUpLicenseAddedEventArgs.NuGetPackage.htm" />
+  <HelpKINode Title="TrueUpLicenseManager class" Url="html/AllMembers.T-Walter.TrueUpLicenseManager.htm" />
+  <HelpKINode Title="TrueUpLicenseManager class" Url="html/T-Walter.TrueUpLicenseManager.htm" />
+  <HelpKINode Title="TrueUpLicenseManager class">
+    <HelpKINode Title="about TrueUpLicenseManager class" Url="html/T-Walter.TrueUpLicenseManager.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.TrueUpLicenseManager.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-Walter.TrueUpLicenseManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Walter.TrueUpLicenseManager.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Walter.TrueUpLicenseManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrueUpLicenseManager.NuGetPackages property" Url="html/P-Walter.TrueUpLicenseManager.NuGetPackages.htm" />
+  <HelpKINode Title="TrueUpLicenseManager.OnPackageAdded event" Url="html/E-Walter.TrueUpLicenseManager.OnPackageAdded.htm" />
   <HelpKINode Title="TryDiscoverWhoisBlocking method" Url="html/M-System.IO.FileInfoExtensions.TryDiscoverWhoisBlocking.htm" />
   <HelpKINode Title="TryGet method" Url="html/M-System.Net.HttpResponseExtension.TryGet.htm" />
   <HelpKINode Title="TryGetBytes method" Url="html/M-Walter.ResourceExtension.TryGetBytes.htm" />
@@ -623,16 +694,22 @@
   <HelpKINode Title="User enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
   <HelpKINode Title="User field" Url="html/F-Walter.Model.ApplicableLicense.User.htm" />
   <HelpKINode Title="UserName property" Url="html/P-Walter.Model.LicenseData.UserName.htm" />
-  <HelpKINode Title="UseSymetricEncryption(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
-  <HelpKINode Title="UseSymetricEncryption&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
+  <HelpKINode Title="UseSymmetricEncryption(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymmetricEncryption--1.htm" />
+  <HelpKINode Title="UseSymmetricEncryption&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymmetricEncryption--1.htm" />
+  <HelpKINode Title="UtcNow property" Url="html/P-Walter.IClock.UtcNow.htm" />
+  <HelpKINode Title="UtcNow property" Url="html/P-Walter.TestClock.UtcNow.htm" />
   <HelpKINode Title="Walter namespace" Url="html/N-Walter.htm" />
   <HelpKINode Title="Walter.AsHashSubsetLocation enumeration" Url="html/T-Walter.AsHashSubsetLocation.htm" />
+  <HelpKINode Title="Walter.Clock class" Url="html/AllMembers.T-Walter.Clock.htm" />
+  <HelpKINode Title="Walter.Clock class" Url="html/T-Walter.Clock.htm" />
   <HelpKINode Title="Walter.ExceptionsExtension class" Url="html/AllMembers.T-Walter.ExceptionsExtension.htm" />
   <HelpKINode Title="Walter.ExceptionsExtension class" Url="html/T-Walter.ExceptionsExtension.htm" />
   <HelpKINode Title="Walter.FluentLogger class" Url="html/AllMembers.T-Walter.FluentLogger.htm" />
   <HelpKINode Title="Walter.FluentLogger class" Url="html/T-Walter.FluentLogger.htm" />
   <HelpKINode Title="Walter.GenericLicenseValidater class" Url="html/AllMembers.T-Walter.GenericLicenseValidater.htm" />
   <HelpKINode Title="Walter.GenericLicenseValidater class" Url="html/T-Walter.GenericLicenseValidater.htm" />
+  <HelpKINode Title="Walter.IClock interface" Url="html/AllMembers.T-Walter.IClock.htm" />
+  <HelpKINode Title="Walter.IClock interface" Url="html/T-Walter.IClock.htm" />
   <HelpKINode Title="Walter.ICrossPlatformLogger interface" Url="html/AllMembers.T-Walter.ICrossPlatformLogger.htm" />
   <HelpKINode Title="Walter.ICrossPlatformLogger interface" Url="html/T-Walter.ICrossPlatformLogger.htm" />
   <HelpKINode Title="Walter.ILicenseValidater interface" Url="html/AllMembers.T-Walter.ILicenseValidater.htm" />
@@ -684,6 +761,12 @@
   <HelpKINode Title="Walter.SymmetricEncryption class" Url="html/T-Walter.SymmetricEncryption.htm" />
   <HelpKINode Title="Walter.TaskExtensions class" Url="html/AllMembers.T-Walter.TaskExtensions.htm" />
   <HelpKINode Title="Walter.TaskExtensions class" Url="html/T-Walter.TaskExtensions.htm" />
+  <HelpKINode Title="Walter.TestClock class" Url="html/AllMembers.T-Walter.TestClock.htm" />
+  <HelpKINode Title="Walter.TestClock class" Url="html/T-Walter.TestClock.htm" />
+  <HelpKINode Title="Walter.TrueUpLicenseAddedEventArgs class" Url="html/AllMembers.T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+  <HelpKINode Title="Walter.TrueUpLicenseAddedEventArgs class" Url="html/T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+  <HelpKINode Title="Walter.TrueUpLicenseManager class" Url="html/AllMembers.T-Walter.TrueUpLicenseManager.htm" />
+  <HelpKINode Title="Walter.TrueUpLicenseManager class" Url="html/T-Walter.TrueUpLicenseManager.htm" />
   <HelpKINode Title="Walter.UrlBasedException class" Url="html/AllMembers.T-Walter.UrlBasedException.htm" />
   <HelpKINode Title="Walter.UrlBasedException class" Url="html/T-Walter.UrlBasedException.htm" />
   <HelpKINode Title="Walter.WifiAccessPoint class" Url="html/AllMembers.T-Walter.WifiAccessPoint.htm" />
@@ -697,8 +780,8 @@
     <HelpKINode Title="all members" Url="html/AllMembers.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
     <HelpKINode Title="methods" Url="html/Methods.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
   </HelpKINode>
-  <HelpKINode Title="WalterDependencyInjectionHelper.UseSymetricEncryption(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
-  <HelpKINode Title="WalterDependencyInjectionHelper.UseSymetricEncryption&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
+  <HelpKINode Title="WalterDependencyInjectionHelper.UseSymmetricEncryption(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymmetricEncryption--1.htm" />
+  <HelpKINode Title="WalterDependencyInjectionHelper.UseSymmetricEncryption&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymmetricEncryption--1.htm" />
   <HelpKINode Title="Website enumeration member" Url="html/T-Walter.Model.ApplicableLicense.htm" />
   <HelpKINode Title="Website field" Url="html/F-Walter.Model.ApplicableLicense.Website.htm" />
   <HelpKINode Title="WholeString enumeration member" Url="html/T-System.StringPart.htm" />

@@ -1,73 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="2f53b547-62bc-4a42-bc8e-db6f9dde4c03" Title="Microsoft.Extensions.DependencyInjection Namespace" Url="html/N-Microsoft.Extensions.DependencyInjection.htm">
-    <HelpTOCNode Id="8b29e05c-887a-4e41-bf74-1e71bef3b092" Title="WalterDependencyInjectionHelper Class" Url="html/T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm">
+  <HelpTOCNode Title="The Walter NuGet Package" Url="html/ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" />
+  <HelpTOCNode Id="ddfaa1bb-b135-4fd8-b3c5-0934aeaaf339" Title="Microsoft.Extensions.DependencyInjection Namespace" Url="html/N-Microsoft.Extensions.DependencyInjection.htm">
+    <HelpTOCNode Id="3686040f-d5f7-4668-aaff-34b7dc8300bb" Title="WalterDependencyInjectionHelper Class" Url="html/T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm">
       <HelpTOCNode Title="WalterDependencyInjectionHelper Members" Url="html/AllMembers.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm" />
-      <HelpTOCNode Id="d3708e7b-16ec-45e4-9f7e-6c75a33de96d" Title="WalterDependencyInjectionHelper Methods" Url="html/Methods.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm">
-        <HelpTOCNode Title="UseSymetricEncryption(T) Method " Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymetricEncryption--1.htm" />
+      <HelpTOCNode Id="0be96775-7559-47bb-9a35-cb3df5bc7a66" Title="WalterDependencyInjectionHelper Methods" Url="html/Methods.T-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.htm">
+        <HelpTOCNode Title="UseSymmetricEncryption(T) Method " Url="html/M-Microsoft.Extensions.DependencyInjection.WalterDependencyInjectionHelper.UseSymmetricEncryption--1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="1d67c52c-4838-4f99-ba26-868ffa49805d" Title="Newtonsoft.Json Namespace" Url="html/N-Newtonsoft.Json.htm">
-    <HelpTOCNode Id="d5bae0f9-f30a-4024-b7fb-42c9e5c3a575" Title="BigIntegerJsonConverter Class" Url="html/T-Newtonsoft.Json.BigIntegerJsonConverter.htm">
+  <HelpTOCNode Id="9d173c1c-23de-45af-bcd7-1c3a9cbc8a07" Title="Newtonsoft.Json Namespace" Url="html/N-Newtonsoft.Json.htm">
+    <HelpTOCNode Id="dcf58a3a-fa33-4346-b97d-569209199877" Title="BigIntegerJsonConverter Class" Url="html/T-Newtonsoft.Json.BigIntegerJsonConverter.htm">
       <HelpTOCNode Title="BigIntegerJsonConverter Members" Url="html/AllMembers.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
-      <HelpTOCNode Id="fcb57a12-f212-4ba8-bd2b-67d4fb671b8d" Title="BigIntegerJsonConverter Methods" Url="html/Methods.T-Newtonsoft.Json.BigIntegerJsonConverter.htm">
-        <HelpTOCNode Id="6fee7297-a701-4b78-9292-abde2fde0db9" Title="CanConvert Method " Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.CanConvert.htm">
+      <HelpTOCNode Id="b2cac60f-a279-449c-be63-20c489ef1af6" Title="BigIntegerJsonConverter Methods" Url="html/Methods.T-Newtonsoft.Json.BigIntegerJsonConverter.htm">
+        <HelpTOCNode Id="d07f1056-213b-4d90-94ee-128be94521d3" Title="CanConvert Method " Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.CanConvert.htm">
           <HelpTOCNode Title="CanConvert Method " Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.CanConvert.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="75993444-451d-440c-a076-2dbbe038c3eb" Title="ReadJson Method " Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.ReadJson.htm">
+        <HelpTOCNode Id="8231b775-ba08-4689-86d4-f91125e7be53" Title="ReadJson Method " Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.ReadJson.htm">
           <HelpTOCNode Title="ReadJson Method " Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.ReadJson.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3407146a-ff6d-45aa-aede-04952608dd96" Title="WriteJson Method " Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.WriteJson.htm">
+        <HelpTOCNode Id="7a3a66d1-bea0-4ac3-bb0b-5968cb122811" Title="WriteJson Method " Url="html/Overload-Newtonsoft.Json.BigIntegerJsonConverter.WriteJson.htm">
           <HelpTOCNode Title="WriteJson Method " Url="html/M-Newtonsoft.Json.BigIntegerJsonConverter.WriteJson.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="BigIntegerJsonConverter Properties" Url="html/Properties.T-Newtonsoft.Json.BigIntegerJsonConverter.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="c932b7c3-f894-4425-9ba6-8a03490007c4" Title="System Namespace" Url="html/N-System.htm">
+  <HelpTOCNode Id="91bf04fb-8d23-4983-9306-b42db1a2cdef" Title="System Namespace" Url="html/N-System.htm">
     <HelpTOCNode Title="HashMethod Enumeration" Url="html/T-System.HashMethod.htm" />
-    <HelpTOCNode Id="7cf9e2ef-19e2-448b-85be-97eb5b663310" Title="StringExtensions Class" Url="html/T-System.StringExtensions.htm">
+    <HelpTOCNode Id="27a10359-5cf3-4d48-b59c-9e7c1144f3aa" Title="StringExtensions Class" Url="html/T-System.StringExtensions.htm">
       <HelpTOCNode Title="StringExtensions Members" Url="html/AllMembers.T-System.StringExtensions.htm" />
-      <HelpTOCNode Id="c174c8df-04b1-4727-8a35-cb85f3091dca" Title="StringExtensions Methods" Url="html/Methods.T-System.StringExtensions.htm">
+      <HelpTOCNode Id="4c65ffbd-f76f-4cae-b298-50f33653a3cf" Title="StringExtensions Methods" Url="html/Methods.T-System.StringExtensions.htm">
         <HelpTOCNode Title="AsJsonEnumerable(T) Method " Url="html/M-System.StringExtensions.AsJsonEnumerable--1.htm" />
-        <HelpTOCNode Id="ca44aa4c-b4b9-4873-9c75-cad24e39151c" Title="AsMD5Hash Method " Url="html/Overload-System.StringExtensions.AsMD5Hash.htm">
+        <HelpTOCNode Id="81c8d34f-098c-47db-a9f5-3a3b7b1dbe0a" Title="AsMD5Hash Method " Url="html/Overload-System.StringExtensions.AsMD5Hash.htm">
           <HelpTOCNode Title="AsMD5Hash Method (String)" Url="html/M-System.StringExtensions.AsMD5Hash.htm" />
           <HelpTOCNode Title="AsMD5Hash Method (IEnumerable(String))" Url="html/M-System.StringExtensions.AsMD5Hash_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ca844d8e-50f8-45ad-a485-12aa21587ec1" Title="AsShaHash Method " Url="html/Overload-System.StringExtensions.AsShaHash.htm">
+        <HelpTOCNode Id="4dcb0141-10ea-40b6-a690-046bb239e102" Title="AsShaHash Method " Url="html/Overload-System.StringExtensions.AsShaHash.htm">
           <HelpTOCNode Title="AsShaHash Method (String, HashMethod)" Url="html/M-System.StringExtensions.AsShaHash.htm" />
           <HelpTOCNode Title="AsShaHash Method (String, HashMethod, Int32, AsHashSubsetLocation)" Url="html/M-System.StringExtensions.AsShaHash_1.htm" />
           <HelpTOCNode Title="AsShaHash Method (IEnumerable(String), HashMethod)" Url="html/M-System.StringExtensions.AsShaHash_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="aa898185-68c5-4c1e-8718-021cf900a8e1" Title="AsShaHashBytes Method " Url="html/Overload-System.StringExtensions.AsShaHashBytes.htm">
+        <HelpTOCNode Id="b77cd792-c219-468b-b4ae-f54dee2c160e" Title="AsShaHashBytes Method " Url="html/Overload-System.StringExtensions.AsShaHashBytes.htm">
           <HelpTOCNode Title="AsShaHashBytes Method (String, HashMethod)" Url="html/M-System.StringExtensions.AsShaHashBytes.htm" />
           <HelpTOCNode Title="AsShaHashBytes Method (String, HashMethod, Int32, AsHashSubsetLocation)" Url="html/M-System.StringExtensions.AsShaHashBytes_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AsString Method " Url="html/M-System.StringExtensions.AsString.htm" />
         <HelpTOCNode Title="Base64Encode Method " Url="html/M-System.StringExtensions.Base64Encode.htm" />
-        <HelpTOCNode Id="16ef1a83-ef8e-46f8-8700-8a0f01ffeb9a" Title="CidrToIp Method " Url="html/Overload-System.StringExtensions.CidrToIp.htm">
+        <HelpTOCNode Id="d1b87bb9-5e56-4e09-9ac4-ede401e1ef0f" Title="CidrToIp Method " Url="html/Overload-System.StringExtensions.CidrToIp.htm">
           <HelpTOCNode Title="CidrToIp Method (String)" Url="html/M-System.StringExtensions.CidrToIp.htm" />
           <HelpTOCNode Title="CidrToIp Method (BigInteger)" Url="html/M-System.StringExtensions.CidrToIp_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="FromHexString Method " Url="html/M-System.StringExtensions.FromHexString.htm" />
-        <HelpTOCNode Id="20c1e2fc-aacc-4ed8-9dd5-e6ad45993723" Title="GetDeterministicHashCode Method " Url="html/Overload-System.StringExtensions.GetDeterministicHashCode.htm">
+        <HelpTOCNode Id="e21be49c-9327-4152-8711-7c897e3024ee" Title="GetDeterministicHashCode Method " Url="html/Overload-System.StringExtensions.GetDeterministicHashCode.htm">
           <HelpTOCNode Title="GetDeterministicHashCode Method (String)" Url="html/M-System.StringExtensions.GetDeterministicHashCode.htm" />
           <HelpTOCNode Title="GetDeterministicHashCode Method (String[])" Url="html/M-System.StringExtensions.GetDeterministicHashCode_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="IsBase64 Method " Url="html/M-System.StringExtensions.IsBase64.htm" />
-        <HelpTOCNode Id="1ee6c7fb-466f-4ca6-8cc8-cf7a8afb5c4b" Title="IsValidJson Method " Url="html/Overload-System.StringExtensions.IsValidJson.htm">
+        <HelpTOCNode Id="8f5bb409-1347-4c82-b4f1-1225bdaae05d" Title="IsValidJson Method " Url="html/Overload-System.StringExtensions.IsValidJson.htm">
           <HelpTOCNode Title="IsValidJson Method (String)" Url="html/M-System.StringExtensions.IsValidJson.htm" />
           <HelpTOCNode Title="IsValidJson(T) Method (String, T)" Url="html/M-System.StringExtensions.IsValidJson--1.htm" />
           <HelpTOCNode Title="IsValidJson(T) Method (String, JsonSerializerSettings, T)" Url="html/M-System.StringExtensions.IsValidJson--1_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8066e2e7-b986-4bee-a3c8-99fb70431763" Title="IsValidMD5HashFor Method " Url="html/Overload-System.StringExtensions.IsValidMD5HashFor.htm">
+        <HelpTOCNode Id="9abf6d36-89f7-493d-b4d5-03a48b1704e3" Title="IsValidMD5HashFor Method " Url="html/Overload-System.StringExtensions.IsValidMD5HashFor.htm">
           <HelpTOCNode Title="IsValidMD5HashFor Method (String, String)" Url="html/M-System.StringExtensions.IsValidMD5HashFor.htm" />
           <HelpTOCNode Title="IsValidMD5HashFor Method (String, IEnumerable(String))" Url="html/M-System.StringExtensions.IsValidMD5HashFor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="IsValidRfcHashFor Method " Url="html/M-System.StringExtensions.IsValidRfcHashFor.htm" />
-        <HelpTOCNode Id="0f287f15-3c62-4b75-bfb3-f1cfabccda7f" Title="IsValidShaHashFor Method " Url="html/Overload-System.StringExtensions.IsValidShaHashFor.htm">
+        <HelpTOCNode Id="8063ce1f-2827-4a01-9b30-9273f522be12" Title="IsValidShaHashFor Method " Url="html/Overload-System.StringExtensions.IsValidShaHashFor.htm">
           <HelpTOCNode Title="IsValidShaHashFor Method (String, String, HashMethod)" Url="html/M-System.StringExtensions.IsValidShaHashFor.htm" />
           <HelpTOCNode Title="IsValidShaHashFor Method (String, IEnumerable(String), HashMethod)" Url="html/M-System.StringExtensions.IsValidShaHashFor_1.htm" />
         </HelpTOCNode>
@@ -81,10 +82,10 @@
     </HelpTOCNode>
     <HelpTOCNode Title="StringPart Enumeration" Url="html/T-System.StringPart.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="e38217fd-44cf-4719-ae3a-10488cd9f9bf" Title="System.IO Namespace" Url="html/N-System.IO.htm">
-    <HelpTOCNode Id="4208b8c3-366e-4e33-8a7b-a109b391334b" Title="FileInfoExtensions Class" Url="html/T-System.IO.FileInfoExtensions.htm">
+  <HelpTOCNode Id="dfaf245a-4a70-452b-a65d-acc6c52af276" Title="System.IO Namespace" Url="html/N-System.IO.htm">
+    <HelpTOCNode Id="ce4edd48-0227-408d-8762-5cf9f0d38da5" Title="FileInfoExtensions Class" Url="html/T-System.IO.FileInfoExtensions.htm">
       <HelpTOCNode Title="FileInfoExtensions Members" Url="html/AllMembers.T-System.IO.FileInfoExtensions.htm" />
-      <HelpTOCNode Id="d0fce1ba-c107-49cc-8f4c-72e56e731638" Title="FileInfoExtensions Methods" Url="html/Methods.T-System.IO.FileInfoExtensions.htm">
+      <HelpTOCNode Id="dc1811d5-e120-4596-98ef-95fa0c4b2a08" Title="FileInfoExtensions Methods" Url="html/Methods.T-System.IO.FileInfoExtensions.htm">
         <HelpTOCNode Title="GetSizeInMemory Method " Url="html/M-System.IO.FileInfoExtensions.GetSizeInMemory.htm" />
         <HelpTOCNode Title="IsBlockedBy Method " Url="html/M-System.IO.FileInfoExtensions.IsBlockedBy.htm" />
         <HelpTOCNode Title="SizeOnDisk Method " Url="html/M-System.IO.FileInfoExtensions.SizeOnDisk.htm" />
@@ -92,154 +93,170 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="aa8f22ed-b5bb-4043-92ca-b013e90b055c" Title="System.Net Namespace" Url="html/N-System.Net.htm">
-    <HelpTOCNode Id="280161ba-2693-4933-8a6f-dc85fd2015fb" Title="HttpResponseExtension Class" Url="html/T-System.Net.HttpResponseExtension.htm">
+  <HelpTOCNode Id="784666d5-cdad-4e38-b0a4-b8eb9d23af3c" Title="System.Net Namespace" Url="html/N-System.Net.htm">
+    <HelpTOCNode Id="454420de-d5c2-46df-8fd6-42dd16000f70" Title="HttpResponseExtension Class" Url="html/T-System.Net.HttpResponseExtension.htm">
       <HelpTOCNode Title="HttpResponseExtension Members" Url="html/AllMembers.T-System.Net.HttpResponseExtension.htm" />
-      <HelpTOCNode Id="e30383f1-2848-4df9-8e00-f86153916624" Title="HttpResponseExtension Methods" Url="html/Methods.T-System.Net.HttpResponseExtension.htm">
+      <HelpTOCNode Id="f323efb5-9be9-428a-94f4-6615e0ab92b7" Title="HttpResponseExtension Methods" Url="html/Methods.T-System.Net.HttpResponseExtension.htm">
         <HelpTOCNode Title="IssuccessStatusCode Method " Url="html/M-System.Net.HttpResponseExtension.IssuccessStatusCode.htm" />
         <HelpTOCNode Title="ReadAllText Method " Url="html/M-System.Net.HttpResponseExtension.ReadAllText.htm" />
         <HelpTOCNode Title="TryGet Method " Url="html/M-System.Net.HttpResponseExtension.TryGet.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="2c827978-0750-4189-855e-ac0435116810" Title="System.Runtime.CompilerServices Namespace" Url="html/N-System.Runtime.CompilerServices.htm">
-    <HelpTOCNode Id="b1786057-306a-434c-aa33-2fc7926f1e1a" Title="MIO Class" Url="html/T-System.Runtime.CompilerServices.MIO.htm">
+  <HelpTOCNode Id="c2f0f0ae-81bb-45f3-9cbb-7a9578555db8" Title="System.Runtime.CompilerServices Namespace" Url="html/N-System.Runtime.CompilerServices.htm">
+    <HelpTOCNode Id="2bf6326a-8ccc-4100-baa3-d3a138328706" Title="MIO Class" Url="html/T-System.Runtime.CompilerServices.MIO.htm">
       <HelpTOCNode Title="MIO Members" Url="html/AllMembers.T-System.Runtime.CompilerServices.MIO.htm" />
-      <HelpTOCNode Id="4b1e5069-3126-43c7-b61b-d41271642d5f" Title="MIO Fields" Url="html/Fields.T-System.Runtime.CompilerServices.MIO.htm">
+      <HelpTOCNode Id="baa960bc-6f5a-4cad-9e2b-a737c4ede35c" Title="MIO Fields" Url="html/Fields.T-System.Runtime.CompilerServices.MIO.htm">
         <HelpTOCNode Title="MethodImplOption Field" Url="html/F-System.Runtime.CompilerServices.MIO.MethodImplOption.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="MIO Methods" Url="html/Methods.T-System.Runtime.CompilerServices.MIO.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="9b904d50-9643-4264-b9a8-cfd60c3fdd18" Title="Walter Namespace" Url="html/N-Walter.htm">
+  <HelpTOCNode Id="a8c615ee-0308-484e-8685-4e525f9aff28" Title="Walter Namespace" Url="html/N-Walter.htm">
     <HelpTOCNode Title="AsHashSubsetLocation Enumeration" Url="html/T-Walter.AsHashSubsetLocation.htm" />
-    <HelpTOCNode Id="a02260a7-a049-4887-934f-cbd415ddac10" Title="ExceptionsExtension Class" Url="html/T-Walter.ExceptionsExtension.htm">
+    <HelpTOCNode Id="01f5d705-7b93-4dcb-ac3f-2ae8c7c66359" Title="Clock Class" Url="html/T-Walter.Clock.htm">
+      <HelpTOCNode Title="Clock Members" Url="html/AllMembers.T-Walter.Clock.htm" />
+      <HelpTOCNode Title="Clock Methods" Url="html/Methods.T-Walter.Clock.htm" />
+      <HelpTOCNode Id="b0666c7c-d355-4d0a-b3f3-d5284eb731c0" Title="Clock Properties" Url="html/Properties.T-Walter.Clock.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/P-Walter.Clock.Instance.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cf903404-b2e4-4263-af23-1d5dad7e448c" Title="ExceptionsExtension Class" Url="html/T-Walter.ExceptionsExtension.htm">
       <HelpTOCNode Title="ExceptionsExtension Members" Url="html/AllMembers.T-Walter.ExceptionsExtension.htm" />
-      <HelpTOCNode Id="db55d50f-adc0-4cb7-bf6d-1e6cb48b8356" Title="ExceptionsExtension Methods" Url="html/Methods.T-Walter.ExceptionsExtension.htm">
+      <HelpTOCNode Id="98c8273a-651c-4ca8-89aa-9cd49f9de5a1" Title="ExceptionsExtension Methods" Url="html/Methods.T-Walter.ExceptionsExtension.htm">
         <HelpTOCNode Title="ClassName Method " Url="html/M-Walter.ExceptionsExtension.ClassName.htm" />
         <HelpTOCNode Title="CodeLineNumber Method " Url="html/M-Walter.ExceptionsExtension.CodeLineNumber.htm" />
         <HelpTOCNode Title="FileName Method " Url="html/M-Walter.ExceptionsExtension.FileName.htm" />
         <HelpTOCNode Title="MethodName Method " Url="html/M-Walter.ExceptionsExtension.MethodName.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="36015d83-f336-48c9-8ce7-2be3a42d878c" Title="FluentLogger Class" Url="html/T-Walter.FluentLogger.htm">
+    <HelpTOCNode Id="0e60b367-4a92-46c8-a8fa-6c72fd53ae6e" Title="FluentLogger Class" Url="html/T-Walter.FluentLogger.htm">
       <HelpTOCNode Title="FluentLogger Members" Url="html/AllMembers.T-Walter.FluentLogger.htm" />
       <HelpTOCNode Title="FluentLogger Methods" Url="html/Methods.T-Walter.FluentLogger.htm" />
       <HelpTOCNode Title="FluentLogger Properties" Url="html/Properties.T-Walter.FluentLogger.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="72901932-6682-42f7-a72b-b5333beb70f5" Title="GenericLicenseValidater Class" Url="html/T-Walter.GenericLicenseValidater.htm">
+    <HelpTOCNode Id="c49c85b1-9e4b-4f2a-a041-9a26dc0b7371" Title="GenericLicenseValidater Class" Url="html/T-Walter.GenericLicenseValidater.htm">
       <HelpTOCNode Title="GenericLicenseValidater Members" Url="html/AllMembers.T-Walter.GenericLicenseValidater.htm" />
-      <HelpTOCNode Id="48814876-c0ae-46f0-8cd7-f977e1510fd5" Title="GenericLicenseValidater Methods" Url="html/Methods.T-Walter.GenericLicenseValidater.htm">
-        <HelpTOCNode Id="05ee4c8f-a937-449b-a840-69b6c6c139b4" Title="IsLicensed Method " Url="html/Overload-Walter.GenericLicenseValidater.IsLicensed.htm">
+      <HelpTOCNode Id="fd9e7714-263a-432e-b7e6-819753a09468" Title="GenericLicenseValidater Methods" Url="html/Methods.T-Walter.GenericLicenseValidater.htm">
+        <HelpTOCNode Id="23b37693-2ea7-446a-ab25-b916058cfb80" Title="IsLicensed Method " Url="html/Overload-Walter.GenericLicenseValidater.IsLicensed.htm">
           <HelpTOCNode Title="IsLicensed Method (LicenseData, DateTime)" Url="html/M-Walter.GenericLicenseValidater.IsLicensed.htm" />
           <HelpTOCNode Title="IsLicensed Method (LicenseData, Uri)" Url="html/M-Walter.GenericLicenseValidater.IsLicensed_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="06fa4151-9da6-40b9-9b82-0a3f00463e1a" Title="ICrossPlatformLogger Interface" Url="html/T-Walter.ICrossPlatformLogger.htm">
+    <HelpTOCNode Id="f37d5751-73e3-416d-9559-532643dc8f54" Title="IClock Interface" Url="html/T-Walter.IClock.htm">
+      <HelpTOCNode Title="IClock Members" Url="html/AllMembers.T-Walter.IClock.htm" />
+      <HelpTOCNode Title="IClock Methods" Url="html/Methods.T-Walter.IClock.htm" />
+      <HelpTOCNode Id="989b658f-38fc-41ad-91a0-83dbcadd0907" Title="IClock Properties" Url="html/Properties.T-Walter.IClock.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/P-Walter.IClock.Instance.htm" />
+        <HelpTOCNode Title="Now Property " Url="html/P-Walter.IClock.Now.htm" />
+        <HelpTOCNode Title="UtcNow Property " Url="html/P-Walter.IClock.UtcNow.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cf57c24c-2fe7-4e8f-a712-f7f83cb9334d" Title="ICrossPlatformLogger Interface" Url="html/T-Walter.ICrossPlatformLogger.htm">
       <HelpTOCNode Title="ICrossPlatformLogger Members" Url="html/AllMembers.T-Walter.ICrossPlatformLogger.htm" />
-      <HelpTOCNode Id="1d710c6f-62d2-485a-b1ed-80f89fba90ba" Title="ICrossPlatformLogger Methods" Url="html/Methods.T-Walter.ICrossPlatformLogger.htm">
+      <HelpTOCNode Id="4e264edf-2b7a-4fab-b93c-21ad2b48967e" Title="ICrossPlatformLogger Methods" Url="html/Methods.T-Walter.ICrossPlatformLogger.htm">
         <HelpTOCNode Title="LogError Method " Url="html/M-Walter.ICrossPlatformLogger.LogError.htm" />
         <HelpTOCNode Title="LogInformation Method " Url="html/M-Walter.ICrossPlatformLogger.LogInformation.htm" />
         <HelpTOCNode Title="LogWarning Method " Url="html/M-Walter.ICrossPlatformLogger.LogWarning.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="de63d838-962b-49da-ba3e-e933e6646aa6" Title="ICrossPlatformLogger Properties" Url="html/Properties.T-Walter.ICrossPlatformLogger.htm">
+      <HelpTOCNode Id="343f509f-e12c-4d3c-9fcb-a8fb94f1ec4a" Title="ICrossPlatformLogger Properties" Url="html/Properties.T-Walter.ICrossPlatformLogger.htm">
         <HelpTOCNode Title="Default Property " Url="html/P-Walter.ICrossPlatformLogger.Default.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f7a03ae7-83b8-4c97-9aec-9e0502254442" Title="ILicenseValidater Interface" Url="html/T-Walter.ILicenseValidater.htm">
+    <HelpTOCNode Id="406eaafd-1b5c-42eb-951c-b64b4e78049c" Title="ILicenseValidater Interface" Url="html/T-Walter.ILicenseValidater.htm">
       <HelpTOCNode Title="ILicenseValidater Members" Url="html/AllMembers.T-Walter.ILicenseValidater.htm" />
-      <HelpTOCNode Id="51978fb9-7353-467d-be04-930dbf73d13e" Title="ILicenseValidater Methods" Url="html/Methods.T-Walter.ILicenseValidater.htm">
-        <HelpTOCNode Id="19c90757-cccf-4184-8a74-9f21d97c7628" Title="IsLicensed Method " Url="html/Overload-Walter.ILicenseValidater.IsLicensed.htm">
+      <HelpTOCNode Id="dd276075-844f-4bea-ae72-4a2550d10478" Title="ILicenseValidater Methods" Url="html/Methods.T-Walter.ILicenseValidater.htm">
+        <HelpTOCNode Id="23a95cb7-e84d-44fd-9496-d49cb0f8e906" Title="IsLicensed Method " Url="html/Overload-Walter.ILicenseValidater.IsLicensed.htm">
           <HelpTOCNode Title="IsLicensed Method (LicenseData, DateTime)" Url="html/M-Walter.ILicenseValidater.IsLicensed.htm" />
           <HelpTOCNode Title="IsLicensed Method (LicenseData, Uri)" Url="html/M-Walter.ILicenseValidater.IsLicensed_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6e5cc9ed-534d-43ec-b755-96f216e49b08" Title="IPlatformServices Interface" Url="html/T-Walter.IPlatformServices.htm">
+    <HelpTOCNode Id="8d7b9d02-041b-4f75-8ab2-9530c750a8d7" Title="IPlatformServices Interface" Url="html/T-Walter.IPlatformServices.htm">
       <HelpTOCNode Title="IPlatformServices Members" Url="html/AllMembers.T-Walter.IPlatformServices.htm" />
-      <HelpTOCNode Id="9e08be2f-b8fc-414c-a1cc-6a91ca12ef0b" Title="IPlatformServices Methods" Url="html/Methods.T-Walter.IPlatformServices.htm">
-        <HelpTOCNode Id="e9ddc521-01a5-4ae0-aa71-48cff67ce9cf" Title="ShowMessage Method " Url="html/Overload-Walter.IPlatformServices.ShowMessage.htm">
-          <HelpTOCNode Title="ShowMessage Method (String)" Url="html/M-Walter.IPlatformServices.ShowMessage.htm" />
-          <HelpTOCNode Title="ShowMessage Method (String, String)" Url="html/M-Walter.IPlatformServices.ShowMessage_1.htm" />
+      <HelpTOCNode Id="d8f76399-e6fd-465a-8bd4-c729a1dddbd1" Title="IPlatformServices Methods" Url="html/Methods.T-Walter.IPlatformServices.htm">
+        <HelpTOCNode Id="27459436-3c29-46fa-a019-7a12519c1fa9" Title="ShowMessage Method " Url="html/Overload-Walter.IPlatformServices.ShowMessage.htm">
+          <HelpTOCNode Title="ShowMessage Method (String)" Url="html/M-Walter.IPlatformServices.ShowMessage_1.htm" />
+          <HelpTOCNode Title="ShowMessage Method (String, String)" Url="html/M-Walter.IPlatformServices.ShowMessage.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="TrailExpired Method " Url="html/M-Walter.IPlatformServices.TrailExpired.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="56bf6c0d-181c-4395-b00c-7c003f558d2b" Title="IPlatformServices Properties" Url="html/Properties.T-Walter.IPlatformServices.htm">
+      <HelpTOCNode Id="70c0f9a4-c405-4467-9555-b71ed1c7a35e" Title="IPlatformServices Properties" Url="html/Properties.T-Walter.IPlatformServices.htm">
         <HelpTOCNode Title="ServiceProvider Property " Url="html/P-Walter.IPlatformServices.ServiceProvider.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="56b8d848-ab71-4fbf-af16-67e60f3c0eb2" Title="IProtectedMemory Interface" Url="html/T-Walter.IProtectedMemory.htm">
+    <HelpTOCNode Id="eb1b37e2-8755-4e69-872b-76dd290430af" Title="IProtectedMemory Interface" Url="html/T-Walter.IProtectedMemory.htm">
       <HelpTOCNode Title="IProtectedMemory Members" Url="html/AllMembers.T-Walter.IProtectedMemory.htm" />
-      <HelpTOCNode Id="12d553c0-f54a-459c-90fd-a09b5b1180fc" Title="IProtectedMemory Methods" Url="html/Methods.T-Walter.IProtectedMemory.htm">
+      <HelpTOCNode Id="de787da0-01a2-4bcc-a059-16b0dcc38b74" Title="IProtectedMemory Methods" Url="html/Methods.T-Walter.IProtectedMemory.htm">
         <HelpTOCNode Title="ReadBytes Method " Url="html/M-Walter.IProtectedMemory.ReadBytes.htm" />
         <HelpTOCNode Title="ReadString Method " Url="html/M-Walter.IProtectedMemory.ReadString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d5b7a81d-0ab6-47c8-8b19-7cef66bf6da5" Title="IReadOnlyBuffer(T) Interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm">
+    <HelpTOCNode Id="b2f383e1-97b6-406f-9d08-ee9b540c8193" Title="IReadOnlyBuffer(T) Interface" Url="html/T-Walter.IReadOnlyBuffer-1.htm">
       <HelpTOCNode Title="IReadOnlyBuffer Members" Url="html/AllMembers.T-Walter.IReadOnlyBuffer-1.htm" />
-      <HelpTOCNode Id="5cebc0fb-a9da-4bd8-a109-bdd3e246b64c" Title="IReadOnlyBuffer Methods" Url="html/Methods.T-Walter.IReadOnlyBuffer-1.htm">
+      <HelpTOCNode Id="93f8e6a2-7296-41b8-bb68-1adeddab8233" Title="IReadOnlyBuffer Methods" Url="html/Methods.T-Walter.IReadOnlyBuffer-1.htm">
         <HelpTOCNode Title="IndexOf Method " Url="html/M-Walter.IReadOnlyBuffer-1.IndexOf.htm" />
         <HelpTOCNode Title="Snapshot Method " Url="html/M-Walter.IReadOnlyBuffer-1.Snapshot.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e49aaab2-03f7-4a94-ba18-bd9e33178977" Title="IReadOnlyBuffer Properties" Url="html/Properties.T-Walter.IReadOnlyBuffer-1.htm">
+      <HelpTOCNode Id="8aa9bc49-24a3-4c44-8b49-368b24f76289" Title="IReadOnlyBuffer Properties" Url="html/Properties.T-Walter.IReadOnlyBuffer-1.htm">
         <HelpTOCNode Title="Count Property " Url="html/P-Walter.IReadOnlyBuffer-1.Count.htm" />
         <HelpTOCNode Title="Item Property " Url="html/P-Walter.IReadOnlyBuffer-1.Item-System.Int32-.htm" />
         <HelpTOCNode Title="Last Property " Url="html/P-Walter.IReadOnlyBuffer-1.Last.htm" />
         <HelpTOCNode Title="Length Property " Url="html/P-Walter.IReadOnlyBuffer-1.Length.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c30de32d-51a1-4b00-85ea-fa19cb819776" Title="JsonConvertExt Class" Url="html/T-Walter.JsonConvertExt.htm">
+    <HelpTOCNode Id="5278c0d2-acb3-4768-96bb-1b6843e72e35" Title="JsonConvertExt Class" Url="html/T-Walter.JsonConvertExt.htm">
       <HelpTOCNode Title="JsonConvertExt Members" Url="html/AllMembers.T-Walter.JsonConvertExt.htm" />
-      <HelpTOCNode Id="87c3c8a0-e882-439c-bd80-ace6f88c59e1" Title="JsonConvertExt Methods" Url="html/Methods.T-Walter.JsonConvertExt.htm">
+      <HelpTOCNode Id="98cdd297-70b5-4f2d-9d37-874f326832dd" Title="JsonConvertExt Methods" Url="html/Methods.T-Walter.JsonConvertExt.htm">
         <HelpTOCNode Title="AsDeserializeObjects(T) Method " Url="html/M-Walter.JsonConvertExt.AsDeserializeObjects--1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="86f2215b-adc4-4118-b36c-f334987d364b" Title="JsonStreamReader(T) Class" Url="html/T-Walter.JsonStreamReader-1.htm">
+    <HelpTOCNode Id="53c9a4d9-0fbb-46e5-81d8-4c829118298f" Title="JsonStreamReader(T) Class" Url="html/T-Walter.JsonStreamReader-1.htm">
       <HelpTOCNode Title="JsonStreamReader(T) Members" Url="html/AllMembers.T-Walter.JsonStreamReader-1.htm" />
       <HelpTOCNode Title="JsonStreamReader(T) Constructor " Url="html/M-Walter.JsonStreamReader-1.-ctor.htm" />
-      <HelpTOCNode Id="28fdbde3-bcea-4423-95c6-f8b13adfeb22" Title="JsonStreamReader(T) Methods" Url="html/Methods.T-Walter.JsonStreamReader-1.htm">
+      <HelpTOCNode Id="0a300fe1-a027-49ee-af11-cda7ed3e94af" Title="JsonStreamReader(T) Methods" Url="html/Methods.T-Walter.JsonStreamReader-1.htm">
         <HelpTOCNode Title="Read Method " Url="html/M-Walter.JsonStreamReader-1.Read.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2dae4e7d-6ef8-497a-be25-def5654c0f89" Title="JsonStreamReader(T) Properties" Url="html/Properties.T-Walter.JsonStreamReader-1.htm">
+      <HelpTOCNode Id="8304a977-b4f8-46bf-aed2-68488c332864" Title="JsonStreamReader(T) Properties" Url="html/Properties.T-Walter.JsonStreamReader-1.htm">
         <HelpTOCNode Title="Errors Property " Url="html/P-Walter.JsonStreamReader-1.Errors.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b3c9f8d8-c17a-44ea-8f8a-b31978185f56" Title="LoggerExtensionMethods Class" Url="html/T-Walter.LoggerExtensionMethods.htm">
+    <HelpTOCNode Id="da478f98-f43a-4ae1-8034-24eba670eeb9" Title="LoggerExtensionMethods Class" Url="html/T-Walter.LoggerExtensionMethods.htm">
       <HelpTOCNode Title="LoggerExtensionMethods Members" Url="html/AllMembers.T-Walter.LoggerExtensionMethods.htm" />
-      <HelpTOCNode Id="015f6e0f-d1f5-4821-9c36-4d50686ef1a0" Title="LoggerExtensionMethods Methods" Url="html/Methods.T-Walter.LoggerExtensionMethods.htm">
+      <HelpTOCNode Id="b01a2d89-7dc5-43df-af28-d772294717c4" Title="LoggerExtensionMethods Methods" Url="html/Methods.T-Walter.LoggerExtensionMethods.htm">
         <HelpTOCNode Title="Lazy Method " Url="html/M-Walter.LoggerExtensionMethods.Lazy.htm" />
-        <HelpTOCNode Id="34d50649-6f61-403c-95ca-ceb9ac370620" Title="Log Method " Url="html/Overload-Walter.LoggerExtensionMethods.Log.htm">
+        <HelpTOCNode Id="7261719a-8976-4eca-b313-7a28c3d34f9a" Title="Log Method " Url="html/Overload-Walter.LoggerExtensionMethods.Log.htm">
           <HelpTOCNode Title="Log Method (FluentLogger, LogLevel, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.Log.htm" />
           <HelpTOCNode Title="Log Method (FluentLogger, LogLevel, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.Log_1.htm" />
           <HelpTOCNode Title="Log Method (FluentLogger, LogLevel, EventId, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.Log_2.htm" />
           <HelpTOCNode Title="Log Method (FluentLogger, LogLevel, EventId, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.Log_3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2ac30f6f-2a6a-421d-8a50-3b876d0df18b" Title="LogCritical Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogCritical.htm">
+        <HelpTOCNode Id="cb603768-d442-42c3-a6ab-5f1f5d18ff25" Title="LogCritical Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogCritical.htm">
           <HelpTOCNode Title="LogCritical Method (FluentLogger, EventId, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogCritical.htm" />
           <HelpTOCNode Title="LogCritical Method (FluentLogger, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogCritical_1.htm" />
           <HelpTOCNode Title="LogCritical Method (FluentLogger, EventId, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogCritical_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6cd90b83-bc54-4a18-be5a-523b63e17369" Title="LogDebug Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogDebug.htm">
+        <HelpTOCNode Id="1f06bbb9-80da-46de-b99b-5503515708e2" Title="LogDebug Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogDebug.htm">
           <HelpTOCNode Title="LogDebug Method (FluentLogger, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogDebug.htm" />
           <HelpTOCNode Title="LogDebug Method (FluentLogger, EventId, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogDebug_1.htm" />
           <HelpTOCNode Title="LogDebug Method (FluentLogger, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogDebug_2.htm" />
           <HelpTOCNode Title="LogDebug Method (FluentLogger, EventId, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogDebug_3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e1ea3ac5-64e2-4cb0-a6b3-e220f7c772fb" Title="LogError Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogError.htm">
+        <HelpTOCNode Id="13a813f4-9666-4989-a9a6-2dae821dd91a" Title="LogError Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogError.htm">
           <HelpTOCNode Title="LogError Method (FluentLogger, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogError.htm" />
           <HelpTOCNode Title="LogError Method (FluentLogger, EventId, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogError_1.htm" />
           <HelpTOCNode Title="LogError Method (FluentLogger, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogError_2.htm" />
           <HelpTOCNode Title="LogError Method (FluentLogger, EventId, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogError_3.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="LogException Method " Url="html/M-Walter.LoggerExtensionMethods.LogException.htm" />
-        <HelpTOCNode Id="9f5f6e13-6d46-414e-8a97-0e0fb436e82e" Title="LogInformation Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogInformation.htm">
+        <HelpTOCNode Id="474a7635-d750-4213-8edb-a82608ac4ff8" Title="LogInformation Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogInformation.htm">
           <HelpTOCNode Title="LogInformation Method (FluentLogger, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogInformation.htm" />
           <HelpTOCNode Title="LogInformation Method (FluentLogger, EventId, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogInformation_1.htm" />
           <HelpTOCNode Title="LogInformation Method (FluentLogger, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogInformation_2.htm" />
           <HelpTOCNode Title="LogInformation Method (FluentLogger, EventId, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogInformation_3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f177896b-aa8a-4450-97d4-090a5b5e280e" Title="LogWarning Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogWarning.htm">
+        <HelpTOCNode Id="e6694ce0-4392-4b5f-9ae0-c8af079e88cb" Title="LogWarning Method " Url="html/Overload-Walter.LoggerExtensionMethods.LogWarning.htm">
           <HelpTOCNode Title="LogWarning Method (FluentLogger, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogWarning.htm" />
           <HelpTOCNode Title="LogWarning Method (FluentLogger, EventId, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogWarning_1.htm" />
           <HelpTOCNode Title="LogWarning Method (FluentLogger, Exception, String, Object[])" Url="html/M-Walter.LoggerExtensionMethods.LogWarning_2.htm" />
@@ -247,148 +264,180 @@
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c5258383-0dee-4e64-b68b-22b2bbe6567a" Title="ProductLicense(T) Class" Url="html/T-Walter.ProductLicense-1.htm">
+    <HelpTOCNode Id="0d3b76f4-ba6d-4469-adc3-906ed58577ac" Title="ProductLicense(T) Class" Url="html/T-Walter.ProductLicense-1.htm">
       <HelpTOCNode Title="ProductLicense(T) Members" Url="html/AllMembers.T-Walter.ProductLicense-1.htm" />
-      <HelpTOCNode Id="99079d42-08a6-4582-bd10-bc6aa3fb62be" Title="ProductLicense(T) Constructor " Url="html/Overload-Walter.ProductLicense-1.-ctor.htm">
+      <HelpTOCNode Id="6786237f-a04e-4125-b8d0-255dda7d927a" Title="ProductLicense(T) Constructor " Url="html/Overload-Walter.ProductLicense-1.-ctor.htm">
         <HelpTOCNode Title="ProductLicense(T) Constructor " Url="html/M-Walter.ProductLicense-1.-ctor.htm" />
         <HelpTOCNode Title="ProductLicense(T) Constructor (T, Int64, Guid)" Url="html/M-Walter.ProductLicense-1.-ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ProductLicense(T) Methods" Url="html/Methods.T-Walter.ProductLicense-1.htm" />
-      <HelpTOCNode Id="fa7ea5e9-6d64-4316-81db-ed1db0c80d80" Title="ProductLicense(T) Properties" Url="html/Properties.T-Walter.ProductLicense-1.htm">
+      <HelpTOCNode Id="833ca7d1-bb0a-47d1-8e2a-c18ae0c90a63" Title="ProductLicense(T) Properties" Url="html/Properties.T-Walter.ProductLicense-1.htm">
         <HelpTOCNode Title="Expires Property " Url="html/P-Walter.ProductLicense-1.Expires.htm" />
         <HelpTOCNode Title="Features Property " Url="html/P-Walter.ProductLicense-1.Features.htm" />
         <HelpTOCNode Title="Key Property " Url="html/P-Walter.ProductLicense-1.Key.htm" />
         <HelpTOCNode Title="Rest Property " Url="html/P-Walter.ProductLicense-1.Rest.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d91f951a-c6c7-4685-8cff-22d16017a109" Title="ProtectedMemory Class" Url="html/T-Walter.ProtectedMemory.htm">
+    <HelpTOCNode Id="52abd29b-c6f4-43ee-a0e4-55976f09c308" Title="ProtectedMemory Class" Url="html/T-Walter.ProtectedMemory.htm">
       <HelpTOCNode Title="ProtectedMemory Members" Url="html/AllMembers.T-Walter.ProtectedMemory.htm" />
-      <HelpTOCNode Id="96aed46c-f8bf-4814-a994-909933feb3b5" Title="ProtectedMemory Methods" Url="html/Methods.T-Walter.ProtectedMemory.htm">
-        <HelpTOCNode Id="211d4b92-4882-4b0d-9951-ec187878a342" Title="Create Method " Url="html/Overload-Walter.ProtectedMemory.Create.htm">
+      <HelpTOCNode Id="385f67f8-490f-4cf8-8239-8e7e0e732ba8" Title="ProtectedMemory Methods" Url="html/Methods.T-Walter.ProtectedMemory.htm">
+        <HelpTOCNode Id="137115e3-17a6-4e4e-9c9b-281ffbbd63bd" Title="Create Method " Url="html/Overload-Walter.ProtectedMemory.Create.htm">
           <HelpTOCNode Title="Create Method (String)" Url="html/M-Walter.ProtectedMemory.Create.htm" />
           <HelpTOCNode Title="Create Method (Byte[])" Url="html/M-Walter.ProtectedMemory.Create_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b5af89f7-c882-4f21-82b6-e2f26d6bab2d" Title="RequestRoot Class" Url="html/T-Walter.RequestRoot.htm">
+    <HelpTOCNode Id="55b76a51-da83-43cb-9b44-51a3fb318324" Title="RequestRoot Class" Url="html/T-Walter.RequestRoot.htm">
       <HelpTOCNode Title="RequestRoot Members" Url="html/AllMembers.T-Walter.RequestRoot.htm" />
       <HelpTOCNode Title="RequestRoot Methods" Url="html/Methods.T-Walter.RequestRoot.htm" />
-      <HelpTOCNode Id="57689541-a7ca-4a65-93f3-54b8cb6d2e34" Title="RequestRoot Properties" Url="html/Properties.T-Walter.RequestRoot.htm">
+      <HelpTOCNode Id="80b86a0b-2f41-4d94-b68d-302227bfa84a" Title="RequestRoot Properties" Url="html/Properties.T-Walter.RequestRoot.htm">
         <HelpTOCNode Title="WifiAccessPoints Property " Url="html/P-Walter.RequestRoot.WifiAccessPoints.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d68457a7-9aa2-4ecd-ba96-14e27e89db91" Title="ResourceExtension Class" Url="html/T-Walter.ResourceExtension.htm">
+    <HelpTOCNode Id="de61820e-de7f-4e96-b09e-0738baf0dec4" Title="ResourceExtension Class" Url="html/T-Walter.ResourceExtension.htm">
       <HelpTOCNode Title="ResourceExtension Members" Url="html/AllMembers.T-Walter.ResourceExtension.htm" />
-      <HelpTOCNode Id="ead6e638-f440-48b8-9f0d-a77acc467443" Title="ResourceExtension Methods" Url="html/Methods.T-Walter.ResourceExtension.htm">
+      <HelpTOCNode Id="070b016d-b66e-4b79-b018-979628a1089e" Title="ResourceExtension Methods" Url="html/Methods.T-Walter.ResourceExtension.htm">
         <HelpTOCNode Title="TryGetBytes Method " Url="html/M-Walter.ResourceExtension.TryGetBytes.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="94bd793b-e21a-4266-96e9-6a328acd4b58" Title="RingBuffer(T) Class" Url="html/T-Walter.RingBuffer-1.htm">
+    <HelpTOCNode Id="593c37b7-840f-43f6-b441-fe4d57c1536b" Title="RingBuffer(T) Class" Url="html/T-Walter.RingBuffer-1.htm">
       <HelpTOCNode Title="RingBuffer(T) Members" Url="html/AllMembers.T-Walter.RingBuffer-1.htm" />
       <HelpTOCNode Title="RingBuffer(T) Constructor (Int32)" Url="html/M-Walter.RingBuffer-1.-ctor.htm" />
-      <HelpTOCNode Id="d2d5cc6a-b9f9-414a-bb67-ef491e6d4a98" Title="RingBuffer(T) Methods" Url="html/Methods.T-Walter.RingBuffer-1.htm">
+      <HelpTOCNode Id="29dffe4a-a6c7-4463-b7a9-72da6ce648ea" Title="RingBuffer(T) Methods" Url="html/Methods.T-Walter.RingBuffer-1.htm">
         <HelpTOCNode Title="Add Method " Url="html/M-Walter.RingBuffer-1.Add.htm" />
         <HelpTOCNode Title="IndexOf Method " Url="html/M-Walter.RingBuffer-1.IndexOf.htm" />
         <HelpTOCNode Title="Items Method " Url="html/M-Walter.RingBuffer-1.Items.htm" />
         <HelpTOCNode Title="Snapshot Method " Url="html/M-Walter.RingBuffer-1.Snapshot.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c2af913c-8deb-408d-93e1-d463d5c932e8" Title="RingBuffer(T) Properties" Url="html/Properties.T-Walter.RingBuffer-1.htm">
+      <HelpTOCNode Id="57943245-0f5f-4983-9c61-83bc745a2c12" Title="RingBuffer(T) Properties" Url="html/Properties.T-Walter.RingBuffer-1.htm">
         <HelpTOCNode Title="Count Property " Url="html/P-Walter.RingBuffer-1.Count.htm" />
         <HelpTOCNode Title="Item Property " Url="html/P-Walter.RingBuffer-1.Item-System.Int32-.htm" />
         <HelpTOCNode Title="Last Property " Url="html/P-Walter.RingBuffer-1.Last.htm" />
         <HelpTOCNode Title="Length Property " Url="html/P-Walter.RingBuffer-1.Length.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f64e0b18-a7da-4cc9-ba1c-62f90503dd36" Title="SequentialGuid Class" Url="html/T-Walter.SequentialGuid.htm">
+    <HelpTOCNode Id="6d73490b-2bb6-4137-837c-a5ba6936a3b8" Title="SequentialGuid Class" Url="html/T-Walter.SequentialGuid.htm">
       <HelpTOCNode Title="SequentialGuid Members" Url="html/AllMembers.T-Walter.SequentialGuid.htm" />
-      <HelpTOCNode Id="5ff77c32-f634-44f5-ba3f-bba97f7da3d6" Title="SequentialGuid Constructor " Url="html/Overload-Walter.SequentialGuid.-ctor.htm">
+      <HelpTOCNode Id="02f56f12-20b5-487c-a03e-70ad40ca3078" Title="SequentialGuid Constructor " Url="html/Overload-Walter.SequentialGuid.-ctor.htm">
         <HelpTOCNode Title="SequentialGuid Constructor (DateTime, DateTime)" Url="html/M-Walter.SequentialGuid.-ctor.htm" />
         <HelpTOCNode Title="SequentialGuid Constructor " Url="html/M-Walter.SequentialGuid.-ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="66661e11-7bd5-461f-88b2-62a9262d4faa" Title="SequentialGuid Methods" Url="html/Methods.T-Walter.SequentialGuid.htm">
-        <HelpTOCNode Title="GetGuid Method " Url="html/M-Walter.SequentialGuid.GetGuid.htm" />
-        <HelpTOCNode Title="NewGuid Method " Url="html/M-Walter.SequentialGuid.NewGuid.htm" />
+      <HelpTOCNode Id="452c9c0e-7eff-4e4a-ab33-fb56efc500b0" Title="SequentialGuid Methods" Url="html/Methods.T-Walter.SequentialGuid.htm">
+        <HelpTOCNode Id="c4e8001d-68d3-4f8c-b6a9-cd777bb78156" Title="NewGuid Method " Url="html/Overload-Walter.SequentialGuid.NewGuid.htm">
+          <HelpTOCNode Title="NewGuid Method " Url="html/M-Walter.SequentialGuid.NewGuid.htm" />
+          <HelpTOCNode Title="NewGuid Method (DateTime)" Url="html/M-Walter.SequentialGuid.NewGuid_1.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bcd64859-83fe-49d7-83c2-d379916e201f" Title="SequentialGuid Properties" Url="html/Properties.T-Walter.SequentialGuid.htm">
+      <HelpTOCNode Id="98e117b2-81f7-409a-910f-542d6501fce6" Title="SequentialGuid Properties" Url="html/Properties.T-Walter.SequentialGuid.htm">
         <HelpTOCNode Title="SequenceEndDate Property " Url="html/P-Walter.SequentialGuid.SequenceEndDate.htm" />
         <HelpTOCNode Title="SequenceStartDate Property " Url="html/P-Walter.SequentialGuid.SequenceStartDate.htm" />
         <HelpTOCNode Title="TimePerSequence Property " Url="html/P-Walter.SequentialGuid.TimePerSequence.htm" />
         <HelpTOCNode Title="TotalPeriod Property " Url="html/P-Walter.SequentialGuid.TotalPeriod.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9bd677b5-e1f3-4a59-8247-2013ff793002" Title="SymmetricEncryption Class" Url="html/T-Walter.SymmetricEncryption.htm">
+    <HelpTOCNode Id="383204e4-13f6-4aad-a05b-f18cd1480eef" Title="SymmetricEncryption Class" Url="html/T-Walter.SymmetricEncryption.htm">
       <HelpTOCNode Title="SymmetricEncryption Members" Url="html/AllMembers.T-Walter.SymmetricEncryption.htm" />
       <HelpTOCNode Title="SymmetricEncryption Constructor " Url="html/M-Walter.SymmetricEncryption.-ctor.htm" />
-      <HelpTOCNode Id="a811ea17-f697-4d3a-87c1-81cd533b8ee5" Title="SymmetricEncryption Methods" Url="html/Methods.T-Walter.SymmetricEncryption.htm">
+      <HelpTOCNode Id="c22b8940-7494-4f8c-9468-3919a4383522" Title="SymmetricEncryption Methods" Url="html/Methods.T-Walter.SymmetricEncryption.htm">
         <HelpTOCNode Title="Decrypt Method " Url="html/M-Walter.SymmetricEncryption.Decrypt.htm" />
         <HelpTOCNode Title="DecryptString Method " Url="html/M-Walter.SymmetricEncryption.DecryptString.htm" />
         <HelpTOCNode Title="Encrypt Method " Url="html/M-Walter.SymmetricEncryption.Encrypt.htm" />
         <HelpTOCNode Title="EncryptString Method " Url="html/M-Walter.SymmetricEncryption.EncryptString.htm" />
         <HelpTOCNode Title="SetPassword Method " Url="html/M-Walter.SymmetricEncryption.SetPassword.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8a4cf169-cbe4-456c-8d86-d86b6d6d9917" Title="SymmetricEncryption Properties" Url="html/Properties.T-Walter.SymmetricEncryption.htm">
+      <HelpTOCNode Id="5f5a70b9-e4b2-4bf0-ba9e-05f443ef4f1e" Title="SymmetricEncryption Properties" Url="html/Properties.T-Walter.SymmetricEncryption.htm">
         <HelpTOCNode Title="Instance Property " Url="html/P-Walter.SymmetricEncryption.Instance.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="66158cf0-6483-4fed-afcc-40c16bf838e8" Title="TaskExtensions Class" Url="html/T-Walter.TaskExtensions.htm">
+    <HelpTOCNode Id="bb14415a-b53e-4d40-b6ab-c799116be62a" Title="TaskExtensions Class" Url="html/T-Walter.TaskExtensions.htm">
       <HelpTOCNode Title="TaskExtensions Members" Url="html/AllMembers.T-Walter.TaskExtensions.htm" />
-      <HelpTOCNode Id="28072681-ea51-41d0-b4f7-c329f6c2c635" Title="TaskExtensions Methods" Url="html/Methods.T-Walter.TaskExtensions.htm">
+      <HelpTOCNode Id="9a819676-17e2-44ea-88e1-23fae7f12a0c" Title="TaskExtensions Methods" Url="html/Methods.T-Walter.TaskExtensions.htm">
         <HelpTOCNode Title="Forget Method " Url="html/M-Walter.TaskExtensions.Forget.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4f10db54-4c28-4b0e-908c-35cba8d18b98" Title="UrlBasedException Class" Url="html/T-Walter.UrlBasedException.htm">
+    <HelpTOCNode Id="9194b62f-3186-4f16-ae15-b691f4f65a77" Title="TestClock Class" Url="html/T-Walter.TestClock.htm">
+      <HelpTOCNode Title="TestClock Members" Url="html/AllMembers.T-Walter.TestClock.htm" />
+      <HelpTOCNode Title="TestClock Constructor " Url="html/M-Walter.TestClock.-ctor.htm" />
+      <HelpTOCNode Id="aa8e938f-8dcb-432a-b838-3f21245f6edd" Title="TestClock Methods" Url="html/Methods.T-Walter.TestClock.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M-Walter.TestClock.Add.htm" />
+        <HelpTOCNode Title="AddSeconds Method " Url="html/M-Walter.TestClock.AddSeconds.htm" />
+        <HelpTOCNode Title="Set Method " Url="html/M-Walter.TestClock.Set.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c01feb14-81e3-4de1-b57f-0de679edd44a" Title="TestClock Properties" Url="html/Properties.T-Walter.TestClock.htm">
+        <HelpTOCNode Title="Now Property " Url="html/P-Walter.TestClock.Now.htm" />
+        <HelpTOCNode Title="UtcNow Property " Url="html/P-Walter.TestClock.UtcNow.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f0220107-7a91-43b0-81bd-ac6e1bb074d2" Title="TrueUpLicenseAddedEventArgs Class" Url="html/T-Walter.TrueUpLicenseAddedEventArgs.htm">
+      <HelpTOCNode Title="TrueUpLicenseAddedEventArgs Members" Url="html/AllMembers.T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+      <HelpTOCNode Title="TrueUpLicenseAddedEventArgs Methods" Url="html/Methods.T-Walter.TrueUpLicenseAddedEventArgs.htm" />
+      <HelpTOCNode Id="244fe9db-6e5a-46c8-a56b-b5dbb3842c3b" Title="TrueUpLicenseAddedEventArgs Properties" Url="html/Properties.T-Walter.TrueUpLicenseAddedEventArgs.htm">
+        <HelpTOCNode Title="License Property " Url="html/P-Walter.TrueUpLicenseAddedEventArgs.License.htm" />
+        <HelpTOCNode Title="NuGetPackage Property " Url="html/P-Walter.TrueUpLicenseAddedEventArgs.NuGetPackage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="077249c8-49fe-4b38-8af2-640b0b1e39fd" Title="TrueUpLicenseManager Class" Url="html/T-Walter.TrueUpLicenseManager.htm">
+      <HelpTOCNode Title="TrueUpLicenseManager Members" Url="html/AllMembers.T-Walter.TrueUpLicenseManager.htm" />
+      <HelpTOCNode Title="TrueUpLicenseManager Methods" Url="html/Methods.T-Walter.TrueUpLicenseManager.htm" />
+      <HelpTOCNode Id="54448e83-bfcc-4171-a63e-8e5b963dd972" Title="TrueUpLicenseManager Properties" Url="html/Properties.T-Walter.TrueUpLicenseManager.htm">
+        <HelpTOCNode Title="NuGetPackages Property " Url="html/P-Walter.TrueUpLicenseManager.NuGetPackages.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="792c801c-ea0f-46e4-80cc-cb9de66787ed" Title="TrueUpLicenseManager Events" Url="html/Events.T-Walter.TrueUpLicenseManager.htm">
+        <HelpTOCNode Title="OnPackageAdded Event" Url="html/E-Walter.TrueUpLicenseManager.OnPackageAdded.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="35ce68cb-addf-41de-be66-1d689d015fd0" Title="UrlBasedException Class" Url="html/T-Walter.UrlBasedException.htm">
       <HelpTOCNode Title="UrlBasedException Members" Url="html/AllMembers.T-Walter.UrlBasedException.htm" />
-      <HelpTOCNode Id="a881326c-b28a-401e-9d1d-a7721e2a57b0" Title="UrlBasedException Constructor " Url="html/Overload-Walter.UrlBasedException.-ctor.htm">
+      <HelpTOCNode Id="2f1c7f61-083e-490c-9b03-01eb5b96e370" Title="UrlBasedException Constructor " Url="html/Overload-Walter.UrlBasedException.-ctor.htm">
         <HelpTOCNode Title="UrlBasedException Constructor (String, Uri, Exception)" Url="html/M-Walter.UrlBasedException.-ctor.htm" />
         <HelpTOCNode Title="UrlBasedException Constructor (Uri, Exception)" Url="html/M-Walter.UrlBasedException.-ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="UrlBasedException Methods" Url="html/Methods.T-Walter.UrlBasedException.htm" />
-      <HelpTOCNode Id="e70c3a9e-e2f2-4aef-8aa3-10e173126601" Title="UrlBasedException Properties" Url="html/Properties.T-Walter.UrlBasedException.htm">
+      <HelpTOCNode Id="9534b8db-de64-4687-b81e-2add692ec0da" Title="UrlBasedException Properties" Url="html/Properties.T-Walter.UrlBasedException.htm">
         <HelpTOCNode Title="HttpStatusCode Property " Url="html/P-Walter.UrlBasedException.HttpStatusCode.htm" />
         <HelpTOCNode Title="Uri Property " Url="html/P-Walter.UrlBasedException.Uri.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="UrlBasedException Events" Url="html/Events.T-Walter.UrlBasedException.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b3b55548-fc69-497a-89d2-3351a62e1192" Title="WifiAccessPoint Class" Url="html/T-Walter.WifiAccessPoint.htm">
+    <HelpTOCNode Id="5689bd5f-03e4-43b6-b95c-87e941f3dfd0" Title="WifiAccessPoint Class" Url="html/T-Walter.WifiAccessPoint.htm">
       <HelpTOCNode Title="WifiAccessPoint Members" Url="html/AllMembers.T-Walter.WifiAccessPoint.htm" />
       <HelpTOCNode Title="WifiAccessPoint Methods" Url="html/Methods.T-Walter.WifiAccessPoint.htm" />
-      <HelpTOCNode Id="be776399-6499-4687-b1b6-e6960389f120" Title="WifiAccessPoint Properties" Url="html/Properties.T-Walter.WifiAccessPoint.htm">
+      <HelpTOCNode Id="f5d63f91-59c9-401e-9f42-b4cc2cbb1f9c" Title="WifiAccessPoint Properties" Url="html/Properties.T-Walter.WifiAccessPoint.htm">
         <HelpTOCNode Title="Channel Property " Url="html/P-Walter.WifiAccessPoint.Channel.htm" />
         <HelpTOCNode Title="MacAddress Property " Url="html/P-Walter.WifiAccessPoint.MacAddress.htm" />
         <HelpTOCNode Title="SignalStrength Property " Url="html/P-Walter.WifiAccessPoint.SignalStrength.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8053f012-920e-436c-a799-d6ec30d57095" Title="WiFiDetector Class" Url="html/T-Walter.WiFiDetector.htm">
+    <HelpTOCNode Id="dcccdb58-b499-46e7-82f7-a0b685422913" Title="WiFiDetector Class" Url="html/T-Walter.WiFiDetector.htm">
       <HelpTOCNode Title="WiFiDetector Members" Url="html/AllMembers.T-Walter.WiFiDetector.htm" />
-      <HelpTOCNode Id="b3741ed7-9b54-46b9-93e6-9b214f5f6b4c" Title="WiFiDetector Methods" Url="html/Methods.T-Walter.WiFiDetector.htm">
+      <HelpTOCNode Id="bca56c8f-4efc-4484-a5fc-a5b57fe54033" Title="WiFiDetector Methods" Url="html/Methods.T-Walter.WiFiDetector.htm">
         <HelpTOCNode Title="Execute Method " Url="html/M-Walter.WiFiDetector.Execute.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="cef8d452-fb24-4f40-ae1c-ba32a1f29f2d" Title="Walter.Infrastructure Namespace" Url="html/N-Walter.Infrastructure.htm">
-    <HelpTOCNode Id="5db8fd1c-a93e-46d0-ad85-5234f2be5ab6" Title="GetExecutingAssembly Class" Url="html/T-Walter.Infrastructure.GetExecutingAssembly.htm">
+  <HelpTOCNode Id="069632c5-cbfa-468a-9416-1bbd172deeb0" Title="Walter.Infrastructure Namespace" Url="html/N-Walter.Infrastructure.htm">
+    <HelpTOCNode Id="ba1afe07-0f79-4482-9b91-3ced495e6604" Title="GetExecutingAssembly Class" Url="html/T-Walter.Infrastructure.GetExecutingAssembly.htm">
       <HelpTOCNode Title="GetExecutingAssembly Members" Url="html/AllMembers.T-Walter.Infrastructure.GetExecutingAssembly.htm" />
-      <HelpTOCNode Id="95ff0a03-c92f-41f2-8ec7-adec3befda29" Title="GetExecutingAssembly Methods" Url="html/Methods.T-Walter.Infrastructure.GetExecutingAssembly.htm">
+      <HelpTOCNode Id="4b6442bd-d831-40bb-8c1a-59d69bc021b7" Title="GetExecutingAssembly Methods" Url="html/Methods.T-Walter.Infrastructure.GetExecutingAssembly.htm">
         <HelpTOCNode Title="Execute Method " Url="html/M-Walter.Infrastructure.GetExecutingAssembly.Execute.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="ec03bd95-de66-4f3f-ad13-f636a52d43d6" Title="Walter.Model Namespace" Url="html/N-Walter.Model.htm">
+  <HelpTOCNode Id="d8d9855c-4e4f-42ae-b853-07211215663f" Title="Walter.Model Namespace" Url="html/N-Walter.Model.htm">
     <HelpTOCNode Title="ApplicableLicense Enumeration" Url="html/T-Walter.Model.ApplicableLicense.htm" />
     <HelpTOCNode Title="ApplicableLicenseExcempt Enumeration" Url="html/T-Walter.Model.ApplicableLicenseExcempt.htm" />
-    <HelpTOCNode Id="be7e88b8-32be-4920-abff-9d99423c4fd7" Title="LicenseBase Class" Url="html/T-Walter.Model.LicenseBase.htm">
+    <HelpTOCNode Id="5ea96c0a-fee9-4b64-a752-24ba74a95ba5" Title="LicenseBase Class" Url="html/T-Walter.Model.LicenseBase.htm">
       <HelpTOCNode Title="LicenseBase Members" Url="html/AllMembers.T-Walter.Model.LicenseBase.htm" />
       <HelpTOCNode Title="LicenseBase Constructor " Url="html/M-Walter.Model.LicenseBase.-ctor.htm" />
-      <HelpTOCNode Id="c638b4a6-2347-4289-a0f9-cf728afe4d00" Title="LicenseBase Methods" Url="html/Methods.T-Walter.Model.LicenseBase.htm">
+      <HelpTOCNode Id="32372515-a013-4b5b-b9ea-3872d902f702" Title="LicenseBase Methods" Url="html/Methods.T-Walter.Model.LicenseBase.htm">
         <HelpTOCNode Title="Dispose Method " Url="html/M-Walter.Model.LicenseBase.Dispose.htm" />
         <HelpTOCNode Title="Query Method " Url="html/M-Walter.Model.LicenseBase.Query.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5db74071-37a5-4f56-84af-4d9b950c90b5" Title="LicenseData Class" Url="html/T-Walter.Model.LicenseData.htm">
+    <HelpTOCNode Id="fe2f3d07-2380-47e2-a8a6-046f3cc2b984" Title="LicenseData Class" Url="html/T-Walter.Model.LicenseData.htm">
       <HelpTOCNode Title="LicenseData Members" Url="html/AllMembers.T-Walter.Model.LicenseData.htm" />
-      <HelpTOCNode Title="LicenseData Constructor (Int32, String, String, String, String, Nullable(Uri), DateTime, ApplicableLicense)" Url="html/M-Walter.Model.LicenseData.-ctor.htm" />
       <HelpTOCNode Title="LicenseData Methods" Url="html/Methods.T-Walter.Model.LicenseData.htm" />
-      <HelpTOCNode Id="dd6960c3-7c20-4a90-b54a-03c26e459778" Title="LicenseData Properties" Url="html/Properties.T-Walter.Model.LicenseData.htm">
+      <HelpTOCNode Id="89cc725d-f129-41ce-8a8d-6b2a6b5290cb" Title="LicenseData Properties" Url="html/Properties.T-Walter.Model.LicenseData.htm">
         <HelpTOCNode Title="ApplicationName Property " Url="html/P-Walter.Model.LicenseData.ApplicationName.htm" />
         <HelpTOCNode Title="Code Property " Url="html/P-Walter.Model.LicenseData.Code.htm" />
         <HelpTOCNode Title="Domain Property " Url="html/P-Walter.Model.LicenseData.Domain.htm" />

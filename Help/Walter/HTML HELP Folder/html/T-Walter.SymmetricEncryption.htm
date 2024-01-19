@@ -29,9 +29,10 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Class SymmetricEncryption uses a rotating IV with a given password. The IV is stored in the cypher bytes ensuring that the same text generates a differnt cypher result each time." />
+      <MSHelp:Attr Name="Abstract" Value="Class SymmetricEncryption uses a rotating IV with a given password. The IV is stored in the cypher bytes ensuring that the same text generates a different cypher result each time." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
   <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
             <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
@@ -84,7 +85,10 @@
             </div>
 
             <div class="Tree" id="divTree" onselectstart="javascript: return false;">
-              <div class="TreeNode">
+              <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" target="_self">The Walter NuGet Package</a>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Microsoft.Extensions.DependencyInjection.htm" target="_self">Microsoft.Extensions.DependencyInjection Namespace</a>
 <div class="Hidden">
 <div class="TreeNode">
@@ -157,6 +161,11 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.AsHashSubsetLocation.htm" target="_self">AsHashSubsetLocation Enumeration</a>
 </div>
 <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Clock.htm" target="_self">Clock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ExceptionsExtension.htm" target="_self">ExceptionsExtension Class</a>
 <div class="Hidden">
 </div>
@@ -168,6 +177,11 @@
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.GenericLicenseValidater.htm" target="_self">GenericLicenseValidater Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IClock.htm" target="_self">IClock Interface</a>
 <div class="Hidden">
 </div>
 </div>
@@ -268,6 +282,21 @@
 </div>
 </div>
 <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TestClock.htm" target="_self">TestClock Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseAddedEventArgs.htm" target="_self">TrueUpLicenseAddedEventArgs Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseManager.htm" target="_self">TrueUpLicenseManager Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.UrlBasedException.htm" target="_self">UrlBasedException Class</a>
 <div class="Hidden">
 </div>
@@ -353,7 +382,7 @@
                 <div class="summary">
 Class SymmetricEncryption uses a rotating IV with a given password.
 The IV is stored in the cypher bytes  ensuring that the same text 
-generates a differnt cypher result each time. 
+generates a different cypher result each time. 
 </div>
                 <p />
     <b>Namespace:</b> 
@@ -361,7 +390,29 @@ generates a differnt cypher result each time.
     <b>Assembly:</b>
    <span sdata="assembly">Walter</span> (in Walter.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode">[<a href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggernonusercodeattribute" target="_blank">DebuggerNonUserCodeAttribute</a>]
 [<a href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggerstepthroughattribute" target="_blank">DebuggerStepThroughAttribute</a>]
-<span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">SymmetricEncryption</span> : <a href="T-Walter.Model.LicenseBase.htm">LicenseBase</a></pre></div></div></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Inheritance Hierarchy</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="familySection"><!----></a><a href="T-Walter.Model.LicenseBase.htm">Walter.Model<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>LicenseBase</a><br />      <span class="selflink">Walter<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SymmetricEncryption</span><br /></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="AllMembers.T-Walter.SymmetricEncryption.htm">SymmetricEncryption Members</a></div><div class="seeAlsoStyle"><a href="N-Walter.htm">Walter Namespace</a></div></div></div>
+<span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">SymmetricEncryption</span> : <a href="T-Walter.Model.LicenseBase.htm">LicenseBase</a></pre></div></div></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a>
+This sample shows how to register SymmetricEncryption with a application password to securely and efficiently use it in your application.
+<span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Startup
+{
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> ConfigureServices(IServiceCollection services)
+{
+<span class="highlight-comment">// Other service configurations...</span>
+    <span class="highlight-comment">///</span>
+<span class="highlight-comment">// Configure SymmetricEncryption with a default password</span>
+services.UseSymmetricEncryption(<span class="highlight-literal">"your-secure-password"</span>);
+    <span class="highlight-comment">///</span>
+<span class="highlight-comment">// Continue with service configuration...</span>
+}
+}</pre></div></span><span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>Use DI to get the SymmetricEncryption instance injected in your class</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">class</span> MySecureStorage
+{
+<span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> SymmetricEncryption _cypher;
+<span class="highlight-keyword">public</span> MySecureStorage(SymmetricEncryption cypher)
+{
+_cypher= cypher;
+    <span class="highlight-comment">///</span>
+}
+... rest of your code
+}</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Inheritance Hierarchy</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="familySection"><!----></a><a href="T-Walter.Model.LicenseBase.htm">Walter.Model<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>LicenseBase</a><br />      <span class="selflink">Walter<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>SymmetricEncryption</span><br /></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="AllMembers.T-Walter.SymmetricEncryption.htm">SymmetricEncryption Members</a></div><div class="seeAlsoStyle"><a href="N-Walter.htm">Walter Namespace</a></div></div></div>
             </div>
           </div>
         </div>
@@ -370,7 +421,7 @@ generates a differnt cypher result each time.
         <div id="footer" class="footerContainer">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Stijn Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
             </div>
             <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
             <div> </div>
