@@ -1,0 +1,8 @@
+
+*.bin
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/WALTER/v17/.wsuo
+.vs/WALTER/v17/DocumentLayout.json
+.vs/WALTER/FileContentIndex/b8b91a36-7e5a-4d5c-b600-94445f69e23d.vsidx
