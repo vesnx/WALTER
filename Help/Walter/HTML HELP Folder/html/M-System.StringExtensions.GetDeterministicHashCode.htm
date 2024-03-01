@@ -23,9 +23,10 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Get a deterministic hash-code" />
+      <MSHelp:Attr Name="Abstract" Value="Computes a deterministic hash code for the given string." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
   <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
             <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
@@ -78,10 +79,7 @@
             </div>
 
             <div class="Tree" id="divTree" onselectstart="javascript: return false;">
-              <div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="ad7c0a14-5d9b-4402-977a-9334787de1ec.htm" target="_self">The Walter NuGet Package</a>
-</div>
-<div class="TreeNode">
+              <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Microsoft.Extensions.DependencyInjection.htm" target="_self">Microsoft.Extensions.DependencyInjection Namespace</a>
 <div class="Hidden">
 <div class="TreeNode">
@@ -104,8 +102,16 @@
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-System.htm" target="_self">System Namespace</a>
 <div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.ExceptionsExtension.htm" target="_self">ExceptionsExtension Class</a>
+<div class="Hidden">
+</div>
+</div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-System.HashMethod.htm" target="_self">HashMethod Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-System.SelectionMode.htm" target="_self">SelectionMode Enumeration</a>
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.StringExtensions.htm" target="_self">StringExtensions Class</a>
@@ -140,10 +146,8 @@
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-System.StringExtensions.Base64Encode.htm" target="_self">Base64Encode Method </a>
 </div>
-<div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-System.StringExtensions.CidrToIp.htm" target="_self">CidrToIp Method </a>
-<div class="Hidden">
-</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-System.StringExtensions.CidrToIp.htm" target="_self">CidrToIp Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-System.StringExtensions.FromHexString.htm" target="_self">FromHexString Method </a>
@@ -179,6 +183,9 @@
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Overload-System.StringExtensions.IsValidShaHashFor.htm" target="_self">IsValidShaHashFor Method </a>
 <div class="Hidden">
 </div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-System.StringExtensions.NormalizeDocumentationIndentation.htm" target="_self">NormalizeDocumentationIndentation Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-System.StringExtensions.RfcHash.htm" target="_self">RfcHash Method </a>
@@ -228,18 +235,18 @@
 </div>
 </div>
 <div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-System.Runtime.CompilerServices.htm" target="_self">System.Runtime.CompilerServices Namespace</a>
-<div class="Hidden">
-<div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.Runtime.CompilerServices.MIO.htm" target="_self">MIO Class</a>
-<div class="Hidden">
-</div>
-</div>
-</div>
-</div>
-<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.htm" target="_self">Walter Namespace</a>
 <div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ArgumentMatchConditionException.htm" target="_self">ArgumentMatchConditionException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ArgumentsAreNotEqualException.htm" target="_self">ArgumentsAreNotEqualException Class</a>
+<div class="Hidden">
+</div>
+</div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.AsHashSubsetLocation.htm" target="_self">AsHashSubsetLocation Enumeration</a>
 </div>
@@ -249,7 +256,12 @@
 </div>
 </div>
 <div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ExceptionsExtension.htm" target="_self">ExceptionsExtension Class</a>
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.DuplicateInArgumentException.htm" target="_self">DuplicateInArgumentException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.EnumExtensions.htm" target="_self">EnumExtensions Class</a>
 <div class="Hidden">
 </div>
 </div>
@@ -259,7 +271,7 @@
 </div>
 </div>
 <div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.GenericLicenseValidater.htm" target="_self">GenericLicenseValidater Class</a>
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Guard.htm" target="_self">Guard Class</a>
 <div class="Hidden">
 </div>
 </div>
@@ -270,11 +282,6 @@
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ICrossPlatformLogger.htm" target="_self">ICrossPlatformLogger Interface</a>
-<div class="Hidden">
-</div>
-</div>
-<div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ILicenseValidater.htm" target="_self">ILicenseValidater Interface</a>
 <div class="Hidden">
 </div>
 </div>
@@ -309,17 +316,17 @@
 </div>
 </div>
 <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.NistTime.htm" target="_self">NistTime Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ProductLicense-1.htm" target="_self">ProductLicense(T) Class</a>
 <div class="Hidden">
 </div>
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.ProtectedMemory.htm" target="_self">ProtectedMemory Class</a>
-<div class="Hidden">
-</div>
-</div>
-<div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.RequestRoot.htm" target="_self">RequestRoot Class</a>
 <div class="Hidden">
 </div>
 </div>
@@ -353,6 +360,9 @@
 <div class="Hidden">
 </div>
 </div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.TimeSource.htm" target="_self">TimeSource Enumeration</a>
+</div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TrueUpLicenseAddedEventArgs.htm" target="_self">TrueUpLicenseAddedEventArgs Class</a>
 <div class="Hidden">
@@ -363,18 +373,57 @@
 <div class="Hidden">
 </div>
 </div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.TypeCharacteristics.htm" target="_self">TypeCharacteristics Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.TypeExtension.htm" target="_self">TypeExtension Class</a>
+<div class="Hidden">
+</div>
+</div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.UrlBasedException.htm" target="_self">UrlBasedException Class</a>
 <div class="Hidden">
 </div>
 </div>
+</div>
+</div>
 <div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.WifiAccessPoint.htm" target="_self">WifiAccessPoint Class</a>
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.Annotation.htm" target="_self">Walter.Annotation Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Annotation.AboutMarkdownAttribute.htm" target="_self">AboutMarkdownAttribute Class</a>
 <div class="Hidden">
 </div>
 </div>
 <div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.WiFiDetector.htm" target="_self">WiFiDetector Class</a>
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Annotation.AnnotationExtractionFactory.htm" target="_self">AnnotationExtractionFactory Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Annotation.CallerTypeNameAttribute.htm" target="_self">CallerTypeNameAttribute Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Annotation.CodeSignCertificateException.htm" target="_self">CodeSignCertificateException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Annotation.ContentType.htm" target="_self">ContentType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Annotation.ExceptionMetaData.htm" target="_self">ExceptionMetaData Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Annotation.FeatureTags.htm" target="_self">FeatureTags Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Annotation.FeatureTagsAttribute.htm" target="_self">FeatureTagsAttribute Class</a>
 <div class="Hidden">
 </div>
 </div>
@@ -383,6 +432,11 @@
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.Infrastructure.htm" target="_self">Walter.Infrastructure Namespace</a>
 <div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Infrastructure.CertificateUtilities.htm" target="_self">CertificateUtilities Class</a>
+<div class="Hidden">
+</div>
+</div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Infrastructure.GetExecutingAssembly.htm" target="_self">GetExecutingAssembly Class</a>
 <div class="Hidden">
@@ -404,16 +458,14 @@
 <div class="Hidden">
 </div>
 </div>
-<div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Model.LicenseData.htm" target="_self">LicenseData Class</a>
-<div class="Hidden">
-</div>
-</div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Model.LicenseStatusCode.htm" target="_self">LicenseStatusCode Enumeration</a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Model.LicenseType.htm" target="_self">LicenseType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.Model.Platform.htm" target="_self">Platform Enumeration</a>
 </div>
 </div>
 </div>
@@ -447,26 +499,46 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-Get a deterministic hash-code 
-</div>
+   Computes a deterministic hash code for the given string.
+   </div>
                 <p />
     <b>Namespace:</b> 
    <a href="N-System.htm">System</a><br />
     <b>Assembly:</b>
-   <span sdata="assembly">Walter</span> (in Walter.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">static</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.int32" target="_blank">int</a> <span class="identifier">GetDeterministicHashCode</span>(
-	<a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">string</a> <span class="parameter">value</span>
-)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="value"><dt><span class="parameterItalic">value</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a><br /></dd></dl></div><h4 class="subHeading">Return Value</h4></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-System.StringExtensions.htm">StringExtensions Class</a></div><div class="seeAlsoStyle"><a href="Overload-System.StringExtensions.GetDeterministicHashCode.htm">GetDeterministicHashCode Overload</a></div><div class="seeAlsoStyle"><a href="N-System.htm">System Namespace</a></div></div></div>
+   <span sdata="assembly">Walter</span> (in Walter.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode">[<a href="T-Walter.Annotation.FeatureTagsAttribute.htm">FeatureTagsAttribute</a>]
+<span class="keyword">public</span> <span class="keyword">static</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.int32" target="_blank">int</a> <span class="identifier">GetDeterministicHashCode</span>(
+	<span class="keyword">this</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">string</a> <span class="parameter">value</span>
+)</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode">&lt;<a href="T-Walter.Annotation.FeatureTagsAttribute.htm">FeatureTagsAttribute</a>&gt; _
+&lt;<a href="https://docs.microsoft.com/en-us/dotnet/api/system.runtime.compilerservices.extensionattribute" target="_blank">ExtensionAttribute</a>&gt; _
+<span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">GetDeterministicHashCode</span> ( _
+	<span class="parameter">value</span> <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a> _
+) <span class="keyword">As</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.int32" target="_blank">Integer</a></pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode">[<a href="T-Walter.Annotation.FeatureTagsAttribute.htm">FeatureTagsAttribute</a>]
+[<a href="https://docs.microsoft.com/en-us/dotnet/api/system.runtime.compilerservices.extensionattribute" target="_blank">ExtensionAttribute</a>]
+<span class="keyword">public</span>:
+<span class="keyword">static</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.int32" target="_blank">int</a>^ <span class="identifier">GetDeterministicHashCode</span>(
+	<a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a>^ <span class="parameter">value</span>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="value"><dt><span class="parameterItalic">value</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a><br />The string for which to compute the hash code.</dd></dl></div><h4 class="subHeading">Return Value</h4>A deterministic, consistent integer hash code for the input string.</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Exceptions</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exceptionsSection"><!----></a><div class="tableSection"><table width="100%" cellspacing="0" cellpadding="5" frame="lhs"><tr><th class="exceptionNameColumn">Exception</th><th class="exceptionConditionColumn">Condition</th></tr><tr><td><a href="https://docs.microsoft.com/en-us/dotnet/api/system.argumentnullexception" target="_blank">ArgumentNullException</a></td><td>Thrown when the input string is null.</td></tr></table></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   This method generates a consistent hash code for the same string input, which is useful in scenarios where consistent hashing is necessary, such as database key generation or caching mechanisms.
+   Be aware that the hash code is not guaranteed to be unique and should not be used as the sole factor for identity or equality checks.
+   It's also important to note that hash codes should not be persisted over long periods, as changes in .NET implementations may change the hash code generation logic.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a>
+   This example demonstrates how to use the deterministic hash code as a key for database storage or caching.
+   The consistent nature of the hash code ensures that the same string will always result in the same hash code, making it suitable for lookup operations.
+  <span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>Using Deterministic Hash Code for Database Key Generation</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">string</span> data = <span class="highlight-literal">"Some unique user data"</span>;
+<span class="highlight-keyword">int</span> hashCode = data.GetDeterministicHashCode();
+<span class="highlight-comment">// Use hashCode as a key in database operations</span>
+Console.WriteLine($<span class="highlight-literal">"Hash Code for database key: {hashCode}"</span>);</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-System.StringExtensions.htm">StringExtensions Class</a></div><div class="seeAlsoStyle"><a href="Overload-System.StringExtensions.GetDeterministicHashCode.htm">GetDeterministicHashCode Overload</a></div><div class="seeAlsoStyle"><a href="N-System.htm">System Namespace</a></div></div></div>
             </div>
           </div>
         </div>
       </div>
       <div class="footer">
-        <div id="footer" class="footerContainer">
+        <div id="footer" class="footerContainer" style="border-top-width:0px;">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
               <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
             </div>
-            <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
+            <div style="margin-top:5px" class="copyrightFooter" />
             <div> </div>
           </div>
         </div>
